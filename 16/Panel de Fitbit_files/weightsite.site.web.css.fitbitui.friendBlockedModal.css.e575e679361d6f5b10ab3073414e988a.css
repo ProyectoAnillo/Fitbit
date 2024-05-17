@@ -1,0 +1,50 @@
+#friendBlockedModal .friend-blocked-explanation,
+#friendRequestModal .friend-request-explanation {
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#friendBlockedModal .friend-blocked-controls,
+#friendRequestModal .friend-request-controls {
+    clear: both;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#friendRequestSuccess {
+    padding: 30px 30px 30px 30px;
+}
+
+#friendRequestError {
+    padding: 30px 30px 30px 30px;
+}
+
+#friendRequestModal .successNotice {
+    color: #99cc33;
+    text-align: center;
+}
+
+#friendRequestModal {
+    background: #FFFFFF;
+}
+
+#friendBlockedModal h2 {
+    font-size: 20px;
+}
+
+#friendBlockedModal .send {
+    height: inherit;
+}
+
+#friendRequestModal h2 {
+    font-size: 20px;
+}
+
+#friendRequestModal .send {
+    height: inherit;
+}
+/*# sourceMappingURL=weightsite.site.web.css.fitbitui.friendBlockedModal.css.e575e679361d6f5b10ab3073414e988a.css.map*/

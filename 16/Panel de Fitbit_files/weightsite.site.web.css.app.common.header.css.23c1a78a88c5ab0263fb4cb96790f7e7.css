@@ -1,0 +1,1152 @@
+/*****************************************************************************
+ *
+ *	Site Header & Navigation
+ *	(introduced in SITE-15464)
+ *
+ *****************************************************************************/
+
+
+
+
+/*
+ *	"VARIABLES":
+ *	These used to be JSTL variables. However, since this file needs to be compatible with Stylus,
+ *	no JSTL can exist in this file. I still think it's useful to maintain this variable list
+ *	in a comment so developers can see at a glance what the important values are. For each place
+ * 	in the stylesheet where one of these values is used, an adjacent comment should indicate what
+ * 	the corresponding variable name is.
+ *	(No variable substitution is happening here. These comments are just for dev reference.)
+ *
+ *	$layoutWidth 						= 990px
+ *	$headerHeight 						= 80px
+ *
+ *	$headerBorderColor 					= #206276
+ *	$accountContainerWidth 				= 200px
+ *
+ *	$fontFamilyNormal					= "Proxima Nova Regular", helvetica, arial, sans-serif
+ *	$fontFamilyBold						= "Proxima Nova Bold", helvetica, arial, sans-serif
+ *
+ *	$app_colorHighlight					= #4abdbd
+ *	$app_colorHover						= #e1f7f7
+ *	$app_colorSelectedNavText			= #0095b2
+ *
+ *	$mktg_colorHighlight				= #f54786
+ *	$mktg_colorHover					= #f8e4e9
+ *	$mktg_colorSelectedNavText			= #f54786
+ *
+ *	$corp_colorHover					= #def4fa
+ */
+
+/******************************************************************************
+ *
+ *	Core Layout
+ *
+ ******************************************************************************/
+
+body.galileo #container {
+	padding-top: 0;
+}
+
+header.wrapper-header {
+	border-bottom: 10px solid #206276; /* $headerBorderColorFallback */
+	font: 15px/1em "Proxima Nova Regular", helvetica, arial, sans-serif; /* $fontFamilyNormal */
+	min-height: 80px; /* $headerHeight */
+	position: relative;
+	z-index: 2;
+    min-width:990px;
+}
+
+.wrapper-header .logo {
+	background: url(109d9919a44b792ebe64e520c3b57dc2.svg) no-repeat;
+	display: block;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -9999px;
+	top: 25px;
+	height: 32.0px;
+	width: 125px;
+	background-size: cover;
+}
+
+.ie8 .wrapper-header .logo {
+	background: url(bg_branding_b.20dbadd8af5c4babc9d6dd1d443b3ea2.png) no-repeat;
+	height: 30px;
+	width: 114px;
+}
+
+.wrapper-header-inner {
+	margin: 0 auto;
+	padding-left: 170px;
+	position: relative;
+    width: 820px; /* $layoutWidth - 170 = 820 */
+}
+
+body.layout-1140 .wrapper-header-inner { /* responsive layout for NGD */
+    padding-left: 211px;
+    min-width: 950px;
+    max-width: 1059px;
+    width: auto !important;
+    width: 779px; /* ie6 fallback */
+}
+
+body.layout-1140 .wrapper-header-inner .logo {
+    left: 66px;
+}
+
+.wrapper-nav a,
+.wrapper-nav a:hover {
+	text-decoration: none;
+}
+
+/* for legacy sub-nav bars on various marketing pages (SITE-16948) */
+
+body.galileo #sitenav nav {
+	margin-top: 0;
+}
+
+body.galileo #sitenav.nailedToTop {
+	height: auto;
+}
+
+body.galileo #sitenav.nailedToTop nav { /* prevent "position:fixed" when scrolling viewport */
+	position: static;
+	top: auto;
+	z-index: auto;
+}
+
+/******************************************************************************
+ *
+ *	Layout Modifiers
+ *
+ ******************************************************************************/
+
+.wrapper-header-inner.narrowContainer {
+	width: 790px; /* total = 990px ($layoutWidth) */
+}
+
+/******************************************************************************
+ *
+ *	Primary Navigation
+ *
+ ******************************************************************************/
+
+.wrapper-header .nav > li {
+	cursor: pointer;
+	float: left;
+	height: 80px; /* $headerHeight */
+	line-height: 80px; /* $headerHeight */
+	min-width: 55px;
+	padding: 0 15px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.wrapper-header .nav > li > a {
+	color: #666;
+}
+body:not(.layout-1140) .wrapper-header .nav.item-counts-6 > li > a:lang(fr) {font-size: 13px;}
+
+.wrapper-header .nav > li.active > a,
+.wrapper-header .nav > li.current > a {
+	color: #fff;
+}
+
+.wrapper-header .nav > li.current,
+.wrapper-header .nav > li.current:hover {
+	background-color: transparent;
+}
+
+.wrapper-header .nav > li.current:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: outset outset solid;
+    border-color: transparent transparent #206276; /* $headerBorderColor */
+}
+
+.wrapper-header .nav > li.current > a {
+	font-family: "Proxima Nova Bold", helvetica, arial, sans-serif; /* $fontFamilyBold */
+}
+
+.wrapper-header .nav > li:hover > a {
+	color: #333;
+}
+.wrapper-header .nav .true a:after {
+    margin-left: -2px;
+    color: #ee3d6d !important;
+    font: 18px "Proxima Nova Regular", helvetica, arial, sans-serif;
+    content: '*';
+}
+
+/* Marketing color scheme */
+
+.wrapper-header .nav > li:hover,
+.wrapper-header .nav > li.current.hasdropdown:hover {
+	background-color: #f8e4e9; /* $mktg_colorHover */
+}
+
+.wrapper-header .nav > li.active,
+.wrapper-header .nav > li.active.hasdropdown:hover {
+	background-color: #f54786; /* $mktg_colorHighlight */
+}
+
+.wrapper-header .nav > li.current > a,
+.wrapper-header .nav > li.current:hover > a {
+	color: #f54786; /* $mktg_colorSelectedNavText */
+}
+
+.wrapper-header .nav > li.active > a,
+.wrapper-header .nav > li.active:hover > a {
+	color: #fff;
+}
+
+.wrapper-header .nav > li.active.hasdropdown:after,
+.wrapper-header .nav > li.current.hasdropdown:hover:after {
+	display: none;
+}
+
+/* App/Dashboard color scheme */
+
+.wrapper-header.nav-app .nav > li:hover,
+.wrapper-header.nav-app .nav > li.current.hasdropdown:hover {
+	background-color: #e1f7f7; /* $app_colorHover */
+}
+
+.wrapper-header.nav-app .nav > li.current.hasdropdown.communityNav:hover {
+    background-color: #4ABDBD;
+}
+.wrapper-header.nav-app .nav > li.current.hasdropdown.communityNav:hover a {
+    color: #FFF;
+}
+
+.wrapper-header.nav-app .nav > li.active {
+	background-color: #4abdbd; /* $app_colorHighlight */
+}
+
+.wrapper-header.nav-app .nav > li.current:hover {
+	background-color: transparent;
+}
+
+.wrapper-header.nav-app .nav > li.current > a,
+.wrapper-header.nav-app .nav > li.current:hover > a {
+	color: #0095b2; /* $app_colorSelectedNavText */
+}
+
+/* "Store" nav tab (same style across mktg and app) */
+
+.wrapper-header .nav > li.store {
+	background-color: transparent !important;
+	margin-left: 10px;
+	padding: 0;
+}
+
+.wrapper-header .nav > li.store > a {
+	background: #fff;
+	border: 2px solid #e5e5e5;
+	border-radius: 20px;
+	color: #f54786; /* $mktg_colorSelectedNavText */
+	display: inline-block;
+	font: normal 13px/1em "Proxima Nova Bold", helvetica, arial, sans-serif; /* $fontFamilyBold */
+	padding: 0.5em 1.4em;
+	text-transform: uppercase;
+}
+
+.wrapper-header .nav > li.store:hover > a {
+	background: #f54786; /* $mktg_colorHighlight */
+	border-color: #f54786; /* $mktg_colorHighlight */
+	color: #fff;
+}
+
+/* "Store" nav tab (same style across mktg and app) */
+
+.wrapper-header .nav > li.store {
+    background-color: transparent !important;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.wrapper-header .nav > li.holiday-banner {
+    background-color: transparent !important;
+    width: 200px;
+}
+
+.wrapper-header .nav > li.shop-holidays {
+    background: url(nav_shopHolidays.fc5f09c8d3a5fc6ef313771c6d4b2cd1.png) no-repeat 10px 28px;
+}
+
+.wrapper-header .nav > li.two-day-shipping {
+    background: url(nav_2dayShipping.da8b06dede8bf1abf4e838d4b2c3127b.png) no-repeat 10px 28px;
+}
+
+.wrapper-header .nav > li.one-day-shipping {
+    background: url(nav_1dayShipping.eb15fec0c4b61022039f4252112009d0.png) no-repeat 10px 28px;
+}
+
+.wrapper-header .nav > li.too-late-shipping {
+    background: url(nav_tooLateShipping.7cd5e7c57ebde895fa858728ff3d0391.png) no-repeat 10px 28px;
+}
+
+/******************************************************************************
+ *
+ *	Navigation Submenus
+ *
+ ******************************************************************************/
+
+.module-dd.subnav {
+	z-index: 100000; /* ensure sub-navs are layered above the inexplicably high "#products_menu" element, which is at 99999 */
+}
+
+.module-dd.subnav,
+.ie7-8 .module-dd.subnav {
+	border-top: 10px solid #f54786; /* $mktg_colorHighlight */
+}
+
+.module-dd.subnav-app,
+.ie7-8 .module-dd.subnav-app {
+	border-top-color: #4abdbd; /* $app_colorHighlight */
+}
+
+.module-dd.subnav .subnav-content {
+	font: 14px "Proxima Nova Regular", helvetica, arial, sans-serif; /* $fontFamilyNormal */
+	min-width: 150px;
+	padding: 15px 0 10px;
+}
+
+.module-dd.subnav li {
+	cursor: pointer;
+}
+
+.module-dd.subnav li:hover {
+	background-color: #f8e4e9; /* $mktg_colorHover */
+}
+
+.module-dd.subnav li.corp:hover {
+    background-color: #def4fa; /* $corp_colorHover */
+}
+
+.module-dd.subnav-app li:hover {
+	background-color: #e1f7f7; /* $app_colorHover */
+}
+
+.module-dd.subnav li.headline {
+	background: transparent;
+	color: #666;
+	cursor: default;
+	height: 2em;
+	margin-top: 25px;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+.module-dd.subnav li.headline:first-child {
+	margin-top: 0;
+}
+
+.module-dd.subnav li.divider {
+	background: transparent;
+	border-top: 1px solid #ebebeb;
+	cursor: default;
+	padding-bottom: 5px;
+	margin-top: 5px;
+}
+
+.module-dd.subnav li > a {
+	color: #333;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.wrapper-header .subnav-content {
+	display: none;
+}
+
+/*
+ *  Rules for the "down arrow" icon in nav tabs with a subnav.
+ *  (Note: the order of the rules matters here.)
+ */
+
+.wrapper-header .icon-dd {
+	background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat 0 -324px;
+	display: inline-block;
+	height: 8px;
+	margin: 0 -8px 0 1px;
+	overflow: hidden;
+	vertical-align: middle; /* ie7 */
+	width: 8px;
+}
+
+.wrapper-header .active .icon-dd,
+.wrapper-header.nav-app .active .icon-dd {
+	background-position: 0 -354px;
+}
+
+/******************************************************************************
+ *
+ *	Account section
+ *
+ ******************************************************************************/
+
+.wrapper-header .account,
+.wrapper-header .account-auth,
+.wrapper-header .link-app {
+	height: 80px; /* $headerHeight */
+	line-height: 80px; /* $headerHeight */
+    min-width: 200px; /* $accountContainerWidth */
+	position: absolute;
+	right: 0;
+	top: 0;
+	vertical-align: middle;
+	z-index: 2;
+}
+
+body.layout-1140 .wrapper-header .account {
+    right: 66px;
+}
+
+.wrapper-header .nav-item {
+	cursor: pointer;
+	float: right;
+    height: 80px; /* $headerHeight */
+    padding: 0 15px;
+    text-align: center;
+}
+
+.wrapper-header .nav-item:hover {
+    background-color: #e1f7f7; /* $app_colorHover */
+}
+
+/* Logged In while viewing an "app" page */
+
+.wrapper-header .account .current {
+	background-color: #4abdbd; /* $app_colorHighlight */
+}
+
+.wrapper-header .account .icon-dd {
+	margin-right: 0;
+	vertical-align: -1px;
+}
+
+.wrapper-header .account .photo {
+	vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* Anonymous */
+
+.wrapper-header .account-auth {
+	text-align: right;
+}
+
+.wrapper-header .account-auth > .auth {
+	float: right;
+	font-size: 14px;
+	margin-left: 0.5em;
+}
+
+/* Logged In while viewing a "marketing" page */
+
+.wrapper-header .link-app {
+	text-align: right;
+}
+
+.wrapper-header .link-app > .go {
+	border: 2px solid #f2f2f2;
+	border-bottom: 0;
+	border-top: 0;
+	color: #666;
+	display: inline-block;
+	float: right;
+	height: 100%;
+	padding: 0 15px;
+	text-decoration: none;
+}
+
+.wrapper-header .link-app > .go:hover {
+	background-color: #e1f7f7; /* $app_colorHover */
+	border-color: #e1f7f7; /* $app_colorHover */
+	color: #333;
+}
+
+.wrapper-header .link-app > .go > .icon {
+	background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat 0 -585px;
+	display: inline-block;
+	height: 23px;
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 23px;
+}
+
+.wrapper-header .link-app > .go:hover > .icon {
+	background-position: 0 -632px;
+}
+
+.wrapper-header .nav-item > .icon {
+    background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    visibility: hidden;
+}
+
+.ie7 .wrapper-header .nav-item > .icon,
+.lt-ie8 .wrapper-header .nav-item > .icon {
+    margin-top: 30px;
+}
+
+.wrapper-header .account .nav-item {
+    position: relative;
+}
+
+.wrapper-header .account .nav-item-profile:after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,0.10);
+    box-sizing: border-box;
+    border-radius: 50%;
+    content: '';
+    top: 26px;
+    left: 15px;
+}
+
+.wrapper-header .account .nav-item.active {
+    background-color: #4abdbd; /* $app_colorHighlight */
+}
+
+.wrapper-header .account .nav-item.active > .icon:after {
+    background-position: 0 -354px;
+}
+
+.wrapper-header .account .nav-item.hasdropdown > .icon:after {
+    background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat 0 -324px;
+    bottom: 15px;
+    content: "";
+    display: none;
+    height: 6px;
+    left: 50%;
+    margin-left: -4px;
+    position: absolute;
+    width: 8px;
+}
+
+.wrapper-header .account .nav-item.hasdropdown:hover > .icon:after {
+    display: block;
+}
+
+.wrapper-header .account .nav-item.hasdropdown.active > .icon:after {
+    display: block;
+    background-position: 0 -354px;
+}
+
+.wrapper-header .account-auth .nav-item:hover {
+    background-color: #f8e4e9; /* $mktg_colorHover */
+}
+
+/* Cart Icon */
+
+.wrapper-header .nav-item-cart > .icon {
+	background-position: 0 -679px;
+	height: 20px;
+	visibility: visible;
+    width: 26px;
+}
+
+/* Account Settings Icon */
+
+.wrapper-header .nav-item-settings > .icon {
+    background-position: 0 -1343px;
+    height: 22px;
+    margin-bottom: 4px;
+    visibility: visible;
+    width: 22px;
+}
+
+.wrapper-header .nav-item-settings.active > .icon {
+    background-position: 0 -1372px;
+}
+
+/******************************************************************************
+ *
+ *	Account Settings SubNav Content
+ *
+ ******************************************************************************/
+
+.module-dd.subnav-settings .device {
+	cursor: default;
+	position: relative;
+}
+
+.module-dd.subnav-settings .device > a {
+	padding: 15px 20px;
+}
+
+.module-dd.subnav.subnav-settings .device .icon {
+	position: absolute;
+	margin-top: -18px;
+}
+
+.module-dd.subnav-settings .device .battery {
+	background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat;
+	height: 16px;
+	margin-top: -8px;
+	overflow: hidden;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	width: 25px;
+}
+
+.module-dd.subnav-settings .device .info {
+	line-height: 1.2em;
+}
+
+.module-dd.subnav-settings .device .deviceDetail {
+	color: #999;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.module-dd.subnav-settings .device .sync {
+	background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat 0 -287px;
+	padding-left: 16px;
+}
+
+.module-dd.subnav-settings .device .alarm {
+	background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat 0 -1155px;
+	padding-left: 16px;
+    margin-top: 3px;
+}
+
+.module-dd.subnav-settings .device:hover .alarm {
+	background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat 0 -1185px;
+    color: #0095b2; /* $app_colorSelectedNavText */
+}
+
+.module-dd.subnav-settings .device .type {
+	color: #333;
+}
+
+.module-dd.subnav-settings .device-classic:hover { /* no hover effect allowed for "Classic" trackers */
+	background-color: transparent;
+}
+
+.module-dd.subnav-settings .device-divider {
+	height: 1px;
+	overflow: hidden;
+	padding: 0 15px;
+}
+
+.module-dd.subnav-settings .device-divider:first-child {
+	display: none;
+}
+
+.module-dd.subnav-settings .device-divider > .hr {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1MUUyN0ZFRkRCNUYxMUUxQjNEM0VEOUJGOEQ2Qzk3MyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1MUUyN0ZGMERCNUYxMUUxQjNEM0VEOUJGOEQ2Qzk3MyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjUxRTI3RkVEREI1RjExRTFCM0QzRUQ5QkY4RDZDOTczIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjUxRTI3RkVFREI1RjExRTFCM0QzRUQ5QkY4RDZDOTczIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+eLUpmwAAABRJREFUeNpiOHPmzH8gYIBhgAADAG+hDFsDYWSmAAAAAElFTkSuQmCC);
+	background-repeat: repeat-x;
+	height: 100%;
+}
+
+/******************************************************************************
+ *
+ *	Community Navigation
+ *
+ ******************************************************************************/
+
+.current.communityNav.hasdropdown.active a.selected {color: #FFF}
+.wrapper-header .nav > li.active.communityNav:hover {background-color: #4ABDBD}
+
+.module-dd.subnav .subnav-community {
+	border: 10px solid #f6f6f6;
+	border-left-width: 12px;
+	border-right-width: 12px;
+}
+.module-dd.subnav .subnav-community li a {
+	padding: 8px 40px 8px 15px;
+}
+.module-dd.subnav .subnav-content.subnav-community .icon {
+    background: url(community_menu_sprite.4812524fdd0bb3da2c99215b635b416d.png) no-repeat left;
+    margin-right: 10px;
+}
+.module-dd.subnav .subnav-community .help_forums .icon {background-position: 0 0; height: 24px;}
+.module-dd.subnav .subnav-community .discussions .icon {background-position: 0 -24px; height: 24px;}
+.module-dd.subnav .subnav-community .activity_groups .icon {background-position: 0 -48px; height: 24px;}
+
+.module-dd.subnav .subnav-community li a span + span {
+    font-weight: bold;
+    padding-right: 5px;
+}
+/* Battery States */
+
+.module-dd.subnav-settings .device .battery.empty {
+	background-position: 0 0;
+}
+
+.module-dd.subnav-settings .device .battery.full,
+.module-dd.subnav-settings .device .battery.high {
+	background-position: 0 -60px;
+}
+
+.module-dd.subnav-settings .device .battery.low {
+	background-position: 0 -20px;
+}
+
+.module-dd.subnav-settings .device .battery.medium {
+	background-position: 0 -40px;
+}
+
+.module-dd.subnav-settings .device:hover .battery.empty {
+	background-position: 0 -1218px;
+}
+
+.module-dd.subnav-settings .device:hover .battery.full,
+.module-dd.subnav-settings .device:hover .battery.high {
+	background-position: 0 -1278px;
+}
+
+.module-dd.subnav-settings .device:hover .battery.low {
+	background-position: 0 -1238px;
+}
+
+.module-dd.subnav-settings .device:hover .battery.medium {
+	background-position: 0 -1258px;
+}
+
+
+/* Admin-only */
+
+.module-dd.subnav-settings li.admin,
+.module-dd.subnav-settings li.admin.divider,
+.module-dd.subnav-settings li.admin.divider:hover {
+	background: #f5f5f5;
+}
+
+.module-dd.subnav-settings li.admin:hover {
+	background-color: #e1f7f7; /* $app_colorHover */
+}
+
+.module-dd.subnav-settings li.admin:last-child {
+	margin-bottom: -10px;
+	padding-bottom: 5px;
+}
+
+.module-dd.subnav-settings .subnav-content {
+	min-width: 190px;
+	padding-top: 5px;
+}
+
+/******************************************************************************
+ *
+ *	Notifications (rule order matters here)
+ *
+ ******************************************************************************/
+
+.wrapper-header .cont-notify.active {
+    background-color: #4abdbd; /* $app_colorHighlight */
+}
+
+.wrapper-header .cont-notify .icon-notify {
+	background-position: 0 -447px;
+	height: 22px;
+	overflow: hidden;
+	vertical-align: middle;
+	visibility: visible;
+	width: 25px;
+}
+
+.wrapper-header .cont-notify .icon-notify.unread {
+	background-position: 0 -539px;
+}
+
+.wrapper-header .cont-notify.active .icon-notify {
+	background-position: 0 -493px;
+}
+
+/******************************************************************************
+ *
+ *	Products SubNav Content (a.k.a. "megadropdown")
+ *
+ ******************************************************************************/
+
+.module-dd.subnav .subnav-content .icon {
+	display: inline-block;
+	margin-right: 25px;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 30px;
+}
+
+.module-dd.subnav .subnav-products {
+	border: 10px solid #f6f6f6;
+	border-left-width: 12px;
+	border-right-width: 12px;
+}
+
+.module-dd.subnav .subnav-products li > a {
+	font-size: 13px;
+}
+
+.module-dd.subnav .subnav-content .items li:hover {
+	background-color: #eee;
+}
+.module-dd.subnav .subnav-content .items .headline:hover {
+    background: none;
+}
+
+.module-dd.subnav .subnav-products li.headline {
+	background-color: #fff;
+	font-size: 14px;
+}
+
+.module-dd.subnav .subnav-products strong {
+	font-family: "Proxima Nova Bold", helvetica, arial, sans-serif; /* $fontFamilyBold */
+}
+
+/* Devices */
+
+.module-dd.subnav .subnav-products .devices {
+	float: left;
+	min-width: 305px;
+}
+
+.module-dd.subnav .subnav-products .devices a {
+	padding: 8px 40px 8px 15px;
+}
+
+.module-dd.subnav .subnav-products .devices .headline {
+	padding-left: 15px;
+	padding-right: 40px;
+}
+
+.module-dd.subnav .subnav-products .devices .icon {
+	background: url(sprite_device_icons_v3.02a4dd68ee2ebebdad0b378653764355.png) no-repeat -500px -500px;
+}
+
+.module-dd.subnav .subnav-products .premium .icon {
+	min-height: 15px;
+	padding-top: 10px; padding-bottom: 10px;
+	background: url(premium.d6eeeff5c03de3070854cbec07591760.png) no-repeat left;
+}
+
+.module-dd.subnav .subnav-products .toryburchItem .icon {
+	height: 40px;
+	background: url(toryburch.89fcd9901d322a414c5b0c09805e2845.png) no-repeat left;
+}
+
+
+.module-dd.subnav .subnav-social {
+	border: 10px solid #f6f6f6;
+	border-left-width: 12px;
+	border-right-width: 12px;
+}
+.module-dd.subnav .subnav-social li a {
+	padding: 8px 40px 8px 15px;
+}
+.module-dd.subnav .subnav-social .icon {
+    margin-right: 5px;
+    background: url(sprite_social_icons.aa95445c72694467f9a9467f1e299c9f.png) no-repeat left;
+}
+.module-dd.subnav .subnav-social .facebook .icon {
+    height: 19px;
+    background-position: 0 0;
+}
+.module-dd.subnav .subnav-social .twitter .icon {
+    height: 16px;
+    background-position: 0 -67px;
+}
+.module-dd.subnav .subnav-social .pinterest .icon {
+    height: 22px;
+    background-position: 0 -128px;
+}
+
+.module-dd.subnav .subnav-content .ftr {
+    clear: both;
+    margin: 10px 15px 0; padding: 10px 0 0;
+    border-top: 1px solid #eee;
+}
+.module-dd.subnav .subnav-content .ftr li {
+    padding: 12px 0;
+    background: none;
+    cursor: default;
+}
+.module-dd.subnav .subnav-content .ftr a {
+    display: inline;
+    padding: 0;
+    font-weight: bold;
+    color: #ee3d6e;
+}
+.module-dd.subnav .subnav-content .ftr a:hover {
+    text-decoration: underline;
+}
+
+.module-dd.subnav .subnav-content .ftr.blog-subheader {
+	border-top: medium none;
+	border-bottom: 1px solid #eeeeee;
+	margin: 0 15px 12px 20px;
+	padding-top: 0;
+}
+
+.module-dd.subnav .subnav-content .ftr.blog-subheader li {
+	padding: 8px 0 22px;
+}
+
+
+/* Tools & Miscellaneous */
+
+.module-dd.subnav .subnav-products .divider {
+	background: #eee;
+	float: left;
+	height: 230px;
+	margin-top: 20px;
+	overflow: hidden;
+	width: 1px;
+}
+
+.module-dd.subnav .subnav-products .other {
+	float: left;
+	min-width: 220px;
+}
+
+.module-dd.subnav .subnav-products .other li.headline {
+	height: auto;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.module-dd.subnav .subnav-products li.tools li {
+	padding: 0;
+}
+
+.module-dd.subnav .subnav-products li.tools > a {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.module-dd.subnav .subnav-products li.tools + li.misc {
+	margin-top: 68px;
+}
+
+.module-dd.subnav .subnav-products li.misc:hover {
+	background: transparent;
+}
+
+.module-dd.subnav .subnav-products li.misc a {
+	color: #f54786; /* $mktg_colorHighlight */
+	font-family: "Proxima Nova Bold", helvetica, arial, sans-serif; /* $fontFamilyBold */
+	padding-bottom: 10px;
+	padding-top: 0;
+}
+
+.module-dd.subnav .subnav-products li.misc a:hover {
+	text-decoration: underline;
+}
+
+.not-ie7-8 .module-dd.subnav .subnav-products li.misc a:after {
+	color: #f54786; /* $mktg_colorHighlight */
+	content: "\00A0\00A0\00A0\25B6";
+	font-size: 8px;
+}
+
+.ie9 .module-dd.subnav .subnav-products li.misc a:after {
+	font-size: inherit;
+	letter-spacing: -1px;
+}
+
+/******************************************************************************
+ *
+ *	"Reduced" versions of the sub-nav (Ultra removed)
+ *
+ ******************************************************************************/
+
+.module-dd.subnav .subnav-products.reduced-v1 .divider {
+	height: 190px;
+}
+
+.module-dd.subnav .subnav-products.reduced-v1 li.tools + li.misc {
+	margin-top: 13px;
+}
+
+/******************************************************************************
+ *
+ *	System Alerts
+ *
+ ******************************************************************************/
+
+.wrapper-system-alerts {
+	background-color: #206276; /* $headerBorderColor */
+	color: #000;
+	font: 14px "Proxima Nova Bold", helvetica, arial, sans-serif; /* $fontFamilyBold */
+	padding: 12px 0 2px;
+}
+
+.system-alerts { /* list of system alerts */
+	margin: 0 auto;
+	width: 990px; /* $layoutWidth */
+}
+
+.system-alert { /* individual system alert */
+	display: none;
+	text-align: center;
+}
+
+.system-alert:first-child {
+	display: block;
+}
+
+.system-alert a,
+.system-alert a:visited {
+	color: #4DBFBF;
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.system-alert .message {
+    font-size: 16px; /* sub-heading1() */
+    font-family: 'Proxima Nova Bold', sans-serif;
+    color: #FFF;
+}
+
+/* Icons for System Alerts */
+
+.system-alert .message:before,
+.system-alert .exit {
+	background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) no-repeat;
+	content: "";
+	display: inline-block;
+}
+
+
+.system-alert .message:before {
+	background-position: 0 -1011px; /* by default, show the "generic" alert icon */
+	content: "";
+	display: inline-block;
+	height: 25px;
+	margin-right: 12px;
+	vertical-align: -8px;
+	width: 26px;
+}
+
+.system-alert.device-lowbattery .message:before {
+	background: none;
+    margin-right: 0;
+}
+
+.system-alert.device-lowbattery .lowbattery-indicator {
+    background: url(sprite_header_icons_various_v5.af28a7875d8b820a96fa5d4b46cd39a5.png) 0 -1464px no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 8px;
+    margin-left: 11px;
+    margin-right: 20px;
+    position: relative;
+    top: 4px;
+}
+
+.system-alert.device-notpaired .message:before {
+	background-position: 0 -913px;
+}
+
+.system-alert.device-notsyncing .message:before {
+	background-position: 0 -864px;
+}
+
+.system-alert.amazon-review .message:before {
+	background-position: 0 -1060px;
+}
+
+.system-alert.corporate-invited .message:before,
+.system-alert.corporate-update .message:before,
+.system-alert.corporate-challenges .message:before {
+	background-position: 0 -1496px;
+}
+
+.system-alert.amazon-review a {
+	margin: 0;
+}
+
+.system-alert.newDashInvite .message:before {
+	background-position: 0 -962px;
+}
+
+.system-alert.incomplete-profile .message:before {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4RTc5NjFCNzM1MjA2ODExODA4M0MzMjdDQTg1NDNBQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxNTlGN0JEODc4QjIxMUUyQUU5Q0IzMkVDNjQ2QjA0RiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxNTlGN0JENzc4QjIxMUUyQUU5Q0IzMkVDNjQ2QjA0RiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjAyRkQzMkEyRDIxNjgxMTgwODM4NTNBREFDNzY1M0EiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OEU3OTYxQjczNTIwNjgxMTgwODNDMzI3Q0E4NTQzQUMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5SmV7nAAACMklEQVR42mL8aJPHgAewAbEjEPsDsRUQywKxEBC/A+LHQHwciDcA8X4g/oXLEBY84vFA3AzEkljkhaBYH4gzgPglEHcC8RQg/o2umAmLAapAfAqI5+CwABsQB+I+ID4JxOqELDEF4hNAbMhAHjCEBqEZLktALtgGDQZKgCAQb0f2EcwSViBeAcQiDNQBIIeugpoLj/hcIDbAp4s9zo2BLdiWgVGIj+Hfy/cMv5bsZvi14Sg+LXpAnA/EPYzAJMwOZDwCYjHcNrAy8O3pQRX795/hk3MxA8Ofv/gsegXE8qDg8sVrAQj8/I0pxsRIyAIGqLm+IEu8GGgLvECWGBOl9O8/VD5hX8CACcgSeWJU/jl/G5V/4jqxlsiBLOEnRuW3wmmo/MrZxFrCB7LkI43j5DMonzzB5xsmUQEGFhdjBlZ3ExRx7gXlDL93nmH4s+csw7/XH/BZ8hiUT+YDGQkYxbCdHjDz2TGwGKhAkisuAMwvfy7cZvi1+iDDnyNXsKlYxAQtrzAAV0MCA4uRKn4LoPmFxUiNgaslGZeKrSBLNgPxawwpVmbSQp4ZW60BNncTKE5+AHE3EHchy36yzadGpIPM/QGzfgIQX6ZyqgJF0ETkoh5UOIVRMTl/hJr3C73SugHE7tCSkxIA0u8BxNdxVb8noVXneTItOA/Vf4JQQ+IhVGEWED8n0vDnUPVmUP1ENYn+APF0IF4AxD5QbAwtTHmA+AvUsLOgfADNBt9xuQAgwAAoX4K4JodNBAAAAABJRU5ErkJggg==) no-repeat 0 0;
+}
+
+/* Exit Icon for System Alerts */
+
+.system-alert .exit {
+    background-position: 0 -767px;
+	cursor: pointer;
+	height: 26px;
+    width: 26px;
+    margin-left: 8px;
+	vertical-align: -7px;
+	visibility: hidden;
+}
+
+.system-alert .exit:hover {
+    background-position: 0 -721px;
+}
+
+.system-alert:hover .exit {
+	visibility: visible;
+}
+
+/******************************************************************************
+ *
+ *	Legacy IE workarounds
+ *
+ ******************************************************************************/
+
+.ie7 .wrapper-header .account .icon-dd {
+	vertical-align: middle;
+}
+
+.ie7 .wrapper-header .account {
+	overflow: hidden;
+}
+
+.ie7 .wrapper-header .account,
+.ie7 .wrapper-header .account-auth,
+.ie7 .wrapper-header .link-app {
+	width: 200px; /* $accountContainerWidth */
+}
+
+.ie7 .system-alert .exit {
+	vertical-align: middle;
+}
+
+div.holidayShipping ul li {
+    background: url(bullet.060afe77190597605935e28e201cb127.png) no-repeat scroll 1px 7px transparent;
+    margin: 14px 0;
+    padding-left: 12px;
+}
+
+div.holidayShipping {
+    padding: 20px;
+}
+
+div.holidayShipping .shippingGuidelines {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+div.holidayShipping .timeFrame {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+div.holidayShipping .emphasis {
+    text-decoration:underline;
+}
+
+/*# sourceMappingURL=weightsite.site.web.css.app.common.header.css.23c1a78a88c5ab0263fb4cb96790f7e7.css.map*/

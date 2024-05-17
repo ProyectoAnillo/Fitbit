@@ -1,0 +1,14 @@
+define(function(require) {
+    var _ = require('underscore');
+
+    return function(string, fallback) {
+        var unescaped = _.unescape(string);
+        try {
+            return JSON.parse(unescaped);
+        } catch(e) {
+            window.onerror("Error unescaping string: " + e.stack);
+        }
+
+        return fallback;
+    };
+});

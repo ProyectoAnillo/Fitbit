@@ -1,0 +1,174 @@
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+/******/
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			exports: {},
+/******/ 			id: moduleId,
+/******/ 			loaded: false
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(13);
+	__webpack_require__(10);
+	__webpack_require__(5);
+	__webpack_require__(4);
+	__webpack_require__(12);
+	__webpack_require__(15);
+	__webpack_require__(16);
+	module.exports = __webpack_require__(14);
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/*
+		MIT License http://www.opensource.org/licenses/mit-license.php
+		Author Tobias Koppers @sokra
+	*/
+	module.exports = function(src) {
+		if (typeof execScript !== "undefined")
+			execScript(src);
+		else
+			eval.call(null, src);
+	}
+
+/***/ },
+/* 2 */,
+/* 3 */,
+/* 4 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(8))
+
+/***/ },
+/* 5 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(9))
+
+/***/ },
+/* 6 */,
+/* 7 */,
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('core/com/fitbit/util/dateformat.es_CL', {\"namespace\":\"com.fitbit.util.dateformat\",\"translations\":{\"months\":\"Enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre\",\"short_months\":\"Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic\",\"weekdays\":\"domingo, lunes, martes, miércoles, jueves, viernes, sábado\",\"short_weekdays\":\"Dom, Lun, Mar, Mié, Jue, Vie, Sáb\",\"min_weekdays\":\"Do, Lu, Ma, Mi, Ju, Vi, Sá\",\"extramin_weekdays\":\"D,L,M,M,J,V,S\",\"am_pm\":\"AM, PM\",\"date_time_format\":\"{1} {0}\",\"full_date\":\"EEEE, d 'de' MMMM 'de' y\",\"long_date\":\"d 'de' MMMM 'de' y\",\"medium_date\":\"dd-MM-y\",\"short_date\":\"dd-MM-yy\",\"weekday_month_date_medium\":\"EEE, dd MMM\",\"weekday_long_month_date_medium\":\"EEEE, dd MMM\",\"weekday_month_date_short\":\"EEE, dd/MM\",\"month_date_year_short\":\"dd-MM-yyyy\",\"month_date_year_long\":\"dd 'de' MMMM 'de' yyyy\",\"month_date_year_medium\":\"dd MMM, yyyy\",\"month\":\"MMM\",\"month_long\":\"MMMM\",\"month_date\":\"dd MMM\",\"month_date_long\":\"dd MMMM\",\"month_long_date_short\":\"MMMM d\",\"month_date_short\":\"MMM d\",\"month_year_medium\":\"MMM yyyy\",\"month_year\":\"MMMM 'de' yyyy\",\"weekday\":\"EEE\",\"weekday_long\":\"EEEE\",\"weekday_month_date_long\":\"EEEE, dd 'de' MMMM\",\"weekday_month_date_year\":\"EEE, MMM d, yyyy\",\"weekday_month_date_year_long\":\"EEE MMM dd yyyy\",\"month_date_time\":\"MMM d, hh:mm a\",\"month_date_time_24\":\"MMM d, HH:mm\",\"time_12_hours\":\"h:mma\",\"time_12_hours_activity\":\"h:mm a\",\"time_24_hours\":\"HH:mm\",\"period_to\":\"{0} a {1}\",\"period_dash\":\"{0} - {1}\",\"period_from_same_month\":\"dd\",\"period_to_same_month\":\"dd 'de' MMM, yyyy\",\"period_from_dif_month\":\"dd 'de' MMM\",\"period_to_dif_month\":\"dd 'de' MMM, yyyy\",\"period_full\":\"dd 'de' MMM, yyyy\",\"datepicker_period_from_same_month\":\"M dd\",\"datepicker_period_to_same_month\":\"dd, yy\",\"datepicker_period_from_dif_month\":\"M dd\",\"datepicker_period_to_dif_month\":\"M dd, yy\",\"datepicker_period_full\":\"M dd, yy\",\"datepicker_date_format\":\"yy-mm-dd\",\"datepicker_show_month_after_year\":null,\"datepicker_year_suffix\":null,\"month_date_year_export\":\"dd-MM-yyyy\",\"month_date_year_hint\":\"DD-MM-AA\",\"highchart_weight_format\":\"%a %e %b\",\"highchart_time_format\":\"%l:%M %P\",\"highchart_hour_format\":\"%l%P\",\"highchart_common_format\":\"%e %b\",\"highchart_default_format\":\"%b 'de' %Y\",\"highchart_weight_xaxis_format\":\"%e %b\",\"highchart_date_time_format_12h\":\"%e %b %Y %l:%M%P\",\"highchart_date_time_format_24h\":\"%e %b %Y %H:%M\",\"highchart_date_time_format_month_day\":\"%e %B\",\"highchart_date_time_format_month\":\"%B\",\"highchart_date_time_format_day\":\"%e\",\"highchart_activity_xaxis_format\":\"%b %Y\",\"highchart_activity_xaxis_month\":\"%e %b\",\"month_day_format\":\"dd MMM\",\"time_format_12\":\"'a las' h:mma\",\"time_format_24\":\"'a las' HH:mm\",\"dash_time_12\":\"hh:mm a\",\"dash_time_24\":\"HH:mm\",\"week_of\":\"Week of\"}});"
+
+/***/ },
+/* 9 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/util/relativedateutil.es_CL', {\"namespace\":\"com.fitbit.util.relativedateutil\",\"translations\":{\"just_now\":\"justo ahora\",\"second\":\"hace {0} s\",\"seconds\":\"hace {0} s\",\"minute\":\"hace {0} min\",\"minutes\":\"hace {0} min\",\"hour\":\"hace {0} hora\",\"hours\":\"hace {0} horas\",\"day\":\"hace {0} día\",\"yesterday\":\"ayer\",\"days\":\"hace {0} días\",\"week\":\"hace {0} semana\",\"last_week\":\"la semana pasada\",\"weeks\":\"hace {0} semanas\",\"month\":\"hace {0} mes\",\"last_month\":\"el mes pasado\",\"months\":\"hace {0} meses\",\"year\":\"hace {0} año\",\"years\":\"hace {0} años\"}});"
+
+/***/ },
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(11))
+
+/***/ },
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/user/friends/label.es_CL', {\"namespace\":\"com.fitbit.app.user.friends.label\",\"translations\":{\"invite_friends\":\"¡Invita a tus amigos!\",\"from\":\"De:\",\"to\":\"Para:\",\"message\":\"Mensaje:\",\"from_2\":\"De\",\"to_2\":\"Para\",\"message_2\":\"Mensaje\",\"preview\":\"Vista previa\",\"close_preview\":\"Cerrar vista previa\",\"separate_with_commas\":\"Separa los correos electrónicos con comas.\",\"import_address_book\":\"Importar tu libreta de direcciones\",\"import_from_book\":\"importar de mi libreta de direcciones\",\"click_to_become_friends\":\"Haz clic aquí para compartir amistad\",\"thanks\":\"gracias\",\"ps_1[1]\":\"P. D. Si tienes\",\"ps_1[2]\":\"un Monitor Fitbit,\",\"ps_1[3]\":\"éste podrá recopilar automáticamente toda esta información sobre tus ejercicios.\",\"users_friends\":\"Amigos de {0}\",\"friends\":\"Amigos\",\"ranking_desc\":\"EL TOTAL DE PASOS DE 7 DÍAS\",\"leaderboard\":\"Tabla de clasificación\",\"delete_friend\":\"Eliminar amigo\",\"avg\":\"media\",\"7day\":\"7 días\",\"30day\":\"30 días\",\"leaders_among_friends\":\"Tus amigos mejor clasificados\",\"friend_best_steps[1]\":\"Mejor de todas las clasificaciones\",\"friend_best_steps[2]\":\"pasos\",\"find_your_friends\":\"Buscar a tus amigos\",\"invite_friends_2\":\"¡Invita a tus amigos!\",\"connect_account\":\"Conecta tus otras cuentas con Fitbit para invitar a tus amigos.  No compartiremos tus contactos con nadie ni enviaremos correos electrónicos a nadie sin tu permiso.\",\"facebook_tab\":\"Facebook\",\"email_tab\":\"Correo electrónico\",\"facebook_find_title\":\"Buscar a tus amigos\",\"facebook_invite_title\":\"Invitar a tus amigos\",\"already_have_friends\":\"¿Ya tienes amigos aquí?\",\"could_not_find_friends\":\"¿No has visto a ninguno de tus amigos?\",\"invite_to_join[0]\":\"¡Invítalos\",\"invite_to_join[1]\":\"para que puedan unirse a la diversión!\",\"add_and_have_fun\":\"<a class=\\\"track-FriendFinder-FacebookNew-FindLinked\\\" href=\\\"/friends\\\">Añádelos</a> como amigos y diviértete más\",\"more_fun_with_friends\":\"Fitbit es más divertido si se comparte con amigos\",\"no_fitbit_members_among_facebook_friends\":\"Parece que tus amigos no tienen cuentas Fitbit.\",\"fitbit_member_among_facebook_friends_detected[0]\":\"de tus amigos de Facebook ya están en Fitbit\",\"request_sent_button\":\"Solicitud enviada\",\"add_friend_button\":\"Añadir amigo\",\"load_ten_more\":\"Cargar diez amigos más\",\"colhead_leaderboard\":\"TABLA DE CLASIFICACIÓN\",\"colhead_leaderboard_empty\":\"LA TABLA DE CLASIFICACIÓN ESTÁ VACÍA\",\"leaderboard_inactive_friends_message\":\"Algunos amigos están inactivos o han decidido no participar en las clasificaciones.\",\"leaderboard_show_all_friends\":\"Mostrar todos los amigos\",\"colhead_primary_stat\":\"TOTAL DE 7 DÍAS\",\"colhead_secondary_stat\":\"MED. DIARIA\",\"colhead_primary_stat_new\":\"PASOS EN 7 DÍAS\",\"loading_leaderboard\":\"cargando…\",\"fitbit_members_find_done[0]\":\"¿Has terminado de añadir amigos?\",\"fitbit_members_find_done[1]\":\"Invitar a amigos\",\"fitbit_members_find_done[2]\":\"que no están conectados a Fitbit.\",\"facebook_add_all[0]\":\"Añadir todos\",\"facebook_add_all[1]\":\"como amigos.\",\"friends_sidebar_share\":\"Compartir:\",\"friends_sidebar_share_m\":\"Los amigos verán tus logros y tus mejores estadísticas personales.\",\"friends_sidebar_complete\":\"Competir:\",\"friends_sidebar_complete_m\":\"Los amigos están clasificados en la tabla de clasificación para que podáis retaros.\",\"friends_sidebar_motivate\":\"Motivar:\",\"friends_sidebar_motivate_m\":\"Anima a tus amigos a seguir activos.\",\"facebook_invite_edit_message\":\"Edita mensaje personal\",\"default_facebook_invite_message[0]\":\"Únete a mí en Fitbit\",\"default_facebook_invite_message[1]\":\"fitbit.com\",\"default_facebook_invite_message[2]\":\"¡Quiero compartir contigo mis estadísticas de ejercicio y lo bien que estoy! ¡Únete a mí para estar en forma y tan bien como yo!\",\"default_facebook_invite_footer[0]\":\"hace unos pocos segundos vía Fitbit\",\"default_facebook_invite_footer[1]\":\"Como\",\"default_facebook_invite_footer[2]\":\"Comentario\",\"default_facebook_invite_footer[3]\":\"Aceptar la invitación de\",\"post_to_wall_button\":\"Publicar en el muro\",\"facebook_after_invite[0]\":\"Ahora que ya has enviado tus invitaciones, tienes las siguientes opciones:\",\"facebook_after_invite[1]\":\"Invitar a más amigos\",\"facebook_after_invite[2]\":\"O\",\"facebook_after_invite[3]\":\"ir a tu panel\",\"facebook_invite_button\":\"Invitar\",\"search_placeholder_text\":\"Introduce el nombre de tus amigos o selecciónalo abajo\",\"search_in_progress\":\"Buscando…\",\"search_no_results\":\"No hay resultados\",\"email_invite_title\":\"Invitar a tus amigos\",\"email_invite_page\":\"Invitar a tus amigos\",\"send_invite_button\":\"Enviar invitación\",\"email_after_invite[0]\":\"Ahora que ya has enviado tus invitaciones, tienes las siguientes opciones:\",\"email_after_invite[1]\":\"Invitar a más amigos\",\"email_after_invite[2]\":\"O\",\"email_after_invite[3]\":\"ir a tu panel\",\"preview_invite\":\"Vista previa de la invitación\",\"one_invitation_sent\":\"Invitación enviada correctamente\",\"multiple_invitations_sent\":\"invitaciones enviadas correctamente\",\"facebook_invitation_title\":\"Únete a mí en Fitbit\",\"facebook_invitation_action\":\"Aceptar invitación\",\"email_invitation_sent_s\":\"{countEmails} invitación enviada correctamente\",\"email_invitation_sent_p\":\"{countEmails} invitaciones enviadas correctamente\",\"unable_to_link\":\"No se puede enlazar.\",\"unable_to_find_nonfitbit_friends\":\"Lo sentimos, no hemos podido encontrar amigos de Fitbit en Facebook.\",\"respond\":\"Responder\",\"reply\":\"Respuesta\",\"send_message\":\"Enviar mensaje\",\"friend_rankings\":\"Clasificaciones de amigos\",\"badges\":\"Insignias\",\"view_request\":\"Ver solicitud\",\"empty_state_notifications\":\"No tienes notificaciones.\",\"loading_notifications\":\"Cargando…\",\"tooltip_primary_stat\":\"Total de pasos que has dado en los últimos 7 días, incluido el día de hoy.\",\"general_fatal_error\":\"Estamos sufriendo dificultades técnicas; inténtalo de nuevo más tarde.\",\"errors_title\":\"Soluciona los siguientes errores:\",\"wizard_successes_title_plural\":\"Invitaciones enviadas correctamente.\",\"wizard_successes_title_singular\":\"Invitación enviada correctamente.\",\"wizard_successes_explanation_plural\":\"¡Uy! No se han podido enviar algunas invitaciones.\",\"wizard_successes_explanation_singular\":\"¡Vaya! Hay una invitación que no se ha podido enviar.\",\"wizard_simple_errors_title_plural\":\"No se pueden enviar estas invitaciones.\",\"wizard_simple_errors_title_singular\":\"No se puede enviar esta invitación.\",\"wizard_blocking_errors_title_plural\":\"Habías bloqueado a estos usuarios.\",\"wizard_blocking_errors_title_singular\":\"Habías bloqueado a este usuario.\",\"wizard_send_email_error\":\"Se ha producido un error al enviar las invitaciones por correo electrónico.\",\"leaderboard_header_label\":\"Amigos\"}});"
+
+/***/ },
+/* 12 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(17))
+
+/***/ },
+/* 13 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(18))
+
+/***/ },
+/* 14 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(19))
+
+/***/ },
+/* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(20))
+
+/***/ },
+/* 16 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(21))
+
+/***/ },
+/* 17 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/device/message.es_CL', {\"namespace\":\"com.fitbit.app.device.message\",\"translations\":{\"battery_low\":\"Bajo\",\"battery_medium\":\"Media\",\"battery_high\":\"Alto\",\"battery_full\":\"Cargada\",\"battery_unknown\":\"???\",\"battery_empty\":\"Descargada\",\"device_name_FLOJO\":\"Aria\",\"device_displayName_FLOJO\":\"Báscula Aria\",\"device_name_KEPLER\":\"Clásico\",\"device_displayName_KEPLER\":\"Monitor Clásico\",\"device_name_TYCHO\":\"Ultra\",\"device_displayName_TYCHO\":\"Monitor Ultra\",\"device_name_GALILEO\":\"Zip\",\"device_displayName_GALILEO\":\"Monitor Zip\",\"device_name_HADRON\":\"One\",\"device_displayName_HADRON\":\"Monitor One\",\"device_name_QUARK\":\"Flex\",\"device_displayName_QUARK\":\"Monitor Flex\",\"device_name_NEUTRINO\":\"Force\",\"device_displayName_NEUTRINO\":\"Monitor Force\",\"device_name_GRAVITON\":\"Charge HR\",\"device_displayName_GRAVITON\":\"Monitor Charge HR\",\"device_name_TAU\":\"Charge\",\"device_displayName_TAU\":\"Monitor Charge\",\"device_name_PROTON\":\"Surge\",\"device_displayName_PROTON\":\"Monitor Surge\",\"device_name_ELECTRON\":\"Blaze\",\"device_displayName_ELECTRON\":\"Monitor Blaze\",\"device_name_LEPTON\":\"Alta\",\"device_displayName_LEPTON\":\"Monitor Alta\",\"device_name_LARYON\":\"Charge 2\",\"device_displayName_LARYON\":\"Monitor Charge 2\",\"device_name_FERMION\":\"Flex 2\",\"device_displayName_FERMION\":\"Monitor Flex 2\",\"device_name_ATOM\":\"Alta HR\",\"device_displayName_ATOM\":\"Monitor Alta HR\",\"device_name_HIGGS\":\"Ionic\",\"device_displayName_HIGGS\":\"Monitor Ionic\",\"device_name_MESON\":\"Versa\",\"device_displayName_MESON\":\"Monitor Versa\",\"device_name_PLUTO\":\"Ace\",\"device_displayName_PLUTO\":\"Monitor Ace\"}});"
+
+/***/ },
+/* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/modules/message.es_CL', {\"namespace\":\"com.fitbit.app.modules.message\",\"translations\":{\"chars_remaining_primary_singular\":\"{0} carácter restante\",\"chars_remaining_primary_plural\":\"{0} caracteres restantes\"}});"
+
+/***/ },
+/* 19 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/charge101.es_CL', {\"namespace\":\"com.fitbit.app.ngd.charge101\",\"translations\":{\"access_charge101_and_settings\":\"Accede a la guía de primeros pasos de tu Charge y a tus opciones de configuración del dispositivo desde aquí\",\"charge101_heading\":\"Charge Primeros pasos\",\"nav_basics\":\"Opciones básicas\",\"nav_goals\":\"Objetivos\",\"nav_sleep\":\"Sueño\",\"nav_calls\":\"Llamadas\",\"actions_back\":\"Volver\",\"actions_next\":\"Seguir\",\"actions_done\":\"Terminado\",\"screen_wearing_charge_heading\":\"Cómo llevar el Charge\",\"screen_wearing_charge_text\":\"Si llevas el Charge en la mano dominante (la que empleas para escribir y comer), es aconsejable que actualices las opciones de <a href=\\\"/settings/device/tracker\\\">Configuración del dispositivo</a> para obtener una precisión óptima.\",\"screen_display_options_heading\":\"Opciones de visualización\",\"screen_display_options_text\":\"Puedes personalizar lo que aparece en la pantalla del Charge mediante <a href=\\\"/settings/device/tracker\\\">Configuración del dispositivo</a>.\",\"screen_display_options_bullet_1\":\"Cambia el orden de aparición de las estadísticas.\",\"screen_display_options_bullet_2\":\"Oculta las estadísticas que no te interesen.\",\"screen_display_options_bullet_3\":\"Cambia el estilo de la esfera del reloj.\",\"screen_display_options_steps\":\"Pasos\",\"screen_display_options_floors\":\"Plantas\",\"screen_display_options_calories\":\"Calorías\",\"screen_display_options_distance\":\"Distancia\",\"screen_goals_heading\":\"Objetivos\",\"screen_goals_text\":\"Con el Charge puedes monitorizar los progresos en relación con un objetivo principal. En tu panel puedes establecer y monitorizar objetivos adicionales.\",\"screen_goals_subheading\":\"Objetivo principal\",\"screen_goals_bullet_1\":\"Notarás una vibración cuando logres este objetivo.\",\"screen_goals_bullet_2\":\"En la <a href=\\\"/settings/device/tracker\\\">Configuración del dispositivo</a> podrás cambiar la estadística que hayas seleccionado como objetivo principal.\",\"screen_tracking_sleep_heading\":\"Monitorización del sueño\",\"screen_tracking_sleep_text\":\"El Charge monitoriza el tiempo que has estado dormido, despierto e inquieto.\",\"screen_tracking_sleep_bullet_1\":\"Mantén pulsado el botón hasta que aparezca el cronómetro y empiece a registrar el sueño.\",\"screen_tracking_sleep_bullet_2\":\"Repite la misma acción al levantarte para detener el registro.\",\"screen_tracking_sleep_bullet_3\":\"Si te olvidas de registrar el sueño, podrás hacerlo más tarde en el sitio web o en la aplicación del móvil.\",\"screen_call_notifications_heading\":\"Notificaciones de llamadas\",\"screen_call_notifications_text_1\":\"El Charge puede recibir notificaciones de llamadas de teléfono. Las notificaciones de llamadas se activan mediante la <a>Configuración de cuenta</a> en la aplicación para móviles de Fitbit.\",\"screen_call_notifications_text_2\":\"El Charge vibrará y mostrará el nombre o el número de quien llama.\",\"screen_silent_alarms_heading\":\"Alarmas silenciosas\",\"screen_silent_alarms_text_1\":\"Puedes configurar una alarma en la opción <a href=\\\"/settings/alarms\\\">Configuración</a> o a través de la aplicación para móvil de Fitbit.\",\"screen_silent_alarms_text_2\":\"Asegúrate de sincronizar después de configurar una alarma.\",\"screen_silent_alarms_text_3\":\"Tras la configuración, el Charge mostrará la hora de tu próxima alarma.\"}});"
+
+/***/ },
+/* 20 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/flex101.es_CL', {\"namespace\":\"com.fitbit.app.ngd.flex101\",\"translations\":{\"title\":\"Flex Primeros pasos\",\"charging\":\"Carga\",\"your_tracker_battery_lasts\":\"La batería de tu monitor dura unos 5 días. Para cargarlo, extrae el monitor de la pulsera y colócalo en el cargador hasta que las 5 luces parpadeen.\",\"syncing\":\"Sincronizar\",\"syncing_href\":\"https://help.fitbit.com/customer/portal/articles/896922\",\"when_your_flex_is_within\":\"Cuando tu Flex se encuentre a unos 6 m de distancia del adaptador de sincronización inalámbrica, se sincronizará automáticamente con tu cuenta de Fitbit. También puedes sincronizar a través de tu smartphone si es compatible con la tecnología Bluetooth Low Energy (4.0). Más información sobre {0} o sobre {1}.\",\"supported_devices\":\"Dispositivos compatibles\",\"wearing\":\"Cómo llevarlo\",\"your_flex_tracker_should_be_placed\":\"Para obtener unos resultados óptimos, debes colocar el monitor Flex en el interior de la pulsera y llevarla en la mano no dominante. Flex es resistente al agua y lo puedes llevar en la ducha y bajo la lluvia.\",\"goals\":\"Objetivos\",\"goal_progress\":\"Progreso del objetivo\",\"each_light_on_your_flex\":\"Cada luz de tu monitor Flex representa el 20% de tu objetivo. Cuando alcances tu objetivo, Flex emitirá un sonido y parpadeará a modo de celebración.\",\"changing_goals\":\"Cambio de objetivos\",\"to_choose_which_goal_is_shown\":\"Para elegir el objetivo que aparece en la pantalla del Flex, consulta {0} en tu cuenta. Puedes modificar la cifra de un objetivo en el correspondiente mosaico del panel.\",\"device_settings\":\"Configuración del dispositivo\",\"tracking_sleep\":\"Monitorización del sueño\",\"sleep_tracking_can_be_turned_on\":\"La monitorización del sueño se puede activar tocando la parte superior del área de visualización de Flex hasta que sientas que el motor vibra y las 2 luces exteriores se enciendan. Una vez en modo de monitorización del sueño, el Monitor mostrará dos luces moviéndose de lado a lado. Cuando te despiertes y quieras parar esta función, repite los toques hasta que sientas la vibración del motor y todas las luces parpadeen. Las aplicaciones para iPhone y Android también te permiten iniciar y detener un registro de sueño.\",\"forgot_to_turn_on\":\"¿Olvidaste activar la monitorización del sueño?\",\"forgot_to_turn_on_href\":\"https://help.fitbit.com/customer/portal/articles/176101-can-i-log-my-sleep-if-i-didn%E2%80%99t-put-my-fitbit-one-or-ultra-tracker-into-sleep-mode\",\"you_can_add_a_sleep_log\":\"Puedes añadir un registro de sueño en el sitio web o en la aplicación para móvil. Ve a la sección Sueño y añade un registro de sueño. ¿Necesitas ayuda? {0}.\",\"learn_more\":\"Más información\",\"silent_alarms\":\"Alarmas silenciosas\",\"set_a_silent_alarm\":\"Configura una alarma silenciosa desde el {0} de tu cuenta.\",\"devices_area\":\"Área de dispositivos\",\"on_the_dashboard\":\"En el panel podrás ver el avance de tus progresos hacia tus objetivos de:\",\"steps\":\"Pasos\",\"distance\":\"Distancia\",\"calories_burned\":\"Calorías quemadas\",\"very_active_minutes\":\"Mins. actividad alta\",\"settings_and_more\":\"Ajustes y más\",\"access_flex101_and_settings\":\"Accede a tu guía de primeros pasos de Flex y a tus opciones de configuración del dispositivo desde aquí\",\"nav_basics\":\"Opciones básicas\",\"nav_goals\":\"Objetivos\",\"nav_sleep\":\"Sueño\"}});"
+
+/***/ },
+/* 21 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/force101.es_CL', {\"namespace\":\"com.fitbit.app.ngd.force101\",\"translations\":{\"access_force101_and_settings\":\"Accede a la guía de primeros pasos de tu Force y a tus opciones de configuración del dispositivo desde aquí\",\"force101_heading\":\"Force Primeros pasos\",\"nav_basics\":\"Opciones básicas\",\"nav_goals\":\"Objetivos\",\"nav_sleep\":\"Sueño\",\"actions_back\":\"Volver\",\"actions_next\":\"Seguir\",\"actions_done\":\"OK\",\"screen_wearing_force_heading\":\"Cómo llevar el Force\",\"screen_wearing_force_text\":\"Si llevas el Force en la mano dominante (la que empleas para escribir y comer), es aconsejable que actualices las opciones de <a href=\\\"/settings/device/tracker\\\">Configuración del dispositivo</a> para obtener una precisión óptima.\",\"screen_display_options_heading\":\"Opciones de visualización\",\"screen_display_options_text\":\"Personaliza la vista en la pantalla de tu Force en la <a href=\\\"/settings/device/tracker\\\">Configuración del dispositivo</a>.\",\"screen_display_options_bullet_1\":\"Cambia el orden de aparición de las estadísticas.\",\"screen_display_options_bullet_2\":\"Oculta las estadísticas que no te interesen.\",\"screen_display_options_bullet_3\":\"Cambia el estilo de la esfera de reloj.\",\"screen_display_options_steps\":\"Pasos\",\"screen_display_options_active_minutes\":\"Minutos de actividad\",\"screen_display_options_calories\":\"Calorías\",\"screen_display_options_distance\":\"Distancia\",\"screen_goals_heading\":\"Objetivos\",\"screen_goals_text\":\"Con el Force puedes monitorizar los progresos en relación a un objetivo principal. En tu panel puedes establecer y monitorizar objetivos adicionales.\",\"screen_goals_subheading\":\"Objetivo principal\",\"screen_goals_bullet_1\":\"Notarás una vibración cuando logres este objetivo.\",\"screen_goals_bullet_2\":\"En la <a href=\\\"/settings/device/tracker\\\">Configuración del dispositivo</a> podrás cambiar la estadística que hayas seleccionado como objetivo principal.\",\"screen_tracking_sleep_heading\":\"Monitorización del sueño\",\"screen_tracking_sleep_text\":\"Force monitoriza el tiempo que has estado dormido, despierto e inquieto.\",\"screen_tracking_sleep_bullet_1\":\"Mantén pulsado el botón hasta que aparezca el cronómetro y empiece a registrar el sueño.\",\"screen_tracking_sleep_bullet_2\":\"Repite la misma acción al levantarte para detener el registro.\",\"screen_tracking_sleep_bullet_3\":\"Si te olvidas de registrar el sueño, podrás hacerlo más tarde en el sitio web o en la aplicación del móvil.\",\"screen_silent_alarms_heading\":\"Alarmas silenciosas\",\"screen_silent_alarms_text_1\":\"Puedes configurar una alarma en la opción <a href=\\\"/settings/alarms\\\">Configuración</a> o a través de la aplicación para móvil de Fitbit.\",\"screen_silent_alarms_text_2\":\"Asegúrate de sincronizar después de configurar una alarma.\",\"screen_silent_alarms_text_3\":\"Una vez configurada, tu Force mostrará la hora de tu próxima alarma.\"}});"
+
+/***/ }
+/******/ ])
+//# sourceMappingURL=fitbit-header.localization.es_CL.js.568460428fbd3c559be602abccb7bdc5.js.map

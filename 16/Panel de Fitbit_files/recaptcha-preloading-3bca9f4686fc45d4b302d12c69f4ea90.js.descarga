@@ -1,0 +1,1 @@
+"undefined"==typeof grecaptcha&&(grecaptcha={}),grecaptcha.ready=function(c){if(void 0===grecaptcha.execute){const e="___grecaptcha_cfg";window[e]=window[e]||{},(window[e].fns=window[e].fns||[]).push(c)}else c()};

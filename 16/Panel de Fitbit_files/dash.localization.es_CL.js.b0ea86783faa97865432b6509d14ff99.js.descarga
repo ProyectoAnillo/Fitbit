@@ -1,0 +1,581 @@
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+/******/
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			exports: {},
+/******/ 			id: moduleId,
+/******/ 			loaded: false
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(3);
+	__webpack_require__(2);
+	__webpack_require__(34);
+	__webpack_require__(55);
+	__webpack_require__(54);
+	__webpack_require__(39);
+	__webpack_require__(69);
+	__webpack_require__(24);
+	__webpack_require__(53);
+	__webpack_require__(44);
+	__webpack_require__(31);
+	__webpack_require__(51);
+	__webpack_require__(40);
+	__webpack_require__(42);
+	__webpack_require__(50);
+	__webpack_require__(36);
+	__webpack_require__(58);
+	__webpack_require__(38);
+	__webpack_require__(25);
+	__webpack_require__(35);
+	__webpack_require__(46);
+	__webpack_require__(22);
+	__webpack_require__(47);
+	__webpack_require__(32);
+	__webpack_require__(68);
+	__webpack_require__(61);
+	__webpack_require__(37);
+	__webpack_require__(43);
+	__webpack_require__(48);
+	__webpack_require__(56);
+	__webpack_require__(57);
+	__webpack_require__(41);
+	__webpack_require__(49);
+	__webpack_require__(45);
+	__webpack_require__(52);
+	__webpack_require__(26);
+	module.exports = __webpack_require__(59);
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/*
+		MIT License http://www.opensource.org/licenses/mit-license.php
+		Author Tobias Koppers @sokra
+	*/
+	module.exports = function(src) {
+		if (typeof execScript !== "undefined")
+			execScript(src);
+		else
+			eval.call(null, src);
+	}
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(6))
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(7))
+
+/***/ },
+/* 4 */,
+/* 5 */,
+/* 6 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/betas.es_CL', {\"namespace\":\"com.fitbit.app.ngd.betas\",\"translations\":{\"unified_goal_triple_wide_beta_title\":\"Nuevos mosaicos de objetivo diario y actividades\",\"unified_goal_triple_wide_beta_desc\":\"Accede de forma anticipada a nuestros nuevos mosaicos del panel y dinos lo que piensas.\",\"unified_goal_triple_wide_beta_on_text\":\"nuevos mosaicos\",\"unified_goal_triple_wide_beta_off_text\":\"antiguos mosaicos\"}});"
+
+/***/ },
+/* 7 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/unit.es_CL', {\"namespace\":\"com.fitbit.app.unit\",\"translations\":{\"distance_miles\":\"millas\",\"distance_km\":\"km\",\"distance_meters\":\"metros\",\"distance_yards\":\"yardas\",\"weight_gram\":\"g\",\"weight_kg\":\"kg\",\"weight_lb\":\"lb\",\"weight_stone\":\"stones\",\"bpm\":\"lpm\",\"weight_lb_plural\":\"one{lb}other{lbs}\",\"weight_kg_plural\":\"one{kg}other{kg}\",\"weight_stone_plural\":\"one{st}other{st}\",\"percent\":\"%\",\"percent_plural\":\"one{%}other{%}\",\"step\":\"one{paso}other{pasos}\",\"calorie\":\"one{caloría}other{calorías}\",\"heart_rate\":\"one{media lpm}other{media lpm}\",\"heart_rate_short\":\"one{lpm}other{lpm}\",\"resting_heart_rate\":\"one{lpm}other{lpm}\",\"calorie_reduced\":\"one{cal}other{cals}\",\"active_score\":\"one{marcador de actividad}other{marcadores de actividad}\",\"floor\":\"one{planta}other{plantas}\",\"kilometer\":\"one{kilómetro}other{kilómetros}\",\"mile\":\"one{milla}other{millas}\",\"km\":\"one{km}other{km}\",\"pt\":\"one{pt}other{pts}\",\"min\":\"one{min}other{min}\",\"time\":\"one{vez}other{veces}\",\"record\":\"one{registro}other{registros}\",\"day\":\"one{día}other{días}\",\"m\":\"one{m}other{m}\",\"meter\":\"one{meter}other{meters}\",\"yard\":\"one{yard}other{yards}\",\"Step\":\"one{paso}other{pasos}\",\"Mile\":\"one{milla}other{millas}\",\"Miles\":\"Millas\",\"Kilometer\":\"one{kilómetro}other{kilómetros}\",\"Kilometers\":\"Kilómetros\",\"Floor\":\"one{planta}other{plantas}\",\"Gram\":\"one{gramo}other{gramos}\",\"Pound\":\"one{libra}other{libras}\",\"Kilogram\":\"one{kilogramo}other{kilogramos}\",\"water_128\":\"one{fl oz}other{fl oz}\",\"water_91\":\"one{taza}other{tazas}\",\"water_209\":\"one{ml}other{ml}\",\"yard_short\":\"one{yd}other{yd}\",\"mile_short\":\"one{mi}other{mi}\",\"mm_full\":\"one{milímetro}other{milímetros}\",\"mm_reduced\":\"one{mm}other{mm}\",\"mm_short\":\"one{mm}other{mm}\",\"cm_full\":\"one{centímetro}other{centímetros}\",\"cm_reduced\":\"one{cm}other{cm}\",\"cm_short\":\"one{cm}other{cm}\",\"m_full\":\"one{metro}other{metros}\",\"m_reduced\":\"one{m}other{m}\",\"m_short\":\"one{m}other{m}\",\"foot_reduced\":\"one{ft}other{ft}\",\"foot_short\":\"one{′}other{′}\",\"inch_short\":\"one{″}other{″}\",\"day_short\":\"one{día}other{días}\",\"day_reduced\":\"one{d}other{dd}\",\"day_full\":\"one{día}other{días}\",\"hour_short\":\"one{h}other{h}\",\"hour_full\":\"one{hora}other{horas}\",\"hour_reduced\":\"one{h}other{h}\",\"minute_short\":\"one{m}other{m}\",\"minute_reduced\":\"one{min}other{min}\",\"active_minute_reduced\":\"one{minuto de actividad}other{minutos de actividad}\",\"very_active_minute_reduced\":\"one{minuto de actividad alta}other{minutos de actividad alta}\",\"minute_full\":\"one{minuto}other{minutos}\",\"Minute_full\":\"one{Minuto}other{Minutos}\",\"Minutes\":\"Minutos\",\"second_short\":\"one{s}other{s}\",\"second_reduced\":\"one{seg}other{seg}\",\"second_full\":\"one{segundo}other{segundos}\",\"ms_short\":\"one{ms}other{ms}\",\"ms_reduced\":\"one{ms}other{ms}\",\"ms_full\":\"one{milisegundo}other{milisegundos}\",\"pace_reduced\":\"one{/mi}other{/mi}\",\"pace_km\":\"one{/km}other{/km}\",\"kilogram_short\":\"one{kg}other{kg}\",\"kilogram_full\":\"one{kilogramo}other{kilogramos}\",\"gram_short\":\"one{g}other{g}\",\"gram_full\":\"one{gramo}other{gramos}\",\"pound_short\":\"one{lb}other{lbs}\",\"pound_full\":\"one{libra}other{libras}\",\"stone_full\":\"one{stone}other{stone}\",\"stone_short\":\"one{st}other{st}\",\"cals_per_minute\":\"one{calorías/minuto}other{calorías/minuto}\",\"battery\":\"one{batería}other{baterías}\",\"sleep_score\":\"Puntuación del sueño\",\"number_of_unit\":\"{0} {1}\",\"number_of_unit_short\":\"{0}{1}\"}});"
+
+/***/ },
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(23))
+
+/***/ },
+/* 23 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/user/friends/message.es_CL', {\"namespace\":\"com.fitbit.app.user.friends.message\",\"translations\":{\"emailDefaultMessage\":\"Hola:\\n\\nAyúdame a mejorar mi forma.\\n\\nComparte mi amistad en Fitbit.com y veamos quién da más pasos al día, corre más distancia o tiene más actividad.\",\"confirm_msg[1]\":\"¿Seguro que quieres borrar a\",\"confirm_msg[2]\":\"de la lista de amigos?\",\"confirm_msg[3]\":\"seguirá en tus clasificaciones de amigos hasta la próxima actualización.\",\"rank_hidden[1]\":\"tú\",\"rank_hidden[2]\":\"has ocultado en las clasificaciones de amigos\",\"user_hidden\":\"se ha ocultado\",\"himself\":\"a sí mismo\",\"herself\":\"a sí misma\",\"themselves\":\"a sí mismos\",\"from_rankings\":\"en las clasificaciones de amigos\",\"not_ranked[1]\":\"tú\",\"not_ranked[2]\":\"aún no estás clasificado/a\",\"user_isnt_ranked\":\"aún no está clasificado/a\",\"email_invite_friends_default_message\":\"Hola, seamos amigos en Fitbit.com. Con una cuenta de Fitbit.com, podemos ver quién da más pasos al día, corre más distancia o tiene más actividad diaria o semanalmente. Podemos animarnos mutuamente y mejorar nuestro estado de forma. Fitbit encendido. ¡Vamos!\",\"app_user_friends_invitation_emailDefaultMessage\":\"Hola:\\n\\nAyúdame a mejorar mi forma.\\n\\nComparte mi amistad en Fitbit.com y veamos quién da más pasos al día, corre más distancia o tiene más actividad.\",\"app_user_friends_invitation_emailSubject\":\"Ayúdame a mejorar mi forma en Fitbit.com\",\"app_user_friends_invitation_emailSender\":\"messages-noreply@fitbit.com\",\"app_user_friends_invitation_alreadySentRecently\":\"Ya le has enviado una invitación a {0}.\",\"app_user_friends_invitation_wizardAlreadySentRecently\":\"Ya le has enviado una invitación a esta persona.\",\"app_user_friends_invitation_mailingError\":\"No hemos podido enviar tu invitación. Estamos trabajando para resolver este problema. Vuelve a intentarlo más tarde.\",\"app_user_friends_invitation_notFound\":\"No pudimos localizar la invitación a la que estabas respondiendo. Prueba a volver a enviar una nueva invitación.\",\"app_user_friends_invitation_alreadyAccepted\":\"La invitación a la que estabas respondiendo ya ha sido aceptada.\",\"app_user_friends_invitation_alreadyRelated\":\"Ya has entablado amistad con {0}.\",\"app_user_friends_invitation_tooManyConnections\":\"Tú o la otra persona habéis alcanzado el número máximo de amigos.\",\"app_user_friends_invitation_alreadyDeclined\":\"La invitación a la que estabas respondiendo ya ha sido rechazada.\",\"app_user_friends_invitation_cannotInviteYourself\":\"Estás intentando invitarte a ti mismo y no es posible.\",\"app_user_friends_invitation_cannotAcceptOwnInvite\":\"Estás intentando aceptar tu propia invitación y no es posible. Inténtalo de nuevo con una URL de respuesta a invitación correcta.\",\"app_user_friends_invitation_doesNotBelongToInvitee\":\"Esta invitación no está dirigida al usuario que está registrado actualmente. Cierra la sesión y vuelve a intentarlo.\",\"app_user_friends_invitation_socialIdDoesNotBelongToInvitee\":\"Esta invitación no está dirigida al usuario que está registrado actualmente. Cierra la sesión y vuelve a intentarlo, o bien <a href=\\\"/friends\\\">invita a nuevos amigos</a>.\",\"app_user_friends_invitation_loginRequiredToProceed\":\"Inicia sesión o regístrate para aceptar la invitación de tu amigo.\",\"app_user_friends_invitation_previouslyBlocked\":\"Anteriormente, has bloqueado {0}\",\"app_user_friends_invitation_sentSuccessfully\":\"Has enviado la invitación correctamente.<br/><br/>Ajusta la configuración de privacidad de tu <a href=\\\"/user/{0}/profile/privacy\\\">perfil</a> si deseas compartir más información sobre ti con tus amigos.\",\"app_user_friends_invitation_acceptedSuccessfully\":\"<span style=\\\"font-weight: bold\\\">Ahora {0} y tú sois amigos. Consulta la sección Amigos, en el lado derecho, para compararos. Las clasificaciones se actualizan a diario.</span>\\n\\nPuedes introducir manualmente los datos sobre tu actividad física, o bien <span style=\\\"font-weight: bold\\\">monitorizar automáticamente</span> todas tus actividades comprando el <a href=\\\"/product\\\">monitor Fitbit</a>. El Fitbit es un pequeño dispositivo de monitorización de la actividad física que controla cuántas calorías quemas, los pasos que das y la distancia que recorres. ¡También mide la calidad de tu sueño! <a href=\\\"/product\\\">Cómpralo ya</a>.\",\"app_groups_invitation_emailDefaultMessage\":\"Hola: \\n\\nTe invito a unirte a un grupo en Fitbit llamado {0}. \\n\\nContiene debates y un marcador con clasificaciones para que podamos ayudarnos entre nosotros a tener una actitud más activa y saludable.\",\"app_groups_invitation_emailSubject\":\"[Fitbit] {1} te ha invitado a unirte al grupo {0} de Fitbit\",\"app_groups_invitation_emailSender\":\"messages-noreply@fitbit.com\",\"app_groups_invitation_alreadySentRecently\":\"{0} ya ha recibido una invitación. Vuelve a intentarlo en {1}.\",\"app_groups_invitation_mailingError\":\"No hemos podido enviar tu invitación. Estamos trabajando para solucionar este problema. Vuelve a intentarlo más tarde.\",\"app_groups_invitation_notFound\":\"No hemos podido localizar la invitación a la que estabas respondiendo. Inténtalo de nuevo con una URL correcta de respuesta a la invitación.\",\"app_groups_invitation_alreadyAccepted\":\"La invitación a la que estabas respondiendo ya ha sido aceptada.\",\"app_groups_invitation_alreadyRelated\":\"{0} ya es miembro de este grupo.\",\"app_groups_invitation_alreadyDeclined\":\"La invitación a la que estabas respondiendo ya ha sido rechazada.\",\"app_groups_invitation_cannotInviteYourself\":\"Estás intentando invitarte a ti mismo y no es posible.\",\"app_groups_invitation_cannotAcceptOwnInvite\":\"Estás intentando aceptar tu propia invitación y no es posible. Inténtalo de nuevo con una URL correcta de respuesta a la invitación.\",\"app_groups_invitation_doesNotBelongToInvitee\":\"Esta invitación no está dirigida al usuario que está registrado actualmente. Cierra la sesión y vuelve a intentarlo.\",\"app_groups_invitation_loginRequiredToProceed\":\"Inicia sesión o regístrate para aceptar la invitación.\",\"app_groups_invitation_sentSuccessfully\":\"Has enviado la invitación correctamente.\",\"app_groups_invitation_acceptedSuccessfully\":\"<span style=\\\"font-weight: bold\\\">Ya eres miembro de {0}.</span>\",\"facebook_invalid_credentials[0]\":\"Hemos detectado un problema en tus credenciales de Facebook.\",\"facebook_invalid_credentials[1]\":\"Tal vez has cambiado tu contraseña de Facebook recientemente o has cambiado los permisos de la aplicación de Fitbit.\",\"facebook_invalid_credentials[2]\":\"En este caso, si aún quieres usar tu cuenta Fitbit debes volver a enlazar tu cuenta de Facebook.\",\"facebook_invalid_credentials[3]\":\"Si decides detener todas las comunicaciones entre Fitbit y Facebook, solo tienes que desvincular el enlace con tu cuenta.\",\"facebook_not_enough_credentials[0]\":\"Hemos detectado un problema en tus credenciales de Facebook.\",\"facebook_not_enough_credentials[1]\":\"No te han concedido todos los permisos requeridos.\",\"facebook_not_connected\":\"Parece que no tienes conexión con Facebook.\",\"facebook_signup\":\"Registrarse en <b>Facebook</b>\",\"facebook_connect\":\"Conectar con <b>Facebook</b>\",\"facebook_relink_message[0]\":\"Tus cuentas de Facebook y de Fitbit han sido desvinculadas.\",\"facebook_relink_message[1]\":\"Enlázalas de nuevo ahora\",\"facebook_relink_message[2]\":\"para ver la lista de amigos más actualizada en Fitbit.\",\"facebook_invitation_success\":\"Invitación enviada correctamente\",\"users_maybe_ommited\":\"Algunos usuarios se omiten durante un proceso de clasificación.\",\"browse_groups\":\"Examinar grupos\",\"my_groups\":\"Grupos\",\"group_count_singular\":\"grupo\",\"group_count_plural\":\"grupos\",\"group_count_conjunction\":\"y\",\"group_private\":\"privada\",\"group_public\":\"público\",\"group_member\":\"miembro\",\"group_members\":\"miembros\",\"no_groups_dash\":\"¡Descubre los grupos de Fitbit!\",\"see_all_groups\":\"Ver todos los grupos\",\"friends_make_fitbit\":\"¡Los amigos hacen que Fitbit sea más divertido!\",\"see_all_friends\":\"Ver todos los amigos\",\"via_email\":\"vía correo electrónico\",\"via_facebook\":\"vía Facebook\",\"find_friends\":\"Buscar amigos\",\"hide_me_from\":\"Ocultarme en las clasificaciones\",\"show_me_in\":\"Mostrarme en las clasificaciones\",\"view_entire_leaderboard\":\"Ver toda la tabla de clasificación\",\"you_are_not\":\"Aún no estás clasificado/a entre tus amigos\",\"you_have_hidden\":\"Te has ocultado en las clasificaciones de amigos\",\"rankings_from_last\":\"Clasificaciones de los últimos 7 días\",\"very_active\":\"Actividad alta\",\"distance\":\"Distancia\",\"steps\":\"Pasos\",\"go_to_group\":\"Ir a la página del grupo\",\"you\":\"Tú\",\"average_short\":\"media\",\"want_to_meet\":\"¿Quieres conocer a gente con objetivos similares? Únete a un grupo.\",\"via_our_community\":\"vía Comunidad\",\"find_groups\":\"Buscar grupos\",\"module_headline\":\"Amigos\",\"facebook_friends\":\"Amigos de Facebook\",\"module_subheadline_leaderboard\":\"Clasificaciones basadas en el total de pasos de 7 días\",\"module_subheadline_leaderboard_short\":\"Ordenados por un total de 7 días.\",\"module_subheadline_simple\":\"Medias de pasos basadas en el total de pasos de 7 días\",\"module_footer_button_invite\":\"Buscar amigos\",\"module_footer_button_more\":\"Amigos\",\"module_notification_friends_inactivity\":\"Ninguno de tus amigos está clasificado debido<br/>a su inactividad.\",\"module_notification_self_inactivity\":\"No estás clasificado/a debido a tu inactividad.\",\"module_notification_self_hidden\":\"Te has ocultado en las clasificaciones.\",\"module_notification_public_empty\":\"{0} aún no tiene amigos.\",\"module_notification_public_restricted_all\":\"Los amigos son privados.\",\"module_notification_public_restricted_friends\":\"Los amigos son visibles solo a los amigos\",\"module_action_sendCheer\":\"¡Anima a {0}!\",\"module_action_sendCheer_success\":\"¡Has animado a {0}!\",\"module_action_sendMessage\":\"Envía un mensaje a {0}\",\"module_action_sendTaunt\":\"¡Búrlate de {0}!\",\"module_action_sendTaunt_success\":\"¡Te has burlado de {0}!\",\"invite_friend\":\"invitar\",\"add_friend\":\"Añadir amigo\",\"module_friends_other_headline\":\"Más amigos\",\"module_friends_other_subheadline\":\"Inactivo o has decidido no participar en la clasificación\",\"module_friend_finder_title\":\"BUSCAR MÁS AMIGOS\",\"module_friend_finder_email_invite\":\"Invitar via email\",\"module_friend_finder_share_message\":\"Comparte tus logros o mejores marcas personales\",\"module_friend_finder_compare_message\":\"Comparte tu actividad con la tabla de clasificación de amigos\",\"module_friend_finder_encourage_message\":\"¡Animaos mutuamente a estar en forma y activos!\",\"module_friend_finder_requests_title\":\"SOLICITUDES DE AMIGOS\",\"module_friend_finder_requests_confirm\":\"ACEPTAR\",\"module_friend_finder_requests_confirmed\":\"¡ACEPTADO!\",\"module_friend_finder_suggestions_title\":\"SUGERIMOS…\",\"module_friend_finder_suggestions_add\":\"AÑADIR AMIG@\",\"module_friend_finder_suggestions_sent\":\"¡SOLICITUD ENVIADA!\",\"module_friend_finder_suggestions_ignored\":\"ELIMINADO\",\"module_friend_finder_show_all\":\"Mostrar todos\",\"tile_user_hidden\":\"Oculto de las clasificaciones\",\"tile_user_inactive\":\"Sin actividad reciente\",\"tile_friends_fun\":\"¡Fitbit es más divertido<br/>si se comparte con amigos!\",\"friendship_requested\":\"¡Amistad solicitada!\",\"suggestion_removed\":\"¡Fitbit es más divertido si se comparte con amigos!\",\"invite_by_email\":\"Invitar via email\",\"invite_friends\":\"Invitar a amigos\",\"send_email\":\"Enviar Correo electrónico\",\"connect_facebook\":\"Conectar con Facebook\",\"facebook_connected\":\"Conectado\",\"reconnect_facebook\":\"Reconectar con Facebook\",\"reconnect_facebook_message\":\"Tus cuentas de Fitbit y Facebook ya no están enlazadas.\",\"find_your_friends\":\"Buscar a tus amigos\",\"know_some_more\":\"¿Conoces a más?\",\"fb_connected_more_a\":\"Tu cuenta de Facebook está conectada a tu cuenta de Fitbit.\",\"fb_connected_more_b\":\"¡Te sugeriremos nuevos amigos a medida que los encontremos!\",\"loginRequiredToProceed\":\"Inicia sesión o regístrate para aceptar la invitación de tu amigo.\",\"invalidToken\":\"Token no válido\",\"senderOrInviteNotFound\":\"No pudimos localizar la invitación a la que estabas respondiendo. Inténtalo de nuevo con una URL de respuesta a invitación correcta.\",\"acceptedSuccessfully\":\"Solicitud de amistad aceptada.\",\"suggestion_title\":\"¿Sugerir amigos adicionales?\",\"suggest_action\":\"Sugerir\",\"suggestion_sent\":\"¡Sugerido!\"}});"
+
+/***/ },
+/* 24 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(27))
+
+/***/ },
+/* 25 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(28))
+
+/***/ },
+/* 26 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(29))
+
+/***/ },
+/* 27 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/label.es_CL', {\"namespace\":\"com.fitbit.app.label\",\"translations\":{\"hr\":\"h\",\"or\":\"o\",\"hrs\":\"h\",\"min\":\"min\",\"sec\":\"seg\",\"at_time\":\"a las\",\"from_time\":\"de\",\"to_time\":\"a\",\"on_date\":\"el\",\"to_date\":\"a\",\"on_week_of\":\"de media durante la semana\",\"hours\":\"horas\",\"minutes\":\"minutos\",\"am\":\"am\",\"pm\":\"pm\",\"preposition_by\":\"por\",\"preposition_in\":\"en\",\"kph\":\"km/h\",\"mph\":\"mph\",\"hh\":\"hh\",\"mm\":\"mm\",\"ss\":\"ss\",\"required\":\"Obligatorio\",\"default\":\"Predeterminado\",\"version\":\"Versión\",\"notification_format_and_type\":\"Tipo\",\"optional\":\"opcional\",\"see_archive\":\"Ver archivo\",\"view_details\":\"Ver detalles\",\"select_date\":\"Seleccionar una fecha\",\"open_calendar\":\"Seleccionar\",\"free\":\"GRATUITA\",\"in_google_play\":\"En Google Play\",\"download_on_google_play\":\"Descargar de Google Play\",\"wrong_date_order\":\"Error: La fecha de finalización tiene lugar antes que la fecha de inicio\",\"first\":\"&lt;&lt; primero\",\"prev\":\"&lt; anterior\",\"next\":\"siguiente &gt;\",\"last\":\"última &gt;&gt;\",\"collapse\":\"Colapso\",\"reports\":\"Informes\",\"button_update\":\"Actualizar\",\"ok\":\"Ok\",\"next_page\":\"Siguiente\",\"prev_page\":\"Anterior\",\"cancel\":\"Cancelar\",\"close\":\"Cerrar\",\"close_forever\":\"Cerrar definitivamente\",\"set\":\"Configurar\",\"delete\":\"Eliminar\",\"undo_delete\":\"Deshacer eliminar\",\"delete_low\":\"eliminar\",\"edit\":\"Modificar\",\"save\":\"Guardar\",\"log\":\"Registrar\",\"update\":\"Actualizar\",\"show\":\"Mostrar\",\"hide\":\"Ocultar\",\"send\":\"Enviar\",\"Save\":\"Guardar\",\"Upload\":\"Cargar\",\"ready\":\"Listo\",\"done\":\"Terminado\",\"view\":\"Ver\",\"download_all\":\"Descargar todo\",\"register\":\"Registrarse\",\"contact_support\":\"Contactar con atención al cliente\",\"contact_support_low\":\"contactar con atención al cliente\",\"contact_support_url\":\"http://help.fitbit.com/customer/portal/emails/new\",\"contact_fitbit\":\"Contactar con Fitbit\",\"contact_fitbit_low\":\"contactar con Fitbit\",\"our_support\":\"Nuestra atención al cliente\",\"our_support_low\":\"nuestra atención al cliente\",\"provide_feedback\":\"Proporcionar comentarios\",\"provide_feedback_low\":\"proporcionar comentarios\",\"portal_help_base\":\"http://help.fitbit.com/customer/es_es\",\"portal_help_url\":\"http://help.fitbit.com\",\"portal_help_aria_url\":\"http://help.fitbit.com/#product_aria\",\"portal_help_aria_modal\":false,\"portal_help_ultra_url\":\"http://help.fitbit.com/#product_ultra\",\"portal_help_ultra_modal\":false,\"portal_help_zip_url\":\"http://help.fitbit.com/#product_zip\",\"portal_help_zip_modal\":false,\"portal_help_one_url\":\"http://help.fitbit.com/#product_one\",\"portal_help_one_modal\":false,\"portal_help_flex_url\":\"http://help.fitbit.com/#product_flex\",\"portal_help_flex_modal\":false,\"portal_help_force_url\":\"http://help.fitbit.com/#product_force\",\"portal_help_force_modal\":false,\"admin_feature\":\"Función Administrador\",\"learn_more\":\"Más información\",\"confirm\":\"Confirmar\",\"watch_video\":\"Ver el vídeo\",\"load_10_more\":\"Cargar 10 más\"}});"
+
+/***/ },
+/* 28 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/badges.es_CL', {\"namespace\":\"com.fitbit.app.ngd.badges\",\"translations\":{\"top_badges\":\"Principales insignias\",\"activity_badgeRow_heading\":\"ACTIVIDAD\",\"weight_badgeRow_heading\":\"PESO\",\"lifetime_climb\":\"Subidas absolutas\",\"lifetime_distance\":\"Distancia absoluta\",\"best_in_a_day\":\"Mejor marca del día\",\"weight_loss\":\"Pérdida de peso\",\"lifetime_loss\":\"Pérdida de peso absoluta\",\"next\":\"SIGUIENTE\",\"yesterday\":\"AYER\",\"today\":\"HOY\",\"next_up\":\"Próxima marca:\",\"no_badges\":\"Aún no has conseguido ninguna insignia.\",\"want_more_badges\":\"¿Quieres más insignias?\",\"expanded_badge_tile_promo_content\":\"Tenemos muchas más. Consigue una báscula Aria, establece un objetivo de peso y empieza a ganar insignias.\",\"steps\":\"pasos\",\"floors\":\"plantas\",\"grams\":\"kg\",\"pounds\":\"lb.\",\"miles\":\"millas\",\"kilometers\":\"kilómetros\",\"earned\":\"Conseguido\",\"goal_met\":\"Objetivo cumplido\",\"goal_set\":\"Objetivo configurado\",\"daily\":\"diario\",\"weekly\":\"semanalmente\",\"monthly\":\"mensualmente\",\"lifetime\":\"absoluto\",\"goal_based\":\"objetivo\",\"more_to_earn_today\":\"más por ganar hoy\",\"more_to_go\":\"quedan más\",\"congrats\":\"Enhorabuena!\",\"way_to_go\":\"¡Sigue así!\",\"alright\":\"¡Muy bien!\",\"time_to_celebrate\":\"¡A celebrarlo!\",\"woohoo\":\"¡Bravo!\",\"you_did_it\":\"¡Lo has conseguido!\",\"whoa\":\"¡Impresionante!\",\"fantastic\":\"¡Fantástico!\",\"yipee\":\"¡Bravo!\",\"to\":\"a\",\"next_floors_daily\":\"insignia diaria principal\",\"next_steps_daily\":\"insignia diaria principal\",\"next_floors_lifetime\":\"siguiente insignia absoluta\",\"next_steps_lifetime\":\"siguiente insignia absoluta\",\"next_miles_lifetime\":\"siguiente insignia absoluta\",\"next_weight_goal\":\"siguiente insignia de pérdida de peso\",\"next_weight_goal_hover\":\"insignia de pérdida de peso\",\"floors_daily\":\"insignia diaria\",\"steps_daily\":\"insignia diaria\",\"lifetime_badge\":\"insignia absoluta por plantas subidas\",\"floors_lifetime\":\"insignia absoluta por plantas subidas\",\"miles_lifetime\":\"insignia absoluta por plantas subidas\",\"kilometers_lifetime\":\"insignia absoluta por plantas subidas\",\"weight_goal_status\":\"perdidos en relación al objetivo\",\"weight_goal_achieved\":\"Insignia de objetivo de peso lograda\",\"weight_goal_badge\":\"insignia de objetivo de peso\",\"get_started_badges\":\"Ponte en marcha con las insignias\",\"set_weight_goal_start\":\"¡Establece un objetivo de peso para ponerte en marcha!\",\"get_stepping_earn_badges\":\"Empieza a andar para lograr insignias\",\"earn_first_badge\":\"¡Consigue tu primera insignia al llegar a 5.000 pasos!\",\"share_button_label\":\"Compartir\",\"cheer_button_label\":\"Animar\",\"cheered_you_label\":\"te ha animado\",\"and_label\":\"y\",\"others_label\":\"también a otros\",\"badges_title\":\"Insignias principales\",\"badges_title_settings\":\"Insignias principales\",\"badges_title_expanded\":\"Insignias principales\"}});"
+
+/***/ },
+/* 29 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/verificationEmailModal.es_CL', {\"namespace\":\"com.fitbit.app.ngd.verificationEmailModal\",\"translations\":{\"title\":\"Correo electrónico enviado\",\"subtitle\":\"Se ha enviado un nuevo correo electrónico de verificación a {0}.\",\"failedTitle\":\"Correo electrónico no enviado\",\"failedSubtitle\":\"Vuelve a intentarlo en unos minutos\"}});"
+
+/***/ },
+/* 30 */,
+/* 31 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(71))
+
+/***/ },
+/* 32 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(72))
+
+/***/ },
+/* 33 */,
+/* 34 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(74))
+
+/***/ },
+/* 35 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(75))
+
+/***/ },
+/* 36 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(76))
+
+/***/ },
+/* 37 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(77))
+
+/***/ },
+/* 38 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(78))
+
+/***/ },
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(79))
+
+/***/ },
+/* 40 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(80))
+
+/***/ },
+/* 41 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(81))
+
+/***/ },
+/* 42 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(82))
+
+/***/ },
+/* 43 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(83))
+
+/***/ },
+/* 44 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(84))
+
+/***/ },
+/* 45 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(85))
+
+/***/ },
+/* 46 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(86))
+
+/***/ },
+/* 47 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(87))
+
+/***/ },
+/* 48 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(88))
+
+/***/ },
+/* 49 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(89))
+
+/***/ },
+/* 50 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(90))
+
+/***/ },
+/* 51 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(91))
+
+/***/ },
+/* 52 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(92))
+
+/***/ },
+/* 53 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(93))
+
+/***/ },
+/* 54 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(94))
+
+/***/ },
+/* 55 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(95))
+
+/***/ },
+/* 56 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(96))
+
+/***/ },
+/* 57 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(97))
+
+/***/ },
+/* 58 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(98))
+
+/***/ },
+/* 59 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(99))
+
+/***/ },
+/* 60 */,
+/* 61 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(101))
+
+/***/ },
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(108))
+
+/***/ },
+/* 69 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1)(__webpack_require__(109))
+
+/***/ },
+/* 70 */,
+/* 71 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/goal/message.es_CL', {\"namespace\":\"com.fitbit.app.goal.message\",\"translations\":{\"completeness_weight_maintenance\":\"del objetivo de mantenimiento de peso\",\"completeness_weight_gain\":\"del objetivo de aumento de peso de\",\"completeness_weight_loss\":\"del objetivo de pérdida de peso de\",\"completeness_fitness_plan\":\"de {0} calorías por actividad al día\",\"completeness\":\"de {0} {1} {2}\",\"completeness_percent\":\"<span>{0} %</span> del objetivo de {1}\",\"dialog_activity_goal_change\":\"La semana pasada, quemaste {0} calorías al día gracias a la actividad física. Tu objetivo actual para esta semana es de {1} calorías al día. Te sugerimos que cambies el objetivo de esta semana a {2} calorías al día.\",\"dialog_user_goal_title\":\"Configurar objetivo\",\"dialog_primary_goal_title\":\"Seleccionar otro objetivo\",\"dialog_primary_goal_complete\":\"% Completo\",\"dialog_primary_goal_primary\":\"Principal\",\"dialog_primary_goal_select\":\"Seleccionar\",\"dialog_primary_fitness_goals\":\"Objetivos de fitness\",\"dialog_primary_weight_goals\":\"Objetivos de peso\",\"dialog_primary_goal_burn\":\"Objetivo de quema de calorías del entrenador de <span id=\\\"target.{0}\\\">{1}</span> calorías al día\",\"dialog_primary_goal_steps\":\"Objetivo de pasos semanales de <span id=\\\"target.{0}\\\">{1}</span> pasos\",\"dialog_primary_goal_distance\":\"Objetivo de distancia semanal de <span id=\\\"target.{0}\\\">{1}</span> {2}\",\"dialog_primary_goal_climb\":\"Objetivo de subida semanal de <span id=\\\"target.{0}\\\">{1}</span> plantas\",\"dialog_primary_goal_weight\":\"Mi objetivo de peso va a ser de <span id=\\\"target.{0}\\\">{1}</span>\",\"fitness_day1_week1\":\"Debes quemar una media de {0} calorías o más esta semana para superar tu objetivo.\",\"fitness_day1_beat\":\"Has superado tu objetivo de la semana pasada de {1} calorías en {2} calorías. Esta semana, tu objetivo consiste en quemar una media de {0} calorías o más.\",\"fitness_day1_missed\":\"No has superado tu objetivo de la semana pasada de {1} calorías en {2} calorías. Esta semana, tu objetivo consiste en quemar una media de {0} calorías o más.\",\"fitness_day26\":\"Debes quemar una media de {0} calorías o más en lo que queda de semana para superar tu objetivo.\",\"fitness_day7\":\"Debes quemar {0} calorías o más hoy para superar tu objetivo semanal.\",\"fitness_ontrack\":\"¡Esta semana tu progreso es espectacular! Mantenlo y no tendrás problemas para lograr tu objetivo.\",\"maintenance_day1_week1\":\"Debes quemar una media de {0} calorías esta semana para superar tu objetivo.\",\"maintenance_day1_beat\":\"Has superado tu objetivo de la semana pasada de {1} calorías en {2} calorías. Esta semana, tu objetivo consiste en quemar una media de {0} calorías.\",\"maintenance_day1_missed\":\"No has superado tu objetivo de la semana pasada de {1} calorías en {2} calorías. Esta semana, tu objetivo consiste en quemar una media de {0} calorías.\",\"maintenance_day26\":\"Debes quemar una media de {0} calorías en lo que queda de semana para superar tu objetivo.\",\"maintenance_day7\":\"Debes quemar {0} calorías hoy para superar tu objetivo semanal.\",\"maintenance_ontrack\":\"¡Esta semana tu progreso es espectacular! Mantenlo y no tendrás problemas para lograr tu objetivo.\",\"congratulation_maintain\":\"Completaste tu plan de fitness de 12 semanas. <br />Tu nivel de actividad inicial se ha mantenido.\",\"congratulation_beat\":\"Has completado tu plan de actividad física de 12 semanas.<br />Has aumentado tu nivel de actividad general en un {0} %.\",\"congratulation_loose\":\"Tu plan de fitness de 12 semanas ha terminado.<br />¡Comprueba tus resultados e inténtalo de nuevo!\",\"congratulation\":\"¡Enhorabuena!\",\"calories_burn_more\":\"Mi objetivo es quemar más de\",\"calories_eat_more\":\"Mi objetivo es comer más de\",\"calories_eat_less\":\"Mi objetivo es comer menos de\",\"calories_eat\":\"Mi objetivo es comer\",\"calories_subject\":\"calorías cada día\",\"calories_subject_this_week\":\"Cal/día esta semana\",\"calories_eaten_food_goal_note\":\"Nota: Esto desactiva el objetivo de comida. Tu objetivo calórico no se actualizará automáticamente basado en tus niveles de actividad.\",\"trainer_need_hand\":\"¿Necesitas ayuda para moverte más?\",\"trainer_challenge\":\"¿Aceptas el desafío de incrementar tu actividad?\",\"trainer_start_free\":\"¡Inicia ya una prueba gratuita de una semana con el entrenador Fitbit!\",\"trainer_trial_ended\":\"Tu prueba gratuita del entrenador ha finalizado.\",\"trainer_get_premium_back\":\"Suscríbete a Premium y mejora aún más tu salud y forma física.\",\"trainer_get_premium\":\"¡Consigue el entrenador Fitbit Premium ya!\",\"trainer_renew_premium\":\"¡Renueva tu suscripción Premium ya!\",\"trainer_new_plan\":\"¡Mantén o incrementa tu actividad con un nuevo plan de entrenamiento!\",\"trainer_will_encourage\":\"Tu entrenador te animará a moverte más aumentando tu objetivo a principios de cada semana.\",\"run_walk_more\":\"Mi objetivo es caminar o correr más de\",\"climb_more\":\"Mi objetivo es subir más de\",\"steps_subject\":\"pasos cada día\",\"climb_subject\":\"plantas cada día\",\"weekly_steps_subject\":\"pasos cada semana\",\"weekly_climb_subject\":\"plantas cada semana\",\"distance_subject\":\"{0} cada día\",\"distance_subject_week\":\"{0} cada semana\",\"score_reach\":\"Mi objetivo es llegar a\",\"score_subject\":\"marcador de actividad cada día\",\"frequency_ONETIME\":\"Una vez, por\",\"frequency_DAILY\":\"Diaria\",\"frequency_WEEKLY\":\"Semanal\",\"frequency_MONTHLY\":\"Mensual\",\"frequency_goal_marker\":\"Objetivo\",\"goal_duration_week\":\"Objetivos semanales\",\"type_WEIGHT_GOAL\":\"peso\",\"type_FOOD_BUDGET_GOAL\":\"consumo de alimentos\",\"type_CALORIES_BURNED_GOAL\":\"calorías quemadas\",\"type_CALORIES_CONSUMED_GOAL\":\"calorías consumidas\",\"type_STEPS_GOAL\":\"pasos dados\",\"type_FLOORS_CLIMBED_GOAL\":\"plantas subidas\",\"type_DISTANCE_FROM_STEPS_GOAL\":\"millas recorridas\",\"type_DISTANCE_RUN_GOAL\":\"distancia corrida\",\"type_DISTANCE_BIKE_GOAL\":\"distancia pedaleada\",\"type_STATE_VERY_ACTIVE_GOAL\":\"estado de \\\"actividad alta\\\"\",\"type_STATE_FAIRLY_ACTIVE_GOAL\":\"estado de \\\"actividad media\\\"\",\"type_TIME_RUN_GOAL\":\"tiempo corrido\",\"type_TIME_WALK_GOAL\":\"tiempo andado\",\"type_RESTING_HEART_RATE_GOAL\":\"ritmo cardíaco de descanso\",\"type_WAIST_SIZE_GOAL\":\"medida de la cintura\",\"type_PRESS_BENCH_GOAL\":\"press de banca\",\"type_PRESS_LEG_GOAL\":\"press de piernas\",\"type_PACE_GOAL\":\"ritmo\",\"type_ACTIVE_SCORE_GOAL\":\"marcador de actividad\",\"type_FITNESS_PLAN_GOAL\":\"calorías por actividad diaria\",\"type_WEEKLY_FITNESS_GOAL\":\"calorías por actividad diaria\",\"type_WEIGHT_GOAL_unit\":\"lb\",\"type_FOOD_BUDGET_GOAL_unit\":\"calorías\",\"type_CALORIES_BURNED_GOAL_unit\":\"calorías\",\"type_CALORIES_CONSUMED_GOAL_unit\":\"calorías\",\"type_STEPS_GOAL_unit\":\"pasos\",\"type_FLOORS_CLIMBED_GOAL_unit\":\"plantas\",\"type_DISTANCE_FROM_STEPS_GOAL_unit\":\"millas\",\"type_DISTANCE_RUN_GOAL_unit\":\"millas\",\"type_DISTANCE_BIKE_GOAL_unit\":\"millas\",\"type_STATE_VERY_ACTIVE_GOAL_unit\":\"minutos\",\"type_STATE_FAIRLY_ACTIVE_GOAL_unit\":\"minutos\",\"type_TIME_RUN_GOAL_unit\":\"horas\",\"type_TIME_WALK_GOAL_unit\":\"horas\",\"type_RESTING_HEART_RATE_GOAL_unit\":\"pulsaciones/minuto\",\"type_WAIST_SIZE_GOAL_unit\":\"pulgadas\",\"type_PRESS_BENCH_GOAL_unit\":\"lb\",\"type_PRESS_LEG_GOAL_unit\":\"lb\",\"type_PACE_GOAL_unit\":\"minutos/milla\",\"type_ACTIVE_SCORE_GOAL_unit\":null,\"type_FITNESS_PLAN_GOAL_unit\":\"calorías\",\"type_WEEKLY_FITNESS_GOAL_unit\":\"calorías\",\"unit_miles\":\"millas\",\"unit_km\":\"km\",\"category_WEIGHT\":\"Objetivos de peso\",\"category_NUTRITION\":\"Objetivos nutricionales\",\"category_STEP\":\"Objetivos de pasos\",\"category_ACTIVITY\":\"Objetivos de actividad\",\"category_TIME\":\"Objetivos de tiempo\",\"category_HEART\":\"Objetivos cardíacos\",\"category_SIZE\":\"Objetivos de talla\",\"category_WEIGHT_LIFTING\":\"Objetivos de levantamiento de peso\",\"category_PACE\":\"Objetivos de ritmo\",\"category_SCORE\":\"Objetivos de marcador\",\"category_DISTANCE\":\"Objetivos de distancia\",\"category_FITNESS\":\"Objetivos de fitness\",\"switch_goal\":\"Modificar objetivo\",\"lost_out_of\":\"{0} perdidos de {1}\",\"gained_out_of\":\"{0} ganados de {1}\",\"gained_since_you\":\"{0} ganados desde que estableciste tu objetivo\",\"lost_since_you\":\"{0} perdidos desde que estableciste tu objetivo\",\"youre_on_track\":\"<b>¡Estás dentro de lo previsto!</b> ¡Bien hecho!\",\"youre_under\":\"Estás {0} por debajo de tu objetivo.\",\"youre_over\":\"Estás {0} por encima de tu objetivo.\",\"under\":\"inferior\",\"over\":\"superior\",\"youre_above\":\"Estás por encima de tu peso inicial.\",\"youre_below\":\"Estás por debajo de tu peso inicial.\",\"youve_moved_away\":\"Te has alejado de tu objetivo de peso.\",\"reset_goal\":\"¿Restablecer objetivo?\",\"set_a_goal\":\"Establecer un objetivo\",\"hooray\":\"¡Hurra!\",\"youve_reached\":\"Has logrado tu objetivo.\",\"set_new\":\"Establecer nuevo objetivo\",\"set_a_goal_now\":\"Establecer un objetivo ahora\",\"weight_goal_not_set\":\"El objetivo de peso no está establecido.\",\"baa_baa_black_shee\":\"Otra me da lana\",\"completeness_weekly_steps_goal\":\"one{{0} % de {1} paso semanal}other{{0} % de {1} pasos semanales}\",\"weekly_steps_unit\":\"one{paso}other{pasos}\",\"completeness_weekly_distance_goal\":\"{0} % de {1} {2} a la semana\",\"weekly_distance_unit_km\":\"one{km}other{kms}\",\"weekly_distance_unit_miles\":\"one{milla}other{millas}\",\"completeness_weekly_floors_goal\":\"{0} % de {1} {2} a la semana\",\"weekly_floors_unit\":\"one{planta}other{plantas}\"}});"
+
+/***/ },
+/* 72 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/leaderboard/error.es_CL', {\"namespace\":\"com.fitbit.app.leaderboard.error\",\"translations\":{\"leaderboard_service_error_message\":\"En este momento, tu tabla de clasificación no está disponible.\"}});"
+
+/***/ },
+/* 73 */,
+/* 74 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/activeminutes.es_CL', {\"namespace\":\"com.fitbit.app.ngd.activeminutes\",\"translations\":{\"activeminutes\":\"Minutos de actividad\",\"activeminutes_header\":\"¿Qué son los minutos de actividad?\",\"activeminutes_msg\":\"Consigues minutos de actividad cuando realizas ejercicio de manera moderada o intensa (por ejemplo, practicando jogging o corriendo).\",\"activeminutes_learn_more\":\"Más información\",\"activeminutes_href\":\"https://help.fitbit.com/customer/portal/articles/1020095-what-are-very-active-minutes\",\"title_this_week\":\"Esta semana\",\"total\":\"Total\"}});"
+
+/***/ },
+/* 75 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/activity.es_CL', {\"namespace\":\"com.fitbit.app.ngd.activity\",\"translations\":{\"activity_title\":\"Actividad\",\"triple_activity_title\":\"Actividad + Estadísticas\",\"series\":\"Series\",\"time_period\":\"Periodo de tiempo\",\"today\":\"Hoy\",\"seven_days\":\"7 días\",\"thirty_days\":\"30 días\",\"twenty_eight_days\":\"28 días\",\"daily\":\"Diario\",\"weekly\":\"Semanalmente\",\"steps_title\":\"Pasos\",\"distance_title\":\"Distancia\",\"active_minutes_title\":\"Minutos de actividad\",\"floors_title\":\"Plantas\",\"calories_title\":\"Calorías\",\"heart_rate_title\":\"Frecuencia cardiaca\",\"light\":\"ligera\",\"moderate\":\"media\",\"intense\":\"intensa\",\"active\":\"activo\",\"very_active\":\"actividad alta\",\"goal_met\":\"Objetivo cumplido\",\"goal_unmet\":\"Objetivo no cumplido\",\"beat_yesterday\":\"Superar ayer\",\"best_day\":\"Mejor día:\",\"7_day_average\":\"Promedio de 7 días\",\"7_day_total\":\"Total de 7 días\",\"7_day_average_time_in_zones\":\"Tiempo promedio de 7 días en zonas\",\"7_day_total_time_in_zones\":\"Tiempo total de 7 días en zonas\",\"28_day_average_time_in_zones\":\"Tiempo promedio de 28 días en zonas\",\"28_day_average\":\"Promedio de 28 días\",\"lifetime_steps\":\"Pasos absolutos\",\"lifetime_distance\":\"Distancia absoluta\",\"lifetime_floors\":\"Plantas absolutas\",\"weekly_goal_progress\":\"Progreso del objetivo semanal\",\"increase_over_previous_28_days\":\"Incremento durante los 28 días anteriores\",\"decrease_over_previous_28_days\":\"Disminución durante los 28 días anteriores\",\"peak_zone\":\"Zona pico\",\"cardio_zone\":\"Zona cardio\",\"fat_burn_zone\":\"Zona de quema de grasa\",\"triple_wide_series_tooltip\":\"Elige una estadísticas, cualquiera de ellas\",\"triple_wide_period_tooltip\":\"¿Cuántos días quieres visualizar?\"}});"
+
+/***/ },
+/* 76 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/calories.es_CL', {\"namespace\":\"com.fitbit.app.ngd.calories\",\"translations\":{\"calories_burned\":\"Calorías quemadas\",\"calories\":\"Calorías\",\"make_changes_in_trainer_tile\":\"Introduce cambios en el mosaico Entrenador\",\"calories_title\":\"Calorías\",\"calories_title_settings\":\"Calorías quemadas\",\"calories_title_expanded\":\"Calorías quemadas\"}});"
+
+/***/ },
+/* 77 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/calzone.es_CL', {\"namespace\":\"com.fitbit.app.ngd.calzone\",\"translations\":{\"cals_in_out\":\"Balance calórico\",\"zone_under\":\"POR DEBAJO\",\"zone_in\":\"EN LA ZONA\",\"zone_over\":\"POR ENCIMA\",\"cals\":\"cal.\",\"vs\":\"frente a\",\"this_week_deficit\":\"Déficit de esta semana\",\"easy\":\"Fácil\",\"medium\":\"Medio\",\"kinda_hard\":\"Algo difícil\",\"harder\":\"Más difícil\",\"maintenance\":\"Mantenimiento\",\"in\":\"consumo\",\"out\":\"quem.\",\"are_you_in\":\"¿Estás en la zona?\",\"plan_desc\":\"Comprueba si has quemado o ingerido más calorías registrando los alimentos y monitorizando la actividad durante el día.\",\"start_plan\":\"Iniciar un plan alimentario\",\"plan_intensity\":\"Intensidad del plan\",\"deficit_goal\":\"Objetivo de déficit\",\"daily_avg\":\"Media diaria\",\"eaten\":\"ingeridas\",\"burned\":\"quem.\",\"calzone_title\":\"Balance calórico\",\"calzone_title_settings\":\"Balance calórico\",\"calzone_title_expanded\":\"Balance calórico\",\"calzone_title_empty\":\"Balance calórico\",\"no_thanks\":\"No, gracias\",\"man_cal_msg\":\"La zona de calorías ingeridas vs. quemadas no está disponible cuando tienes definido un objetivo de calorías manual.\"}});"
+
+/***/ },
+/* 78 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/chart.es_CL', {\"namespace\":\"com.fitbit.app.ngd.chart\",\"translations\":{\"legend_goal_met\":\"Objetivo cumplido\",\"legend_under\":\"Por debajo\",\"legend_over\":\"Por encima\",\"legend_out\":\"Cal. quemadas\",\"legend_burned\":\"Calorías quemadas\",\"legend_eaten\":\"Calorías ingeridas\",\"legend_burned_short\":\"cal. quemadas\",\"legend_eaten_short\":\"cal. ingeridas\",\"legend_lightly_active\":\"Ligera\",\"legend_fairly_active\":\"Media\",\"legend_very_active\":\"Alta\",\"legend_very\":\"Alta\",\"title_past_month\":\"Último mes\",\"title_past_2_weeks\":\"Últimas 2 semanas\",\"subnav_very_active\":\"Actividad alta\",\"subnav_all\":\"Todos\"}});"
+
+/***/ },
+/* 79 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/datenav.es_CL', {\"namespace\":\"com.fitbit.app.ngd.datenav\",\"translations\":{\"previous\":\"Anterior\",\"next\":\"Siguiente\"}});"
+
+/***/ },
+/* 80 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/distance.es_CL', {\"namespace\":\"com.fitbit.app.ngd.distance\",\"translations\":{\"distance\":\"Distancia\",\"distance_title\":\"Distancia\",\"distance_title_settings\":\"Distancia\",\"distance_title_expanded\":\"Distancia\"}});"
+
+/***/ },
+/* 81 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/exercise.es_CL', {\"namespace\":\"com.fitbit.app.ngd.exercise\",\"translations\":{\"exercise_title\":\"Ejercicio reciente\",\"view_all\":\"Ver toda la actividad de ejercicio\",\"no_recent\":\"No hay ejercicios recientes\",\"log_exercises\":\"Registra ejercicios para medir tu rendimiento y calibrar tus mejoras a lo largo del tiempo.\",\"you_vs_couch\":\"Tú: 1, Sofá: 0\",\"exercise_is_great\":\"El ejercicio es una gran manera de potenciar tu actividad de Fitbit, ¡sigue así!\",\"congrats\":\"¡Enhorabuena!\",\"getting_out_there\":\"Estás que te sales.\",\"increasing_exercise\":\"El aumento gradual y moderado del ejercicio es la actitud más inteligente y saludable.\",\"activity_date_format\":\"%e %b - %l:%M%Q\",\"plural_miles_label\":\"millas\",\"plural_km_label\":\"km\",\"pace\":\"ritmo\",\"average_heart_rate\":\"lpm med.\",\"map\":\"Mapa\",\"miles_per_hour\":\"mph\",\"kilometers_per_hour\":\"km/h\"}});"
+
+/***/ },
+/* 82 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/floors.es_CL', {\"namespace\":\"com.fitbit.app.ngd.floors\",\"translations\":{\"floors\":\"Floors\",\"floors_title\":\"Plantas\",\"floors_title_setting\":\"Plantas\",\"floors_title_expanded\":\"Plantas\"}});"
+
+/***/ },
+/* 83 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/foodplan.es_CL', {\"namespace\":\"com.fitbit.app.ngd.foodplan\",\"translations\":{\"food_plan\":\"Plan alimentario\",\"how_much\":\"¿Cuánto puedes comer?\",\"see_how_many\":\"Obtén una estimación calórica diaria que te ayudará a conseguir tu objetivo de peso.\",\"start_a_food_plan\":\"Iniciar un plan alimentario\",\"start_a_plan\":\"Iniciar un plan\",\"plan_intensity\":\"Intensidad del plan\",\"deficit_goal\":\"Objetivo de déficit\",\"you_dont_have_plan\":\"Ahora no tienes ningún plan alimentario.\",\"start_one_now\":\"Empieza uno ahora\",\"intensity_maintenance\":\"Mantenimiento\",\"intensity_low\":\"Bajo\",\"intensity_medium\":\"Medio\",\"intensity_high\":\"Alto\",\"intensity_extreme\":\"Extremo\",\"left\":\"abandonó\",\"eaten\":\"ingeridas\",\"you_have_not_logged\":\"No has registrado ningún alimento.\",\"cals\":\"cal.\",\"to_eat\":\"por ingerir\",\"left_to_eat\":\"quedan por ingerir\",\"this_week_avg\":\"media diaria esta semana\",\"over\":\"superior\",\"food_plan_title\":\"Plan alimentario\",\"food_plan_title_settings\":\"Plan alimentario\",\"food_plan_title_expanded\":\"Plan alimentario\",\"food_plan_title_empty\":\"Plan alimentario\",\"no_thanks\":\"No, gracias\",\"start_now\":\"Empezar ahora\",\"reached_goal_of\":\"Has logrado tu objetivo de\",\"man_cal_goal\":\"Objetivo manual de calorías\"}});"
+
+/***/ },
+/* 84 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/goal.es_CL', {\"namespace\":\"com.fitbit.app.ngd.goal\",\"translations\":{\"of_goal_of\":\"de\",\"unit_steps\":\"Pasos\",\"unit_steps_counter\":\"Pasos\",\"unit_distance\":\"Millas\",\"unit_miles\":\"millas\",\"unit_kilometers\":\"kilómetros\",\"unit_calories-burned\":\"Calorías\",\"unit_floors\":\"Plantas\",\"unit_floors_counter\":\"Plantas\",\"unit_active-minutes\":\"Minutos\",\"daily_goal\":\"Objetivo diario\",\"your_weekly_goal_is\":\"Tu objetivo semanal es\",\"weekly_goal\":\"Objetivo semanal\",\"week_total\":\"Total de la semana\",\"this_weeks_total\":\"Total de esta semana\",\"this_week_daily_avg\":\"Esta semana\",\"daily_avg\":\"Media diaria\",\"weekly_deficit\":\"Déficit semanal:\",\"weekly_deficit_cals\":\"Cal.\",\"progress_msg_49\":\"Estás por debajo.\",\"progress_msg_99\":\"Estás dentro de lo previsto.\",\"progress_msg_124\":\"¡Objetivo cumplido!\",\"progress_msg_125+\":\"Te superas a ti mismo constantemente.\",\"progress_percentage_of_val\":\"{percent} % de {target}\",\"daily_avg_change_up\":\"+\",\"daily_avg_change_down\":\"-\",\"daily_avg_change_format\":\"{direction} {percent}%\",\"champ\":\"¡Campeón!\",\"overachiever\":\"Te superas a ti mismo constantemente.\",\"goal_met\":\"Objetivo cumplido. ¡Bravo!\",\"to_go\":\"por delante\",\"today\":\"hoy\",\"body_fat\":\"grasa corporal\",\"since_last_month\":\"desde el mes pasado\",\"encouragement\":\"¡Lo has conseguido!\",\"set_new_goal\":\"Nuevo objetivo\",\"show_graph\":\"Cerrar\",\"weight_goal\":\"Objetivo de peso\",\"weight_loss_goal\":\"Objetivo de pérdida de peso\",\"weight_gain_goal\":\"Objetivo de aumento de peso\",\"weight_maintain_goal\":\"Objetivo de mantenimiento de peso\",\"fat_goal\":\"Objetivo de grasa corporal\",\"no_fat_goal\":\"No has establecido un objetivo de grasa corporal.\",\"setup_fat_goal\":\"¿Añadir objetivo?\",\"no_weight_goal\":\"No has establecido un objetivo de peso.\",\"setup_weight_goal\":\"¿Añadir objetivo?\",\"add_a_goal\":\"Añadir un objetivo\",\"smiley_cheer\":\"¡Hurra!\",\"goal\":\"objetivo\"}});"
+
+/***/ },
+/* 85 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/goalTile.es_CL', {\"namespace\":\"com.fitbit.app.ngd.goalTile\",\"translations\":{\"activity_goals\":\"Objetivos de actividad\",\"invalid_step_goal\":\"Objetivo de pasos no válido.\",\"invalid_cals_goal\":\"Objetivo de calorías no válido.\",\"invalid_miles_goal\":\"Objetivo de millas no válido.\",\"invalid_active_mins_goal\":\"Objetivo de minutos activos no válido.\",\"invalid_floors_goal\":\"Objetivo de plantas subidas no válido.\",\"goal_tile\":\"Objetivos\",\"steps_popup_h3\":\"¿Por qué 10 000 pasos?\",\"steps_popup_msg\":\"La American Heart Association (Asociación Estadounidense de Cardiología) recomienda dar 10 000 pasos al día para disfrutar de los beneficios que ofrece caminar para la salud.\",\"calories_popup_h3\":\"¿He quemado calorías?\",\"calories_popup_msg\":\"¿Sabías que quemas calorías incluso sin realizar actividad alguna en todo el día? Es tu tasa metabólica basal.\",\"distance_popup_h3\":\"¿Cómo se mide la distancia?\",\"distance_popup_msg\":\"La distancia se calcula en función de tus pasos y de la longitud estimada de tu zancada.\",\"active_mins_popup_h3\":\"¿Cuál es tu nivel de actividad?\",\"include_moderate_popup_msg\":\"Consigues minutos de actividad cuando realizas ejercicio de manera moderada o intensa durante 10 minutos o más.\",\"very_active_popup_msg\":\"Gana minutos de actividad alta durante el día cuando realices actividades de mucha intensidad.\",\"floors_popup_h3\":\"¿Por qué subir por las escaleras?\",\"floors_popup_msg\":\"¿Sabías que puedes quemar seis veces más calorías subiendo por las escaleras que haciéndolo por el ascensor?\",\"steps_link\":\"http://blog.fitbit.com/the-magic-of-10000-steps/\",\"calories_link\":\"http://help.fitbit.com/articles/en_US/Help_article/How-does-Fitbit-know-how-many-calories-I-ve-burned\",\"distance_link\":\"http://help.fitbit.com/articles/en_US/Help_article/How-does-my-tracker-calculate-distance\",\"active_minutes_link\":\"http://help.fitbit.com/articles/en_US/Help_article/What-are-very-active-minutes\",\"floors_link\":\"http://help.fitbit.com/articles/en_US/Help_article/How-does-my-tracker-count-floors\",\"disable_checkbox_header\":\"ver\",\"setting_input_header\":\"estadísticas de actividad\"}});"
+
+/***/ },
+/* 86 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/intraday.es_CL', {\"namespace\":\"com.fitbit.app.ngd.intraday\",\"translations\":{\"noon\":12,\"steps\":\"pasos\",\"distance\":\"distancia\",\"active_minutes\":\"minutos de actividad\",\"floors\":\"plantas\",\"calories\":\"cal.\",\"heart_rate\":\"frecuencia cardiaca\",\"calories_short\":\"cal.\",\"weekly_goal\":\"Tu objetivo semanal es\",\"AM\":\"AM\",\"PM\":\"PM\",\"activities\":\"Actividades\",\"activity\":\"Actividad\",\"activity_beta\":\"Actividad de hoy\",\"activity_beta_2\":\"Actividad de hoy\",\"activity_beta_3\":\"Actividad\",\"Intensity\":\"Intens.\",\"Light\":\"Ligera\",\"Moderate\":\"Media\",\"Very\":\"Alta\",\"light\":\"ligera\",\"moderate\":\"media\",\"intense\":\"intensa\",\"activity_title\":\"Actividad de hoy\",\"activity_title_settings\":\"Actividad de hoy\",\"activity_title_expanded\":\"Actividad de hoy\",\"zone_peak\":\"en pico\",\"zone_cardio\":\"en la zona cardio\",\"zone_fat_burn\":\"en la zona de quema de grasa\",\"zone_custom\":\"en la zona personalizada\",\"peak\":\"Pico\",\"cardio\":\"Zona cardio\",\"fat_burn\":\"Quema de grasas\",\"series\":\"Series\",\"time_period\":\"Periodo de tiempo\",\"today\":\"Hoy\",\"seven_days\":\"7 días\",\"thirty_days\":\"30 días\"}});"
+
+/***/ },
+/* 87 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/leaderboard.es_CL', {\"namespace\":\"com.fitbit.app.ngd.leaderboard\",\"translations\":{\"friends\":\"Amigos\",\"previous_not_viewable\":\"No se pueden ver los días anteriores en este mosaico.\",\"friends_title\":\"Amigos\",\"friends_title_settings\":\"Amigos\"}});"
+
+/***/ },
+/* 88 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/premium.es_CL', {\"namespace\":\"com.fitbit.app.ngd.premium\",\"translations\":{\"trainer\":\"Entrenador\",\"slash_range\":\"/ {0} - {1}\",\"goal_met\":\"objetivo cumplido\",\"twelve_week_plan\":\"Plan de 12 semanas\",\"this_week\":\"Esta semana\",\"congratulations_youve_reached_your_goal\":\"¡Enhorabuena! Has logrado tu objetivo de actividad.\",\"youre_below_goal\":\"Estás por debajo del objetivo marcado.\",\"burn_more_calories\":\"Quema unas {0} calorías más para lograr tu objetivo.\",\"slash_week_n\":\"/semana {0}\",\"plan_to_be_more_active\":\"Plan para incrementar tu actividad\",\"increase_activity_each_day\":\"Aumenta tu actividad cada día con un plan de entrenamiento de 12 semanas diseñado especialmente para ti.\",\"set_up_plan\":\"Configura tu plan.\",\"activity_calories\":\"Calorías por actividad\",\"activity_cals\":\"cal. actividad\",\"week_one_abbreviated\":\"SEM1\",\"suggest_changing_goal\":\"Sugerimos {suggestedGoal} cal/día\",\"this_week_burn_more_calories\":\"Esta semana, quema {0} calorías más para cumplir tu objetivo de {1} calorías.\",\"week\":\"semana\",\"plan\":\"plan\",\"cals\":\"cal.\",\"average\":\"media\",\"premium\":\"Premium\",\"need_motivation\":\"¿Necesitas motivación para moverte más?\",\"increase_activity_with_premium\":\"Aumenta tu actividad diaria con Fitbit Premium.\",\"increase_activity_with_highlighted_premium\":\"Aumenta tu actividad diaria con <span class=\\\"programName\\\">Fitbit Premium</span>.\",\"increase_activity_with\":\"Aumenta tu actividad diaria con {0}.\",\"fitbit_premium\":\"Fitbit Premium\",\"try_now\":\"Pruébalo ahora\",\"learn_more\":\"Más información\",\"no_thanks\":\"No, gracias\",\"trainer_title\":\"Entrenador\",\"trainer_title_settings\":\"Entrenador\",\"trainer_title_expanded\":\"Entrenador\",\"trainer_title_empty\":\"Entrenador\",\"trainer_inactive_plan\":\"Tu plan no estaba activo este día.\"}});"
+
+/***/ },
+/* 89 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/restingHeartRate.es_CL', {\"namespace\":\"com.fitbit.app.ngd.restingHeartRate\",\"translations\":{\"resting_heart_rate_title\":\"Ritmo cardíaco en reposo\",\"resting_heart_rate_unit\":\"lpm en reposo\",\"today\":\"Hoy\",\"rhr_onboarding_title\":\"Frecuencia cardiaca en reposo\",\"rhr_onboarding_subtitle\":\"¿Es fuerte tu corazón?\",\"rhr_onboarding_body\":\"El ritmo cardíaco en reposo mide tus pulsaciones cuando estás quieto. Lleva puesto Fitbit en la cama para obtener las lecturas más precisas.\",\"rhr_onboarding_learn_more\":\"Más información\",\"rhr_onboarding_href\":\"https://help.fitbit.com/articles/es/Help_article/1565\"}});"
+
+/***/ },
+/* 90 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/sleep.es_CL', {\"namespace\":\"com.fitbit.app.ngd.sleep\",\"translations\":{\"awoken\":\"despertado\",\"sleep\":\"Sueño\",\"sleep_time\":\"Horas de sueño\",\"awoken_nx\":\"(despertado {0} veces)\",\"awake_nx\":\"(despierto {0} vez/veces)\",\"rustle\":\"susurro\",\"restless\":\"inquieto\",\"awake\":\"despierto\",\"sleep_time_avg\":\"Media tpo. dormido\",\"past_seven_days\":\"Últimos 7 días\",\"time_asleep\":\"Tiempo durmiendo\",\"how_well\":\"¿Duermes bien?\",\"see_how_long\":\"Comprueba cuántas veces y durante cuánto tiempo te despiertas durante la noche.\",\"learn_how_log\":\"Aprende a registrar <br/>el sueño\",\"learn_how_log_href\":\"http://help.fitbit.com/customer/portal/articles/176101\",\"forgot_to_log\":\"¿Olvidaste registrar tu sueño?\",\"no_sleep_logged_today\":\"Sin datos de sueño registrados este día.\",\"mins_restless\":\"min. inquieto\",\"mins_awake\":\"min. despierto\",\"mins_awake_restless\":\"min despierto/inquieto\",\"asleep\":\"dormido\",\"mins\":\"min\",\"restless_for_n_minutes\":\"e inquieto durante {0} min.\",\"awake_for_n_minutes\":\"Estuviste despierto durante {0} min.\",\"last_night\":\"Anoche\",\"sleep_title_settings\":\"Sueño\",\"sleep_title_expanded\":\"Sueño\",\"sleep_title_empty\":\"Sueño\",\"sleep_title_initial\":\"¿Qué tal has dormido?\",\"no_thanks\":\"No, gracias\",\"learn_more\":\"Más información\",\"start_now\":\"Empezar ahora\",\"suffix_x\":\"veces\",\"recommended_sleep_per_night\":\"La recomendación para los adultos es que duerman entre 7 y 9 horas cada noche.\",\"goal_duration\":\"Introduce un objetivo entre 3 y 24 horas.\",\"time_asleep_goal\":\"Objetivo de tiempo durmiendo\",\"from_goal\":\"del objetivo.\",\"chatter_caught_all_z\":\"¡Has dormido como un lirón!\",\"chatter_goal_met_woo\":\"¡Objetivo cumplido! ¡Increíble!\",\"chatter_sweet_met_goal\":\"¡Fantástico! Has cumplido tu objetivo.\",\"sleep_hours\":\"one{hora}other{horas}\",\"sleep_minutes\":\"one{min}other{min}\",\"delete_goal\":\"Eliminar objetivo\",\"undo_delete_goal\":\"Deshacer eliminar objetivo\",\"you_dont_have\":\"No has definido ningún objetivo de sueño.\",\"from_goal_message\":\"{0} {1} {2} {3} del objetivo.\"}});"
+
+/***/ },
+/* 91 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/steps.es_CL', {\"namespace\":\"com.fitbit.app.ngd.steps\",\"translations\":{\"steps\":\"Pasos\",\"steps_title\":\"Pasos\",\"steps_title_settings\":\"Pasos\",\"steps_title_expanded\":\"Pasos\"}});"
+
+/***/ },
+/* 92 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/sync_capsule.es_CL', {\"namespace\":\"com.fitbit.app.ngd.sync_capsule\",\"translations\":{\"last_sync\":\"Última sincronización:\",\"no_devices\":\"No hay dispositivos emparejados\"}});"
+
+/***/ },
+/* 93 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/tile.es_CL', {\"namespace\":\"com.fitbit.app.ngd.tile\",\"translations\":{\"Settings\":\"Configuración\",\"Expand\":\"Vista rápida\",\"See_More\":\"Ver más\",\"Find_Friends\":\"Buscar amigos\",\"Save\":\"Guardar\",\"done\":\"Terminado\",\"Remove_tile\":\"Eliminar mosaico\",\"Remove_confirm_0\":\"¿Seguro que quieres borrar\",\"Remove_confirm_1\":\"del panel?\",\"cancel\":\"Cancelar\",\"remove\":\"Eliminar\",\"invalid\":\"no válido\"}});"
+
+/***/ },
+/* 94 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/tiledrawer.es_CL', {\"namespace\":\"com.fitbit.app.ngd.tiledrawer\",\"translations\":{\"add_tiles_dash\":\"Añade mosaicos al panel\",\"add_tiles\":\"OK\",\"no_more_tiles\":\"No hay más mosaicos\",\"all_tiles_added\":\"Has añadido todos los mosaicos que tenemos disponibles\",\"expand\":\"ampliar\",\"collapse\":\"contraer\",\"more_coming_soon\":\"¡Próximamente más!\"}});"
+
+/***/ },
+/* 95 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/tooltips.es_CL', {\"namespace\":\"com.fitbit.app.ngd.tooltips\",\"translations\":{\"activeMinutes_header\":\"¿Cuál puede ser tu nivel de actividad?\",\"activeMinutes_msg\":\"Gana minutos de actividad alta cuando realices actividades de mucha intensidad.\",\"activeMinutes_learn_more\":\"Conoce los minutos de actividad\",\"activeminutes_href\":\"https://help.fitbit.com/customer/portal/articles/1020095-what-are-very-active-minutes\",\"activity_hr_info_title\":\"¿Qué son las zonas de ritmo cardíaco?\",\"activity_hr_info_body\":\"Monitoriza diferentes intensidades de entrenamiento con las zonas de ritmo cardíaco.\",\"activity_hr_info_learn_more\":\"Más información\",\"activity_hr_info_href\":\"https://help.fitbit.com/articles/en_US/Help_article/Heart-rate-FAQs#zones\",\"addTile_header\":\"Añade más mosaicos\",\"addTile_msg\":\"Haz clic en icono Menú para añadir más mosaicos a tu panel. ¡Pruébalo ahora!\",\"calories_header\":\"¿He quemado calorías?\",\"calories_msg\":\"¿Sabías que quemas calorías con solo respirar?\",\"calories_learn_more\":\"Acerca de la BMR (Tasa Metabólica Basal)\",\"calories_learn_more_href\":\"https://help.fitbit.com/customer/portal/articles/175997-i-just-woke-up-why-does-my-tracker-already-show-that-i%E2%80%99ve-burned-calories\",\"personalize_header\":\"Personaliza\",\"personalize_msg\":\"Personaliza tu panel reorganizando los mosaicos a tu gusto. ¡Pruébalo ahora!\",\"settings_header\":\"Configuración\",\"settings_msg\":\"Haz clic en el icono Configuración de cada mosaico para cambiar tu objetivo. ¡Pruébalo ahora!\",\"expand_header\":\"¡Pruébalo ahora!\",\"expand_msg\":\"Haz clic en el icono Configuración de cada mosaico para cambiar tu objetivo. ¡Pruébalo ahora!\",\"weight_header\":\"¿Tienes un objetivo de peso?\",\"weight_msg\":\"Haz clic en el icono Configuración para definir tu objetivo y monitorizar tus progresos a lo largo del tiempo.\",\"sleep_modal_header\":\"¿Qué significado le damos a Inquieto?\",\"sleep_modal_msg\":\"Estás inquieto cuando te estás moviendo, aunque no estés despierto conscientemente.\",\"sleep_modal_faq\":\"Más información\",\"sleep_modal_faq_href\":\"https://help.fitbit.com/customer/portal/articles/1230068\",\"rhr_header\":\"¿Qué es el ritmo cardíaco en reposo?\",\"rhr_msg\":\"El ritmo cardíaco en reposo mide tus pulsaciones cuando estás quieto.\",\"rhr_learn_more\":\"Más información\",\"rhr_faq\":\"https://help.fitbit.com/articles/es/Help_article/1565\",\"sedentaryTime_info_title\":\"¿Qué es el objetivo de actividad por hora?\",\"sedentaryTime_info_body\":\"El objetivo de actividad por hora indica las horas del día en las que has caminado más de 250 pasos por hora.\",\"sedentaryTime_hourly_move_goal_tip\":\"Modificar el objetivo de actividad por hora afectará también a los recordatorios de movimiento que recibas.\",\"sedentaryTime_info_learn_more\":\"Más información\",\"sedentaryTime_info_href\":\"https://help.fitbit.com/articles/en_US/Help_article/Moving-time-FAQs\"}});"
+
+/***/ },
+/* 96 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/water.es_CL', {\"namespace\":\"com.fitbit.app.ngd.water\",\"translations\":{\"water\":\"Agua\",\"oz\":\"oz\",\"ml\":\"ml\",\"cups\":\"Tazas\",\"oz_pl\":\"one{oz}other{oz}\",\"ml_pl\":\"one{ml}other{ml}\",\"cups_pl\":\"one{Taza}other{Tazas}\",\"left\":\"quedan por beber\",\"to_drink\":\"por beber\",\"your_weekly_goal_is\":\"Tu objetivo semanal es\",\"daily_goal\":\"Objetivo diario\"}});"
+
+/***/ },
+/* 97 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/weekly.es_CL', {\"namespace\":\"com.fitbit.app.ngd.weekly\",\"translations\":{\"weekly_activity\":\"Actividad de esta semana\",\"weekly_activity_title\":\"Actividad semanal\",\"weekly_activity_title_settings\":\"Actividad semanal\",\"steps\":\"pasos\",\"floors\":\"plantas\",\"calories\":\"cal.\",\"distance\":\"distancia\",\"active_minutes\":\"minutos de actividad\",\"calories_short\":\"cal.\",\"goal\":\"OBJETIVO\",\"of\":\"de\"}});"
+
+/***/ },
+/* 98 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/ngd/weight.es_CL', {\"namespace\":\"com.fitbit.app.ngd.weight\",\"translations\":{\"weight_title\":\"Peso\",\"weight_title_settings\":\"Peso\",\"weight_title_expanded\":\"Peso\",\"bmi\":\"IMC\",\"lean_vs_fat\":\"músculo vs. grasa\",\"weight\":\"peso\",\"past_month\":\"Past Month\",\"lean_mass\":\"Masa magra\",\"body_fat\":\"Grasa corporal\",\"fat\":\"grasa\",\"monthly_change\":\"desde el mes pasado\",\"yeah\":\"¡Sí!\",\"goal_met\":\"Objetivo cumplido\",\"under\":\"inferior\",\"normal\":\"normal\",\"over\":\"superior\",\"obese\":\"obeso\",\"title_under\":\"Por debajo\",\"title_normal\":\"Normal\",\"title_over\":\"Por encima\",\"title_obese\":\"Obeso\",\"weight_goal\":\"Objetivo de peso\",\"body_fat_goal\":\"Objetivo de grasa corporal\",\"recent\":\"RECIENTE\",\"set_new_goal\":\"Establecer un nuevo objetivo\",\"graph_view\":\"Vista de gráfico\",\"setting_percent\":\"%\",\"setting_weight_goal\":\"Objetivo de peso\",\"setting_starting_percentage\":\"% inicial\",\"setting_goal_percentage\":\"% del objetivo\",\"setting_starting_weight\":\"Peso inicial\",\"setting_body_fat_goal\":\"Objetivo de grasa corporal\",\"setting_goal_percent\":\"% del objetivo\",\"setting_goal_invalid\":\"no válido\",\"onboarding_header\":\"¿Tienes un objetivo de peso?\",\"onboarding_message\":\"Monitoriza tu progreso y motívate estableciendo un objetivo de peso.\",\"no_thanks\":\"No, gracias\",\"set_goal\":\"Establecer un objetivo\",\"lets_set_a_weight_goal\":\"Definamos un objetivo de peso.\",\"do_you_want_to\":\"Deseas…\",\"lose_weight\":\"perder peso\",\"gain_weight\":\"ganar peso\",\"maintain_weight\":\"mantener el peso\",\"weight_goal_title\":\"¿Cuál es tu objetivo de peso?\",\"body_fat_goal_title\":\"¿Cuál es tu objetivo de grasa corporal?\",\"female_body_fat_support_text\":\"Según tu sexo, el rango normal de grasa corporal es de entre un 20 y un 30 %\",\"male_body_fat_support_text\":\"Según tu sexo, el rango normal de grasa corporal es de entre un 14 y un 24 %\",\"add_a_body_fat_goal\":\"+ Añadir un objetivo de grasa corporal\",\"skip_body_fat_message\":\"Puedes omitir este paso\",\"you_weigh_less_than_this_goal_error\":\"Tu peso es inferior al de este objetivo\",\"you_weigh_more_than_this_goal_error\":\"Tu peso es superior al de este objetivo\",\"remove_current_goal\":\"Quitar el objetivo actual\",\"goal_body_fat_button\":\"+ % de objetivo de grasa corporal\",\"you_dont_have_a_weight_goal\":\"No has definido ningún objetivo de peso.\",\"add_weight_goal\":\"Añadir objetivo de peso\",\"you_dont_have_a_body_fat_goal\":\"No has definido ningún objetivo de grasa corporal.\",\"add_body_fat_goal\":\"Añadir objetivo de grasa corporal\",\"delete_goal\":\"Eliminar objetivo\",\"finish_goal\":\"Finalizar\",\"undo_delete_goal\":\"Deshacer eliminar objetivo\",\"units_to_go\":\"Quedan {0}\",\"you_gained_amount\":\"Has ganado {0}.\",\"you_lost_amount\":\"Has perdido {0}.\"}});"
+
+/***/ },
+/* 99 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/notifications/label.es_CL', {\"namespace\":\"com.fitbit.app.notifications.label\",\"translations\":{\"friend_request\":\"{0} quiere que seáis amigos.\",\"challenge_invitation\":\"{0} te ha invitado al desafío {1}\",\"social_adventure_invitation\":\"{0} te invitó a la carrera de aventura {1} \",\"competitor_passed_you\":\"{0} te ha superado en {1} {2}.\",\"you_passed_competitor\":\"Has superado a {0} en {1} {2}.\",\"you_passed_two_competitors\":\"Has superado a {0} y a {1}.\",\"you_passed_threeplus_competitors\":\"Has superado a {0} y a {1} más.\",\"competitor_taunted_you\":\"😝 ¡{0} se ha burlado de ti!\",\"competitor_cheered_you\":\"😃 ¡{0} te ha animado! ¡Sigue así!\",\"detailed_taunt_ahead\":\"😝 ¡{0} se ha burlado de ti! Pero no te preocupes, le sacas {1} pasos.\",\"detailed_taunt_behind\":\"😝 ¡{0} se ha burlado de ti! Da {1} pasos más para adelantarle.\",\"detailed_cheer_ahead\":\"😃 ¡{0} te ha animado! Le sacas {1} pasos.\",\"detailed_cheer_behind\":\"😃 ¡{0} te ha animado! Solo te saca {1} pasos.\",\"daily_activity_badge\":\"¡Felicidades por conseguir tu primera insignia de {0} {1} diaria!\",\"lifetime_floor_badge\":\"¡Yupi! ¡Has conseguido la insignia {0}!\",\"lifetime_distance_badge\":\"¡Toma! ¡Has obtenido la insignia absoluta {0} {1}!\",\"daily_activity_badge_new\":\"¡Felicidades por conseguir tu primera insignia {0}!\",\"lifetime_distance_badge_new\":\"¡Impresionante! ¡Has conseguido la insignia {0}!\",\"lifetime_weight_loss_badge\":\"¡Has logrado un nuevo mínimo! ¡Enhorabuena! Has ganado una insignia por {0} {1} de peso.\",\"lifetime_weight_gain_badge\":\"¡Has logrado un nuevo máximo! ¡Enhorabuena! Has ganado una insignia por {0} {1} de peso.\",\"goal_weight_loss_progress_badge\":\"¡Has perdido {0} {1}! Enhorabuena por el progreso que has hecho con respecto a tu objetivo de peso.\",\"goal_weight_gain_progress_badge\":\"¡Has ganado {0} {1}! Enhorabuena por el progreso que has hecho con respecto a tu objetivo de peso.\",\"goal_weight_loss_achievement_badge\":\"¡Lo has conseguido! ¡Has cumplido tu objetivo de pérdida de peso!\",\"daily_step_goal_under\":\"¡Ya casi estás! Acumula {0} {1} más para alcanzar tu objetivo diario.\",\"daily_step_goal_achieved\":\"¡Lo has conseguido! Has logrado tu objetivo de pasos de hoy.\",\"daily_step_goal_over\":\"Te superas a ti mismo constantemente. Estás {0} {1} por encima de tu objetivo diario.\",\"load_more\":\"Cargar más\",\"low_battery\":\"A tu {0} le queda poca batería.\",\"low_battery_child\":\"Queda poca batería en el dispositivo {1} vinculado a la cuenta infantil de {0}.\",\"daily_activity_badge_cheer\":\"¡{0} celebró tu insignia de {1} {2} al día!\",\"lifetime_distance_badge_cheer\":\"¡{0} celebró tu insignia absoluta de {1} {2}!\",\"lifetime_floor_badge_cheer\":\"¡{0} celebró tu insignia {1}!\",\"daily_activity_badge_cheer_new\":\"¡{0} celebró tu insignia {1}!\",\"lifetime_distance_badge_cheer_new\":\"¡{0} celebró tu insignia {1}!\",\"lifetime_weight_loss_badge_cheer\":\"¡{0} celebró tu insignia {1} {2} de pérdida de peso!\",\"goal_weight_loss_progress_badge_cheer\":\"¡{0} celebró tu insignia por haber perdido {1}{2}!\",\"goal_weight_loss_achievement_badge_cheer\":\"¡{0} celebró tu insignia de objetivo de pérdida de peso!\",\"badge_challenge_complete_today\":\"¡Enhorabuena por haber completado el desafío Enfrentamiento diario!\",\"badge_challenge_complete_weekend\":\"¡Enhorabuena por haber completado el desafío Guerrero del Fin de Semana!\",\"badge_challenge_complete_goal_day\":\"¡Enhorabuena por haber completado el desafío Día de objetivos!\",\"badge_challenge_complete_work_week\":\"¡Enhorabuena por haber completado el desafío Ajetreo en la semana laboral!\",\"ie8Sunset\":\"Los servicios de Fitbit ya no son compatibles con Internet Explorer 8. Se recomienda que todos los usuarios que sigan utilizando Internet Explorer 8 actualicen a un navegador más moderno y que cumpla con los estándares como, por ejemplo, Microsoft Edge, Google Chrome o Mozilla Firefox.\",\"badge_fit4good_participation\":\"¡Buenas noticias! Acabas de ganar una insignia de participación en FitForGood.\",\"badge_fit4good_tier01\":\"¡Caramba! Los 25 000 pasos que has dado te han abierto el camino hasta la insignia Bienhechor.\",\"badge_fit4good_tier02\":\"¡Madre mía! Has dado 60 000 pasos y te has hecho con la insignia Héroe solidario.\",\"badge_fit4good_tier03\":\"¡Por todos los cielos! Has dado 100 000 pasos y has llegado a conseguir la insignia Campeón de la solidaridad.\",\"badge_challenge_fitbitgoalday2016_participation\":\"¡Acabas de lograr la insignia Día del objetivo 2016! ¡Así se hace, ganador!\",\"badge_challenge_fitbitgoalday2017_participation\":\"Acabas de conseguir la insignia del Día del objetivo de 2017. Es la manera de sacar lo mejor de ti y machacar tu objetivo de pasos.\",\"badge_challenge_adventure_nevada_falls_completion\":\"Has completado la ruta de la cascada Vernal en una aventura de Yosemite.\",\"badge_challenge_adventure_valley_loop_completion\":\"Has completado la ruta del Valley Loop en una aventura de Yosemite.\",\"badge_challenge_adventure_pohono_trail_completion\":\"Has completado la ruta del Pohono en una aventura de Yosemite.\",\"badge_challenge_adventure_treasure_hunter\":\"Has encontrado todos los tesoros durante una aventura.\",\"badge_challenge_adventure_nyrr_3miles_completion\":\"Has completado 3,1 millas en el maratón de Nueva York TCS\",\"badge_challenge_adventure_nyrr_10miles_completion\":\"Has completado 10 millas en el maratón de Nueva York TCS\",\"badge_challenge_adventure_nyrr_26miles_completion\":\"Has completado 26,2 millas en el maratón de Nueva York TCS\",\"badge_game_azmweek_silver\":\"¡Has llegado a los 75 Minutos en Zona Activa en el desafío Entra en la zona!\",\"badge_game_azmweek_gold\":\"¡Has llegado a los 150 Minutos en Zona Activa en el desafío Entra en la zona!\",\"badge_game_azmweek_diamond\":\"¡Has llegado a los 300 Minutos en Zona Activa en el desafío Entra en la zona!\",\"felix_invite_notification\":\"{0} te invitó a utilizar Aria 2.\"}});"
+
+/***/ },
+/* 100 */,
+/* 101 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/socialMedia/error.es_CL', {\"namespace\":\"com.fitbit.app.socialMedia.error\",\"translations\":{\"error_header\":\"Soluciona estos errores:\",\"fitbit_already_connected\":\"Al parecer, ya estás vinculado a una cuenta de Facebook con el nombre: {0}. Si deseas vincular una cuenta de Facebook diferente, deberás <a href=\\\"/user/profile/apps\\\">desvincularla primero.</a>\",\"facebook_already_connected\":\"Esta cuenta de Facebook ya está vinculada a <a href=\\\"/user/{0}\\\">otra cuenta de Fitbit</a>. Para desvincularla, deberás iniciar sesión en la cuenta e ir a: <a href=\\\"{1}/user/profile/apps\\\">{1}/user/profile/apps</a>\",\"fitbit_already_connected_full\":\"Al parecer ya enlazaste con una cuenta de Facebook. Para desvincularla ve a:\",\"facebook_already_connected_full\":\"Esta cuenta de Facebook ya está enlazada con otra cuenta de Fitbit. Para desvincularla, deberás registrarte en aquella cuenta e ir a:\",\"facebook_generic_error\":\"No se pueden desenlazar tus cuentas de Facebook y de Fitbit conjuntamente. Vuelve a intentarlo más tarde.\",\"facebook_account_added_success\":\"Tu cuenta de Facebook se ha enlazado a tu cuenta de Fitbit.\",\"facebook_account_connected\":\"Conectado.\",\"facebook_account_check_back_soon\":\"No tardes en ver de nuevo las sugerencias de tu amigo.\",\"wordpress_linked_error\":\"Esta cuenta de Wordpress ya está enlazada con tu cuenta Fitbit.\",\"wordpress_unable_auth_error\":\"No se puede autorizar tu cuenta de Wordpress. Comprueba tu nombre de usuario y tu contraseña.\",\"wordpress_unable_find_error\":\"No se puede encontrar la cuenta Wordpress de este usuario.\",\"existing_google_link\":\"Al parecer ya estás vinculado a una cuenta de Google con el nombre: {0}. Si deseas vincular una cuenta de Google diferente, deberás <a href=\\\"/user/profile/apps\\\">desvincular primero.</a>\",\"google_already_connected\":\"Esta cuenta de Google ya está vinculada a <a href=\\\"/user/{0}\\\">otra cuenta de Fitbit</a>. Para desvincularla, deberás iniciar sesión en la cuenta e ir a: <a href=\\\"{1}/user/profile/apps\\\">{2}/user/profile/apps</a>\"}});"
+
+/***/ },
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/app/user/profile/message.es_CL', {\"namespace\":\"com.fitbit.app.user.profile.message\",\"translations\":{\"page_title\":\"Perfil de Fitbit\",\"joined\":\"Incorporado {0}\",\"no_pictures_you\":\"No has cargado ninguna imagen\",\"no_pictures_user\":\"{0} no ha cargado ninguna imagen\",\"gender_NA\":null,\"gender_MALE\":\"Hombre\",\"gender_FEMALE\":\"Mujer\",\"tracker_synced\":\"Sincronizado\",\"tracker_battery_level\":\"Nivel de batería:\",\"tracker_battery_Full\":\"Cargada\",\"tracker_battery_High\":\"Alto\",\"tracker_battery_Medium\":\"Medio\",\"tracker_battery_Low\":\"Bajo\",\"header_menu_view_profile\":\"Ver perfil\",\"header_menu_view_account\":\"Ver configuración de cuenta\",\"header_menu_view_settings\":\"Configuración de cuenta\",\"header_menu_view\":\"Perfil como lo ve(n)\",\"header_privacy_anyone\":\"Cualquiera\",\"header_privacy_friends\":\"Amigos\",\"header_privacy_you\":\"Tú\",\"header_menu_edit\":\"Configuración personal\",\"header_menu_notifications\":\"Notificaciones\",\"header_menu_privacy\":\"Privacidad\",\"header_menu_sharing\":\"Compartir\",\"header_menu_account\":\"Correo electrónico y contraseña\",\"header_menu_corporate\":\"Fitbit Health Solutions\",\"header_menu_deviceSettings\":\"Dispositivos\",\"header_menu_applications\":\"Aplicaciones\",\"header_menu_premium\":\"Premium\",\"header_menu_data_export\":\"Exportar datos\",\"header_menu_silentAlarms\":\"Alarmas silenciosas\",\"public_page_title\":\"URL pública:\",\"fitness_goal_desc\":\"de {0} calorías por actividad al día\",\"last_30_days\":\"Últimos 30 días\",\"graph_30_title\":\"Gráfico de 30 días\",\"intake_burn_30_days_title\":\"Gráfico de 30 días de <span class=\\\"textLegendHighlight1\\\">ingesta</span> frente a <span class=\\\"textLegendHighlight2\\\">quema</span>\",\"average_burn\":\"quema media\",\"average_intake\":\"ingesta media\",\"activity_graph_tab_steps\":\"Pasos\",\"activity_graph_tab_distance\":\"Distancia\",\"activity_graph_tab_score\":\"Marcador de actividad\",\"activity_graph_tab_altitude\":\"Plantas\",\"activity_graph_time_title\":\"Gráfico de 30 días de tiempo de actividad (en horas)\",\"activity_graph_time_sedentary\":\"actividad nula\",\"activity_graph_time_lightly\":\"actividad ligera\",\"activity_graph_time_fairly\":\"actividad media\",\"activity_graph_time_very\":\"actividad alta\",\"sleep_graph_tab_asleep\":\"Horas que has dormido\",\"sleep_graph_tab_awakened\":\"Veces que te has despertado\",\"weight_graph_title\":\"Gráfico de 30 días de peso (en {0})\",\"weight_graph_actual\":\"peso real\",\"weight_graph_target\":\"peso objetivo\",\"weight_graph_unit_lbs\":\"lbs.\",\"weight_graph_unit_stone\":\"stone\",\"weight_graph_unit_kg\":\"kg\",\"empty_module_aboutme\":\"No existe descripción.\",\"privacy_module_aboutme\":\"Esta descripción\",\"privacy_module_achievements\":\"Área de logros\",\"privacy_module_badges\":\"Área de insignias\",\"privacy_module_body\":\"Área de cuerpo\",\"no_info_user\":\"{0} no ha introducido ninguna información aquí todavía.\",\"no_info_you\":\"No has introducido ninguna información aquí todavía.\",\"my_body_title\":\"Mi cuerpo\",\"my_body_title_public\":\"Cuerpo\",\"my_achievements_title\":\"Mis logros\",\"my_achievements_title_public\":\"Logros\",\"my_badges_title\":\"Mis insignias\",\"my_badges_title_public\":\"Insignias\",\"my_achievements_week\":\"Cambio total durante los últimos 7 días\",\"my_achievements_month\":\"Cambio total durante los últimos 30 días\",\"my_achievements_lifetime\":\"Cambio máximo en el peso absoluto\",\"about_me_title\":\"Mis datos\",\"friends_title\":\"Mis amigos\",\"friends_title_public\":\"Amigos\",\"friends_see_all\":\"Ver todos\",\"friends_find_friends\":\"Buscar amigos\",\"friends_invite_facebook\":\"vía Facebook\",\"friends_invite_email\":\"vía correo electrónico\",\"friends_make_fun[0]\":\"Amigos\",\"friends_make_fun[1]\":\"hacen que Fitbit sea más divertido\",\"friends_dont_have_friends\":\"Aún no tienes amigos.\",\"friends_invite_phrase[0]\":\"¿Tienes más actividad que tus amigos?\",\"friends_invite_phrase[1]\":\"Invítalos a unirse a Fitbit y averígualo.\",\"friends_invite_phrase[2]\":\"Todos los días se os clasificará por categorías tales como quién da más pasos, etc.\",\"friends_no_friends_user\":\"{0} no ha invitado a ningún amigo.\",\"friends_invite_separate_emails\":\"Separa los correos electrónicos con comas.\",\"friends_invite_import_emails\":\"importar de mi libreta de direcciones\",\"friends_invitation_email_message\":\"Hola:\\n\\nAyúdame a mejorar mi forma.\\n\\nComparte mi amistad en Fitbit.com y veamos quién da más pasos al día, corre más distancia o tiene más actividad.\",\"friends_invitation_facebook_message\":\"Quiero compartir contigo mis estadísticas de ejercicios y lo bien que estoy.\\n¡Únete a mí para estar en forma y tan bien como yo!\",\"friends_rankings\":\"Clasificaciones de amigos de los 7 últimos días\",\"friends_rankings_steps\":\"Pasos\",\"friends_rankings_pts[0]\":\"Activo\",\"friends_rankings_pts[1]\":\"Pts.\",\"friends_rankings_pts_abbr\":\"Puntos\",\"friends_rankings_distance\":\"Distancia\",\"friends_rankings_active\":\"Actividad alta\",\"friends_rankings_update\":\"Las clasificaciones de amigos se actualizan diariamente\",\"friends_rankings_show\":\"Mostrarme en las clasificaciones\",\"friends_rankings_hide\":\"Ocultarme en las clasificaciones\",\"friends_view_leaderboard\":\"Ver toda la tabla de clasificación\",\"friends_rankings_avg\":\"med.\",\"friends_rankings_avg_hint\":\"media\",\"friends_rankings_result[0]\":\"Estás clasificado/a\",\"friends_rankings_result[1]\":\"{0}\",\"friends_rankings_result[2]\":\"entre tus amigos\",\"friends_rankings_hidden_you\":\"Te has ocultado en las clasificaciones de amigos\",\"friends_rankings_no\":\"Aún no estás clasificado entre tus amigos\",\"friends_rankings_no_brief\":\"Aún no estás clasificado/a\",\"ranking_friend_hidden_you[0]\":\"tú\",\"ranking_friend_hidden_you[1]\":\"te has ocultado en las clasificaciones de amigos\",\"ranking_friend_hidden_user_male[0]\":\"{0}\",\"ranking_friend_hidden_user_male[1]\":\"se ha ocultado en las clasificaciones de amigos\",\"ranking_friend_hidden_user_female[0]\":\"{0}\",\"ranking_friend_hidden_user_female[1]\":\"se ha ocultado en las clasificaciones de amigos\",\"ranking_friend_hidden_user_no_gen[0]\":\"{0}\",\"ranking_friend_hidden_user_no_gen[1]\":\"se han ocultado en las clasificaciones de amigos\",\"ranking_friend_not_ranked_you[0]\":\"tú\",\"ranking_friend_not_ranked_you[1]\":\"aún no estás clasificado/a\",\"ranking_friend_not_ranked_user[0]\":\"{0}\",\"ranking_friend_not_ranked_user[1]\":\"no está clasificado/a.\",\"ranking_group_hidden_you[0]\":\"tú\",\"ranking_group_hidden_you[1]\":\"te has ocultado en las clasificaciones de grupo\",\"ranking_group_hidden_user_male[0]\":\"{0}\",\"ranking_group_hidden_user_male[1]\":\"se ha ocultado en las clasificaciones de grupo\",\"ranking_group_hidden_user_female[0]\":\"{0}\",\"ranking_group_hidden_user_female[1]\":\"se ha ocultado en las clasificaciones de grupo\",\"ranking_group_hidden_user_no_gen[0]\":\"{0}\",\"ranking_group_hidden_user_no_gen[1]\":\"se han ocultado en las clasificaciones de grupo\",\"ranking_group_not_ranked_you[0]\":\"tú\",\"ranking_group_not_ranked_you[1]\":\"aún no estás clasificado/a\",\"ranking_group_not_ranked_user[0]\":\"{0}\",\"ranking_group_not_ranked_user[1]\":\"no está clasificado/a.\",\"ranking_units_pts\":\"pts.\",\"ranking_units_mins\":\"min\",\"ranking_units_steps\":\"pasos\",\"ranking_units_miles\":\"millas\",\"ranking_units_km\":\"km\",\"mood_my_current\":\"Mi ánimo es {0}\",\"mood_user_current\":\"El ánimo de {1} es {0}\",\"mood_my_past\":\"Mi ánimo era {0}\",\"mood_user_past\":\"El ánimo de {1} es {0}\",\"mood_no_data_you\":\"No has registrado tu ánimo.\",\"mood_no_data_user\":\"{0} no ha registrado su ánimo.\",\"allergy_my_current\":\"Mis alergias son {0}\",\"allergy_user_current\":\"Las alergias de {1} son {0}\",\"allergy_my_past\":\"Mis alergias eran {0}\",\"allergy_user_past\":\"Las alergias de {1} eran {0}\",\"allergy_no_data_you\":\"No has registrado tus alergias.\",\"allergy_no_data_user\":\"{0} no ha registrado sus alergias.\",\"groups_title\":\"Mis grupos\",\"groups_title_public\":\"Grupos\",\"groups_see_my\":\"Ver todos los {0} de mis grupos\",\"groups_see_all\":\"Ver todos los grupos\",\"groups_no_groups\":\"no es miembro de ningún grupo público.\",\"groups_no_groups_you\":\"No eres miembro de ningún grupo.\",\"groups_are_private\":\"Los grupos son privados.\",\"edit_success\":\"Has actualizado tu perfil correctamente.\",\"edit_privacy_success\":\"Has guardado tu configuración de privacidad correctamente.\",\"edit_setup_warning[0]\":\"Recopilamos esta información para personalizar tus datos de Fitbit.\",\"edit_setup_warning[1]\":\"Nunca compartimos esta información con terceros.\",\"account_update_successful\":\"Has actualizado tu perfil correctamente.\",\"badges_title\":\"Mis insignias\",\"badges_start\":\"Empezar\",\"badges_here\":\"aquí\",\"badges_not_earned\":\"No has ganado ninguna insignia. Muévete y acumula más pasos.\",\"badges_not_earned_public\":\"El usuario no ha ganado ninguna insignia.\",\"badges_next\":\"La siguiente insignia es\",\"badges_earned\":\"Conseguido\",\"badges_earned_addon\":\"y una vez más\",\"badges_earned_addons\":\"y {0} veces más\",\"default_invite_message\":\"¡Venga, seamos amigos en Fitbit para poder animarnos mutuamente y comparar nuestras estadísticas!\",\"premium_acc\":\"Cuenta Premium\",\"order_history\":\"Historial de pedidos\",\"product\":\"Producto\",\"purchased\":\"Comprado\",\"auto_renew\":\"Renovación automática\",\"expire\":\"Caducidad\",\"expires\":\"Caduca\",\"expired\":\"Caducado\",\"confirmation\":\"Confirmación\",\"amount\":\"Cantidad\",\"premium_benef\":\"Ventajas Premium\",\"fitbit_trainer\":\"Entrenador Fitbit\",\"repsonalized\":\"Plan de fitness personalizado para que logres tu objetivo más rápidamente.\",\"more\":\"Más\",\"data_export\":\"Exportar datos\",\"download_reports\":\"Descargar informes y cambios de identidad para estar más saludable.\",\"peer_ranking\":\"Clasificación de tus colegas\",\"be_motivated\":\"Motívate viendo cómo te va con otros usuarios.\",\"contact_us\":\"¿Tienes alguna pregunta sobre tu suscripción Premium? Estaremos encantados de ayudarte. Llama al servicio de atención al cliente al +1 877-623-4997, o bien ponte en contacto con nosotros en {0}.\",\"complimentary\":\"Servicio gratuito\",\"please_choose\":\"Por favor, elige:\",\"outside_us\":\"-- Fuera de EE. UU., Canadá o Reino Unido\",\"your_status\":\"Tu estado\",\"buy_now_price\":\"$49.99\",\"not_subscribed\":\"Ya no tienes ninguna suscripción a Fitbit Premium.\",\"you_need_card\":\"Tienes que añadir una tarjeta de crédito para renovar.\",\"please_renew_subscription[0]\":\"Añade una tarjeta de crédito para renovar tu suscripción Premium. Si no lo haces, tu suscripción se cancelará mañana.\",\"please_renew_subscription[1]\":\"Añade una tarjeta de crédito para renovar tu suscripción Premium. Si no añades una tarjeta de crédito, se cancelará tu suscripción en {0} {1}.\",\"thanks_for_updating\":\"Gracias por actualizar tu método de pago.\",\"your_premium_renew\":\"Tu suscripción Premium se renovará y se cargará en tu tarjeta de crédito dentro de unas horas.\",\"problem_payment_method\":\"Hay un problema con tu método de pago.\",\"subscription_ended[0]\":\"Tu suscripción Premium ha terminado y no podemos cobrarte en ninguna tarjeta. Si no actualizas tu información de facturación, cancelaremos tu suscripción mañana.\",\"subscription_ended[1]\":\"Tu suscripción Premium ha finalizado y no hemos podido cargarla en tu tarjeta de crédito. Si no actualizas tu información de facturación, se cancelará tu suscripción en {0} {1}.\",\"autorenew\":\"Renovaciones automáticas\",\"today\":\"hoy\",\"in_days\":\"en {0}\",\"enable_autorenew\":\"Habilitar renovación automática\",\"disable_autorenew\":\"Deshabilitar renovación automática\",\"your_subscription_renew_on\":\"Tu suscripción se renovará automáticamente el {0}. Se cargará en tu tarjeta de crédito {1}.\",\"your_subscription_end\":\"Tu suscripción finalizará el {0}. Activa la renovación automática para no perder el servicio Premium.\",\"your_subscription_auto\":\"Tu suscripción se renovará automáticamente el {0}. Se cargará en tu tarjeta de crédito el importe de $49.99.\",\"your_subscription_add\":\"Tu suscripción finalizará el {0}. Añade tu tarjeta de crédito abajo para renovar tu suscripción.\",\"updated_successful\":\"Has actualizado tu tarjeta de crédito correctamente.\",\"not_updated\":\"Tarjeta no actualizada\",\"billing_info\":\"Información de facturación\",\"you_heve_credit_card_on\":\"Ya tienes tarjeta de crédito en el sistema: {0} termina en ••••{1}.\",\"no_credit_card\":\"No tienes tarjeta de crédito en el sistema.\",\"update_card_info\":\"Actualiza la información de la tarjeta\",\"add_card\":\"Añadir tarjeta\",\"you_paid_with\":\"Pagas con {0} termina en ••••{1}.\",\"card_num\":\"Número de tarjeta\",\"exp_date\":\"Fecha de caducidad\",\"card_sec_code\":\"Código de seguridad de la tarjeta (CSC)\",\"billing_addr\":\"Dirección de facturación\",\"full_name\":\"Nombre y apellidos\",\"address\":\"Dirección\",\"update_c_info\":\"Actualizar información de la tarjeta\",\"address1\":\"Dirección 1\",\"address2\":\"Dirección 2\",\"city\":\"Población\",\"zip\":\"Código Postal\",\"credit_card_num\":\"Número de la tarjeta de crédito\",\"month_mm\":\"MM\",\"year_yy\":\"AA\",\"csc\":\"CSC\",\"name_appears\":\"Nombre tal como aparece en la tarjeta\",\"page_title_share\":\"Modificar perfil - Compartir\",\"social_media\":\"Redes sociales\",\"share_twitter\":\"Compartir en Twitter\",\"fitbit_can_tweet\":\"Fitbit puede mandar tweets de tu actividad media a diario o semanalmente a tu cuenta de Twitter.\",\"the_daily_tweet\":\"El tweet <b>diario</b> será:\",\"the_weekly_tweet\":\"El tweet <b>semanal</b> será:\",\"link_to\":\"Enlazar con\",\"share_on_fb\":\"Compartir en Facebook\",\"fitbit_can_feed\":\"Fitbit puede proporcionar una actividad media a diario o semanalmente a tu cuenta de Facebook.\",\"daily_msg_is\":\"El mensaje <b>diario</b> será:\",\"weely_msg_is\":\"El mensaje <b>semanal</b> será:\",\"share_on_wp\":\"Compartir en Wordpress.com\",\"fitbit_can_feed_wp\":\"Fitbit puede proporcionar una actividad media a diario o semanalmente a tu blog Wordpress.com.\",\"daily_post_is\":\"La publicación <b>diaria</b> será:\",\"title\":\"Título:\",\"post\":\"Publicación:\",\"weely_post_is\":\"La publicación <b>semanal</b> será:\",\"please_enter_name_wp\":\"Introduce un nombre de usuario y contraseña para tu cuenta existente de Wordpress.com.\",\"wp_must_have\":\"(Tu cuenta de Wordpress debe tener como mínimo un blog.)\",\"partners\":\"Socios\",\"share_gh\":\"Compartir en Google Health\",\"google_decided[1]\":\"Google ha decidido\",\"google_decided[2]\":\"retirar Google Health\",\"google_decided[3]\":\"(retirada 1 de enero de 2012; datos disponibles para descarga hasta 1 de enero de 2013). Por esta razón, ya no animamos a los nuevos usuarios a publicar sus datos de Fitbit en Google Health. Si sigues publicando tus datos de Fitbit en Google Health, nada cambiará hasta que finalice 2011.\",\"fitbit_can_gh\":\"Fitbit puede actualizar tu perfil de Google Health diariamente.\",\"find_out_more\":\"Más información\",\"today_will_be\":\"La publicación de hoy será:\",\"share_hv[1]\":\"Compartir en Microsoft\",\"share_hv[2]\":\"HealthVault\",\"hv_is_not_possible\":null,\"hv_lets_you\":\"HealthVault te permite recopilar, almacenar y compartir información de salud online.\",\"fitbit_can_hv\":\"Fitbit puede actualizar tu informe de Microsoft HealthVault diariamente.\",\"fitbit_write_hv\":\"Fitbit escribirá tus datos en tu informe de HealthVault como sigue:\",\"js_update_freq1\":\"Actualizar frecuencia para la cuenta\",\"js_update_freq2\":\"se ha guardado.\",\"js_sending_data_gh\":\"Enviando datos a Google Health. Por favor, espera…\",\"js_historical_data\":\"El historial de datos se ha publicado en tu perfil de Google Health.\",\"js_sending_data_hv\":\"Enviando datos a HealthVault. Por favor, espera…\",\"js_hist_data_hv\":\"El historial de datos se ha publicado en tu registro de HealthVault.\",\"js_sending_mhv\":\"Enviando datos a Microsoft HealthVault. Por favor, espera…\",\"todays_data_posted\":\"Los datos de hoy se han publicado en tu registro de Microsoft HealthVault.\",\"updateSuccessful\":\"Has recortado la foto de tu perfil correctamente. {0}\",\"learn_more\":\"Más información\",\"intake_burn_generic_title[0]\":\"gráfico de\",\"intake_burn_generic_title[1]\":\"ingesta\",\"intake_burn_generic_title[2]\":\"frente a\",\"intake_burn_generic_title[3]\":\"quema\",\"intake_burn_generic_title[4]\":null,\"corporate_page_title\":\"Fitbit Health Solutions\",\"corporate_button_save\":\"Guardar\",\"corporate_button_join\":\"Unirse\",\"corporate_program_title\":\"{0}\",\"corporate_program_page\":\"Página Mi bienestar\",\"corporate_program_dashboard\":\"Panel de Fitbit\",\"corporate_program_page_available\":\"Observa tus progresos y los de tus compañeros en el {0}.\",\"corporate_program_dashboard_and_page_available\":\"Puedes ver tu progreso y tus logros y los de tus compañeros de trabajo en el {0} y en {1}.\",\"corporate_program_duration\":\"Programa activo:\",\"corporate_participating_since\":\"Participas desde:\",\"corporate_leave_program\":\"Abandonar el programa\",\"corporate_membership_settings\":\"Configuración de suscripción\",\"corporate_membership_fullname\":\"Nombre completo\",\"first_name\":\"Nombre\",\"last_name\":\"Apellidos\",\"corporate_email\":\"Correo electrónico corporativo\",\"employee_id\":\"ID de empleado\",\"date_of_birth\":\"fecha de nacimiento\",\"corporate_membership_jobtitle\":\"Puesto de trabajo\",\"corporate_membership_location\":\"Filtro\",\"corporate_membership_division\":\"Grupo\",\"corporate_date_of_birth_validation_message\":\"Introduce la fecha de nacimiento\",\"corporate_membership_dimension_placeholder\":\"Selecciona {0}…\",\"corporate_membership_location_placeholder\":\"Selecciona {0}…\",\"corporate_membership_division_placeholder\":\"Selecciona {0}…\",\"corporate_membership_hint_data[0]\":\"Con el fin de verificar la participación en el programa, el administrador del programa puede ver los siguientes datos personales:\",\"corporate_membership_hint_data[1]\":\"{0}\",\"corporate_membership_hint_data[2]\":\".\",\"corporate_membership_hint_data_comma\":\", \",\"corporate_membership_hint_data_fullstop\":\".\",\"corporate_membership_hint_data_token_DOB\":\"fecha de nacimiento\",\"corporate_membership_hint_data_token_EMAIL\":\"correo electrónico\",\"corporate_membership_hint_data_token_EMPLOYEE_ID\":\"ID de empleado\",\"corporate_membership_hint_data_token_DATE_OF_BIRTH\":\"fecha de nacimiento\",\"corporate_membership_hint_data_token_FULL_NAME\":\"nombre\",\"corporate_membership_hint_data_token_JOB_TITLE\":\"puesto de trabajo\",\"corporate_membership_hint_data_sharing_aggregate[0]\":\"Los datos anónimos y totales de las actividades se comparten con el administrador del programa. No se comparten datos individuales con el administrador del programa.\",\"corporate_membership_hint_data_sharing_individual[0]\":\"Los datos de cada actividad se comparten con el administrador del programa.\",\"corporate_membership_successmessage\":\"Cambios guardados\",\"corporate_program_will_start\":\"El programa se pondrá en marcha de nuevo el {0}; estarás incluido en el programa automáticamente.\",\"corporate_program_will_start_short\":\"El programa se pondrá en marcha de nuevo el {0}.\",\"corporate_join_message\":\"Estás invitado a participar en el programa\",\"corporate_join_leave_program\":\"Debes {0} tu programa actual antes de unirte a otro.\",\"corporate_join_leave_program_link\":\"Salir\",\"corporate_not_active_message\":\"Este programa ya no está activo. ¡Espero que te lo hayas pasado bien! {0}\",\"corporate_not_active_message_consult\":\"{0} los nuevos retos con el administrador de tu programa.\",\"corporate_not_active_message_consult_word\":\"Consulta\",\"corporate_not_active_email_subject\":\"[{0}] Necesito ayuda con algunas preguntas acerca del programa\",\"corporate_removed_message\":\"El administrador del programa ha desactivado la participación de tu cuenta en el programa. {0}\",\"corporate_removed_message_contact\":\"{0} con ellos para averiguar lo ocurrido.\",\"corporate_removed_message_contact_word\":\"Contacta\",\"corporate_removed_email_subject\":\"[{0}] Necesito ayuda con algunas preguntas acerca del programa\",\"corporate_you_participated\":\"Tu participación:\",\"corporate_leavepromt_text\":\"¿Seguro que te vas? Tus datos de actividad ya no serán compartidos con el programa.\",\"corporate_leavepromt_button_leave\":\"Salir\",\"corporate_leavepromt_button_cancel\":\"Cancelar\",\"corporate_joinmodal_active\":\"Programa activo:\",\"corporate_joinmodal_description_before\":\"Tus datos de Fitbit te pertenecen; por ello puedes elegir qué datos vas a compartir con amigos, con grupos y con el administrador de tu programa:\",\"corporate_joinmodal_description_before_next\":\"Qué ocurre a continuación:\",\"corporate_joinmodal_description_individualdata_shared\":\"Los datos de actividad individuales se comparten con el administrador del programa.\",\"corporate_joinmodal_description_individualdata_and_sleep_shared\":\"Los datos de actividad y sueño individuales se comparten con el administrador del programa.\",\"corporate_joinmodal_description_individualdata_shared_grouped\":\"Los datos de actividad individuales se comparten con el administrador del programa en función de la opción que elijas a continuación.\",\"corporate_joinmodal_description_individualdata_and_sleep_shared_grouped\":\"Los datos de actividad y sueño individuales se comparten con el administrador del programa en función de la opción que elijas a continuación.\",\"corporate_joinmodal_description_individualdata_notshared\":\"Los datos de cada actividad no se comparten con el administrador del programa.\",\"corporate_joinmodal_description_anonymized\":\"Los datos anónimos y totales de actividad se comparten con el administrador del programa.\",\"corporate_joinmodal_description_anonymized_and_sleep\":\"Los datos anónimos y totales de actividad y sueño se comparten con el administrador del programa.\",\"corporate_joinmodal_description_anonymized_grouped\":\"Los datos anónimos y totales de actividad (agrupados según la opción que elijas a continuación) se comparten con el administrador del programa.\",\"corporate_joinmodal_description_anonymized_and_sleep_grouped\":\"Los datos anónimos y totales de actividad y sueño (agrupados según la opción que elijas a continuación) se comparten con el administrador del programa.\",\"corporate_joinmodal_description_group_participation[0]\":null,\"corporate_joinmodal_description_group_participation[1]\":\"Te inscribiremos en el grupo de tu equipo en Fitbit.com.\",\"corporate_joinmodal_description_group_participation_choice[0]\":null,\"corporate_joinmodal_description_group_participation_choice[1]\":\"Te inscribiremos en el grupo de tu equipo de Fitbit.com según la opción que elijas a continuación.\",\"corporate_joinmodal_description_sleep\":\"y sueño\",\"corporate_joinmodal_description_terms\":\"Al hacer clic en «Participar», aceptas los términos del programa\",\"corporate_joinmodal_description_terms_content\":\" Recuerda: al elegir participar en el programa, otorgas a Fitbit, Inc. (el fabricante del dispositivo Fitbit) el derecho a compartir con la organización que administra el programa (por ejemplo, tu empresa o el proveedor del programa de bienestar corporativo, en adelante el “Administrador del programa”) los siguientes datos: 1) tus datos relacionados; y 2) los datos de uso recopilados por tu dispositivo Fitbit, como por ejemplo los pasos dados, la distancia recorrida y las calorías quemadas (y dependiendo del dispositivo Fitbit que utilices, las plantas subidas y el tiempo medio de sueño).\",\"corporate_joinmodal_description_terms_content_tokens\":\"Recuerda: al elegir participar en el programa, otorgas a Fitbit, Inc. (el fabricante del dispositivo Fitbit) el derecho a compartir con la organización que administra el programa (por ejemplo, tu empresa o el proveedor del programa de bienestar corporativo, en adelante el “Administrador del programa”) los siguientes datos: 1) tus datos relacionados , lo que incluye tu {0} y otros datos que hayas introducido abajo; y 2) los datos de uso recopilados por tu dispositivo Fitbit, como, por ejemplo, los pasos dados, la distancia recorrida y las calorías quemadas (y dependiendo del dispositivo Fitbit que utilices, las plantas subidas y el promedio de horas de sueño).\",\"corporate_joinmodal_button_cancel\":\"Ahora no\",\"corporate_joinmodal_button_join_program\":\"Participar\",\"corporate_joinmodal_button_agree\":\"Aceptar\",\"corporate_joinmodal_button_join_team\":\"Incorporarse al equipo\",\"corporate_consent_head\":\"Uso compartido de datos\",\"corporate_consent_congrats\":\"¡Enhorabuena por haber dado un gran paso adelante en el camino hacia la salud y el fitness!\",\"corporate_consent_permission_AGGREGATE_and_AGGREGATE_INDIVIDUAL\":\"Antes de empezar, Fitbit necesita tu permiso para compartir los datos siguientes con el administrador del programa, que podría ser la empresa para la que trabajas, tu seguro médico o tu profesional de bienestar. Esta información se empleará para ofrecerte funciones que te ayudarán a mejorar tu bienestar.\",\"corporate_consent_permission_AGGREGATE_OPT_OUT\":\"Te has incorporado con éxito al programa. Ahora, únete a un grupo específico. Ten en cuenta que Fitbit compartirá la siguiente información con tu administrador del programa (que podría ser tu empresa). Los datos se utilizarán para proporcionarte funciones del programa de bienestar de Fitbit:\",\"corporate_consent_personal_data_head_AGGREGATE_INDIVIDUAL\":\"Datos personales\",\"corporate_consent_personal_data_AGGREGATE_INDIVIDUAL\":\"Datos sobre ti de tu cuenta de Fitbit, que incluyen tu correo electrónico, tu avatar o fotografía, la fecha de la última sincronización, los pasos, la distancia, las plantas, los minutos de actividad y las calorías quemadas.\",\"corporate_consent_personal_data_AGGREGATE_INDIVIDUAL_SLEEP\":\"Datos sobre ti de tu cuenta de Fitbit, que incluyen tu correo electrónico, tu avatar o fotografía, la fecha de la última sincronización, los pasos, la distancia, las plantas, los minutos de actividad, las calorías quemadas y las horas de sueño.\",\"corporate_consent_aggregate_data_head\":\"Datos acumulados\",\"corporate_consent_aggregate_data\":\"Datos que no te identifican personalmente y que se combinan con los de otros participantes de tu programa. Se incluyen la edad, el sexo, los pasos, la distancia, las plantas, los minutos de actividad y el sueño.\",\"corporate_consent_privacy_note\":\"Para incentivar una sana competencia, el resto de los participantes en tu programa podrá ver tu nombre, clasificación en el grupo y avatar o fotografía, así como tus pasos diarios, la distancia, los minutos de actividad y un enlace a tu perfil público de Fitbit.com.\",\"corporate_consent_leave\":\"Puedes cambiar de opinión en cualquier momento seleccionando “Abandonar el programa” en la configuración de tu cuenta, en Fitbit Health Solutions.\",\"corporate_consent_confirm_hint_AGGREGATE_and_AGGREGATE_INDIVIDUAL\":\"Al hacer clic en “Aceptar y unirse” estarás dando tu consentimiento a Fitbit para compartir estos datos. Una vez compartidos, se aplicarán los datos y políticas de privacidad de tu administrador de programas.\",\"corporate_consent_program_admin_AGGREGATE_INDIVIDUAL\":\"El administrador del programa utilizará la información de arriba para gestionar tu programa.\",\"corporate_consent_program_admin_AGGREGATE_and_AGGREGATE_OPT_OUT\":\"El administrador del programa utilizará la información de arriba para gestionar tu programa. No se vincula a tus datos de actividad.\",\"corporate_consent_confirm_button_AGGREGATE_and_AGGREGATE_INDIVIDUAL\":\"Aceptar y unirse\",\"corporate_consent_confirm_button_AGGREGATE_OPT_OUT\":\"Unirme al grupo\",\"corporate_error_inprogram_head\":\"¡Vaya! Ya estás en el programa\",\"corporate_error_inprogram_sub\":\"Siempre puedes comprobar la configuración del programa en la pestaña del perfil de Fitbit Health Solutions.\",\"corporate_error_anotherprogram_head\":\"Ya te has unido a otro programa\",\"corporate_error_anotherprogram_sub\":\"Siempre puedes comprobar la configuración del programa o dejar el programa actual en la pestaña del perfil de Fitbit Health Solutions.\",\"corporate_error_ended_head\":\"¡Vaya! Este programa ha acabado\",\"corporate_error_ended_sub\":\"Comprueba tu pestaña del perfil de Fitbit Health Solutions para ver si puedes unirte a otros programas.\",\"corporate_error_something_went_wrong_head\":\"¡Oh, oh!\",\"corporate_error_something_went_wrong_sub\":\"Estamos teniendo dificultades técnicas con el sistema de inscripción en programas. Vuelve a intentarlo en unos minutos.\",\"corporate_error_system\":\"Lo sentimos… No es culpa tuya, es nuestra. Estamos teniendo una incidencia interna. Vuelve a intentarlo más tarde o {0}\",\"corporate_error_system_contact_support\":\"contacta con atención al cliente\",\"corporate_error_button_close\":\"Cerrar\",\"corporate_error_on_join\":\"¡Qué mala pata! No hemos podido añadirte debido a algunas dificultades técnicas. Si esta incidencia se produce de nuevo, {0}.\",\"corporate_error_on_leave\":\"¡Qué mala pata! No hemos podido quitarte debido a algunas dificultades técnicas. Si esta incidencia se produce de nuevo, {0}.\",\"corporate_error_on_update\":\"¡Qué mala pata! No hemos podido actualizar los datos del programa debido a algunas dificultades técnicas. Si esta incidencia se produce de nuevo, {0}.\",\"error_corporate_remote_unavailable\":\"<span>¡Oh, no!</span> Los Fitbit Health Solutions no están disponibles en este momento.<br/> Espera un momentito y actualiza la página.\",\"steps_a_day\":\"pasos al día\",\"average_daily_steps\":\"Media de pasos diarios\",\"invitation_modal_explanatory\":\"tendrá que aceptar esta invitación para confirmar tu amistad. Si no os conocéis, incluye información sobre ti en el mensaje.\",\"invite\":\"Invitar\",\"to_be_friends\":\"para ser amigos\",\"last_synced\":\"Última sincronización:\",\"date_joined\":\"Fecha de incorporación:\",\"lifetime_steps\":\"Pasos absolutos:\",\"wordpress_link_title\":\"Haz clic para enlazar con Wordpress\",\"twitter_link_title\":\"Haz clic para enlazar con Twitter\",\"year_old\":\"one{}other{}\",\"months\":\"Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre\",\"day\":\"Día\",\"month\":\"Mes\",\"year\":\"Año\"}});"
+
+/***/ },
+/* 109 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "define('com/fitbit/util/dateutil.es_CL', {\"namespace\":\"com.fitbit.util.dateutil\",\"translations\":{\"min\":\"min\",\"hr\":\"h\",\"hrs\":\"h\",\"week\":\"semana\",\"weeks\":\"semanas\",\"day\":\"día\",\"days\":\"días\",\"hour\":\"hora\",\"hours\":\"horas\",\"minute\":\"minuto\",\"minutes\":\"minutos\",\"second\":\"segundo\",\"seconds\":\"segundos\",\"ago\":\"hace\",\"today\":\"Hoy\",\"at\":\"a las\",\"tomorrow\":\"Mañana\",\"yesterday\":\"Ayer\",\"relative_unit\":\"{0} {1}\",\"relative_ago\":\"{0} {1}\"}});"
+
+/***/ }
+/******/ ])
+//# sourceMappingURL=dash.localization.es_CL.js.b0ea86783faa97865432b6509d14ff99.js.map
