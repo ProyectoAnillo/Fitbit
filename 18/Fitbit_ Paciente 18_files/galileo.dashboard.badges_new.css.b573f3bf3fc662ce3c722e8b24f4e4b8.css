@@ -1,0 +1,1057 @@
+.largeTile.badges .badgeRow h3 {
+  margin: 20px 0 18px 17px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Proxima Nova SemiBold', sans-serif;
+  color: #585858;
+}
+.largeTile.badges .badgeRow.activity {
+  margin-bottom: 30px;
+}
+.largeTile.badges .badgeRow.weight {
+  margin-bottom: 10px;
+}
+.largeTile.badges .badgeRow .badge_exTile li {
+  float: left;
+  width: 125px;
+  position: relative;
+  padding-top: 118px;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+.largeTile.badges .badgeRow .badge_exTile li > div {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  position: absolute;
+  top: 25px;
+  width: 100%;
+}
+.largeTile.badges .badgeRow .badge_exTile li span {
+  display: block;
+  text-transform: none;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 13px;
+  font-family: 'Proxima Nova SemiBold', sans-serif;
+  color: #585858;
+}
+.largeTile.badges .badgeRow .badge_exTile li span + span {
+  font-size: 12px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  color: #3c3c3c;
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps5k {
+  background-image: url(badge_daily_steps5k.81849a48eade10329f346cbd8a95008e.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps10k {
+  background-image: url(badge_daily_steps10k.8e9bb2e2e82e620e47fa7ff037d5c3e9.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps15k {
+  background-image: url(badge_daily_steps15k.2b3c0c51c0498537a60fbb8d1cb3c916.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps20k {
+  background-image: url(badge_daily_steps20k.71118ad12a216e0c0ac32a8e467e9a6b.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps25k {
+  background-image: url(badge_daily_steps25k.1278c360a9d67c0413dcfdfa4827df0b.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps30k {
+  background-image: url(badge_daily_steps30k.4db0d5093e942cbf2b1b5fa499340dce.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps35k {
+  background-image: url(badge_daily_steps35k.748ab327f7ecbb1b195bf03dbfe51c05.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps40k {
+  background-image: url(badge_daily_steps40k.faf5cd7ba8ecebe726c3fe6382cc483a.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps45k {
+  background-image: url(badge_daily_steps45k.124e032604caf4c7875b7e40dcbb50e2.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps50k {
+  background-image: url(badge_daily_steps50k.13f5c7d88b743d62216229d1426ee383.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps55k {
+  background-image: url(badge_daily_steps55k.c1743bc92b28b8702430df873f1a220d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps60k {
+  background-image: url(badge_daily_steps60k.0bd201c3c76d711a9a4d924f5e156528.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps65k {
+  background-image: url(badge_daily_steps65k.b9bf63fdba983eb7597414968ffa6b51.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps70k {
+  background-image: url(badge_daily_steps70k.dd3a0c1e8062856f243643ab8cd279f9.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps75k {
+  background-image: url(badge_daily_steps75k.e2842bd9d0ca90e1a95364cc93c5be17.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps80k {
+  background-image: url(badge_daily_steps80k.5b2b68f75dcc46879ad476f5c6448cf7.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps90k {
+  background-image: url(badge_daily_steps90k.d8f7ed3d35c62e2849f26072028b4a30.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_steps100k {
+  background-image: url(badge_daily_steps100k.5547a6f036c8c26f12d715c927c9ce09.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles26_2 {
+  background-image: url(badge_lifetime_miles26_2.baa1da581367e47d3329558d554a5240.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles70 {
+  background-image: url(badge_lifetime_miles70.d96554b33ab290d22fa50d615b51eb29.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles250 {
+  background-image: url(badge_lifetime_miles250.da5edf2f60ab7365e811ff8603fad929.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles350 {
+  background-image: url(badge_lifetime_miles350.060a2c76144407b21de5d99893b4d606.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles500 {
+  background-image: url(badge_lifetime_miles500.8c5a3d3e6c8c6762fd325de725d601c3.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles736 {
+  background-image: url(badge_lifetime_miles736.245c35b5614fbd3130358eb3873f4044.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles990 {
+  background-image: url(badge_lifetime_miles990.50367d4b94386e2f588142b2e9d5af20.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles1600 {
+  background-image: url(badge_lifetime_miles1600.7923f080bec5100ffece24acef2472fd.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles1869 {
+  background-image: url(badge_lifetime_miles1869.5333504adf3a37bb12dedf5c2f3e8bf1.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles1997 {
+  background-image: url(badge_lifetime_miles1997.bcda69fbf65ad7d642cb877eb86a7e26.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles2500 {
+  background-image: url(badge_lifetime_miles2500.d78224b5b80787e0a4da652646a6bdff.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles2983 {
+  background-image: url(badge_lifetime_miles2983.a2181f5a0fbbcf4dd5acf8b35a750214.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles4132 {
+  background-image: url(badge_lifetime_miles4132.804b62d21dd77f50b58f62564412bbf1.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles5000 {
+  background-image: url(badge_lifetime_miles5000.b4652ef7191e55df5da187cbbd822349.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles5500 {
+  background-image: url(badge_lifetime_miles5500.6dacb46a013c7a2aa0bab073d41c83ab.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles5772 {
+  background-image: url(badge_lifetime_miles5772.1114e44ede8d54600e1123cbbc2baa89.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_miles7900 {
+  background-image: url(badge_lifetime_miles7900.d2ba441d4d364f9b1ea537d41df62f24.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors10 {
+  background-image: url(badge_daily_floors10.0fc49b1240948774e39ca01be7a6df40.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors25 {
+  background-image: url(badge_daily_floors25.8eb52ceffa16a2bf6427aa1702ea0dfe.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors50 {
+  background-image: url(badge_daily_floors50.2f7af52a35e2f609b84183f82a41b5d4.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors75 {
+  background-image: url(badge_daily_floors75.5c4011c6e0f9a96abd277c7dfc180e17.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors100 {
+  background-image: url(badge_daily_floors100.4bd33f7c1ada0eca12aeff15a1ec44bd.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors125 {
+  background-image: url(badge_daily_floors125.4bac3c15f1da9e14301f41ccf1d3684d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors150 {
+  background-image: url(badge_daily_floors150.3ca16c4d33ebbac543a73ec75bbad8fb.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors175 {
+  background-image: url(badge_daily_floors175.a2104a9c5428451fae4b80446a38b095.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors200 {
+  background-image: url(badge_daily_floors200.dc0611952fbeeefccd39dc76801908bc.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors300 {
+  background-image: url(badge_daily_floors300.64e8bf6809b07c71e3753ad97cc980d3.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors400 {
+  background-image: url(badge_daily_floors400.9587fdceaaadc31adf7a49c1131f1dd5.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors500 {
+  background-image: url(badge_daily_floors500.5d47ec7f2a3c2273596710f2b72b1c97.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors600 {
+  background-image: url(badge_daily_floors600.d2a29d963476317d762fa7f307adc925.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_daily_floors700 {
+  background-image: url(badge_daily_floors700.9a39d6e34d2628b55258556b35a900ab.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors500 {
+  background-image: url(badge_lifetime_floors500.2aa072ddf101f095fdbfcd0cae0a8656.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors1k {
+  background-image: url(badge_lifetime_floors1k.815cacc12705213aa4658ca7509c667d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors2k {
+  background-image: url(badge_lifetime_floors2k.19285d3c93e14d14b408b5919f70a02f.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors4k {
+  background-image: url(badge_lifetime_floors4k.ca4f472acd3d690412125f9fc3452c19.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors8k {
+  background-image: url(badge_lifetime_floors8k.f6800c117edffc25bb6dce3fdd563e31.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors14k {
+  background-image: url(badge_lifetime_floors14k.0e0fe974d055fe300e5b0e1f0200ee76.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors20k {
+  background-image: url(badge_lifetime_floors20k.d59aa21b4558dd0f4577655fde0c5592.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors28k {
+  background-image: url(badge_lifetime_floors28k.4f10e2f1a1e5db61548aec36731ecd70.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_floors35k {
+  background-image: url(badge_lifetime_floors35k.e6b1d12f28edfc47bd5fdf33cef3880f.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_weight_finish {
+  background-image: url(badge_weight_finish.fc26fdf87163711b9b5dcf7d2db17dd0.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_weight_start {
+  background-image: url(badge_weight_start.cede1db1107cbfd8771dd66605bda4fd.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight5 {
+  background-image: url(badge_goal_weight5.47fb9a86b4040d587e49f2b815827367.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight10 {
+  background-image: url(badge_goal_weight10.6c6448b0806e67e20fe9e99f6d459ea8.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight15 {
+  background-image: url(badge_goal_weight15.66771bf32baeec89a040431c49c5c9c2.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight20 {
+  background-image: url(badge_goal_weight20.1d461e7b0a053bb5f0d84c0d11a513e3.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight25 {
+  background-image: url(badge_goal_weight25.0c3500f7381cac3a639dcfaa96241393.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight30 {
+  background-image: url(badge_goal_weight30.dcab62e08ebc94d89ab165a9f715e238.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight35 {
+  background-image: url(badge_goal_weight35.9f3098e40339e1e30fcc414274c9d481.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight40 {
+  background-image: url(badge_goal_weight40.248fd96dc2ac5ffbb0d88feb6c524c1f.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight45 {
+  background-image: url(badge_goal_weight45.03188a4abd99d5e7c76197d7d1b6ce1b.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight50 {
+  background-image: url(badge_goal_weight50.51af051b87ff2fd6a887107150b60c5a.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight55 {
+  background-image: url(badge_goal_weight55.a404fa28a21be2885f6d7de7d1b32baf.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight60 {
+  background-image: url(badge_goal_weight60.6a528e6506f5401c00388b17aa27786b.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight65 {
+  background-image: url(badge_goal_weight65.a39cdfb9d3819bed092f17abfe02b31d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight70 {
+  background-image: url(badge_goal_weight70.d4c82f66d54fa01cd7ef67e5e2b9fdf2.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight75 {
+  background-image: url(badge_goal_weight75.1270ce499efd8d64c310cf8f03253b93.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight80 {
+  background-image: url(badge_goal_weight80.5e369b993f19209127751a9390180483.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight85 {
+  background-image: url(badge_goal_weight85.67be96aaee788dd54e7a8b5965050db2.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight90 {
+  background-image: url(badge_goal_weight90.9c13c64e380f1e4436622c776373b94f.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight95 {
+  background-image: url(badge_goal_weight95.e5130b0808a3289ed684dcb9891c5df0.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight100 {
+  background-image: url(badge_goal_weight100.d64514102520f96e1ec1d30940bd3322.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight105 {
+  background-image: url(badge_goal_weight105.a6276d65e24fc4573267b7145af90655.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight110 {
+  background-image: url(badge_goal_weight110.2d6d2155ba73df76109eda8bbf862666.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight115 {
+  background-image: url(badge_goal_weight115.cc53224d240e3a28be2a9d9a2c444861.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight120 {
+  background-image: url(badge_goal_weight120.082a0e33d309f120b4a59e93d9d41122.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight125 {
+  background-image: url(badge_goal_weight125.ccea4ec7f4265a78d454744457bec054.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight130 {
+  background-image: url(badge_goal_weight130.70f4d943ee41fca99dfcdf627bd44971.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight135 {
+  background-image: url(badge_goal_weight135.0a82d030af7fc5edeb471c8218eb3c92.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight140 {
+  background-image: url(badge_goal_weight140.9ee72e0b2742a3d5f6a64601afa078ce.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight145 {
+  background-image: url(badge_goal_weight145.e3195514b8ab1d92c180a6b1b34e64c2.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight150 {
+  background-image: url(badge_goal_weight150.e9b9d25cd189cae9edc58b412c4cd15f.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight155 {
+  background-image: url(badge_goal_weight155.ab8addb88c995e9d38ee40808d4246f3.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight160 {
+  background-image: url(badge_goal_weight160.1ae665393a5c52f093a315b12997d66c.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight165 {
+  background-image: url(badge_goal_weight165.b7f217531c26d0d13987dfb3d3659974.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight170 {
+  background-image: url(badge_goal_weight170.058964916715ff3cefb5f35a90c52716.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight175 {
+  background-image: url(badge_goal_weight175.2d2ba6494d4024ab82340a60296a15c3.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight180 {
+  background-image: url(badge_goal_weight180.1eb03ae5fe5f85e5496ae1c391f47f60.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight185 {
+  background-image: url(badge_goal_weight185.fcc91967ed5bc7a3d9ae4862bb876be6.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight190 {
+  background-image: url(badge_goal_weight190.606c26565c6b513fb6353eaa9d08072a.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight195 {
+  background-image: url(badge_goal_weight195.00d121faa76cfb9e709bd0a758ba45aa.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight200 {
+  background-image: url(badge_goal_weight200.4b2df36efc009e2343cfcb035118e655.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight3k {
+  background-image: url(badge_goal_weight3k.308a392f1308a661ee1aca164c785d29.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight6k {
+  background-image: url(badge_goal_weight6k.3eba800ecc352820e6349532ed61950d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight9k {
+  background-image: url(badge_goal_weight9k.56639b465c90565c6e7e5f783fa257f0.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight12k {
+  background-image: url(badge_goal_weight12k.07ec2c58fe8b3f840cb515d3977f4d00.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight15k {
+  background-image: url(badge_goal_weight15k.5e3d57aa3db8da3162362edbe2d4a01d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight18k {
+  background-image: url(badge_goal_weight18k.cedeab7f5d95e49f82793e3a4cc1c25d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight21k {
+  background-image: url(badge_goal_weight21k.dbe42d5b80de39ffb38ca8394d6f9527.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight24k {
+  background-image: url(badge_goal_weight24k.616b0c4da94eaeb8d493391028f75dae.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight27k {
+  background-image: url(badge_goal_weight27k.0d85ed2452f7fdedba0b8b715439e40a.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight30k {
+  background-image: url(badge_goal_weight30k.2c98ad9099b5492291517fa102389b71.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight33k {
+  background-image: url(badge_goal_weight33k.6c76265efe6e7a2e014f92ebd878f696.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight36k {
+  background-image: url(badge_goal_weight36k.5dcc1a6abdc7228f664bc4d5e8d4e8df.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight39k {
+  background-image: url(badge_goal_weight39k.e5494a1e5528bfa7c10f39c0bf8632e8.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight42k {
+  background-image: url(badge_goal_weight42k.b55d8a60c0da16d63c61b331d6c5462e.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight45k {
+  background-image: url(badge_goal_weight45k.340cf0eb560d1847290295eca4b26b6e.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight48k {
+  background-image: url(badge_goal_weight48k.3fa71d7f192726dc5a7a5e3d39823683.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight51k {
+  background-image: url(badge_goal_weight51k.653c9eb491cf1fde6e30a183fef1f1f0.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight54k {
+  background-image: url(badge_goal_weight54k.75f7d4f8cd1bb1ec903517a2c84fc352.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight57k {
+  background-image: url(badge_goal_weight57k.ff7d34652b36cafe1c6f1021cc3dc83d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight60k {
+  background-image: url(badge_goal_weight60k.da1d21d6b8e3c10a3e99b322c2c8ac22.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight63k {
+  background-image: url(badge_goal_weight63k.0f440a49b6b04b15e5447ea2b292343d.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight66k {
+  background-image: url(badge_goal_weight66k.9538835a07698ba31c76dd7d79ecbdd3.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight69k {
+  background-image: url(badge_goal_weight69k.ae235b7b265fcc37ee9fd0acdf8fdc5e.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight72k {
+  background-image: url(badge_goal_weight72k.064f99727e5546b652a619a3eb2f5c81.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight75k {
+  background-image: url(badge_goal_weight75k.a22915ddd2a35df3039d01b77a01f0a4.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight78k {
+  background-image: url(badge_goal_weight78k.ca9d2fc0f92c2b8af1655d304a031d75.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight81k {
+  background-image: url(badge_goal_weight81k.db305b39fbd6d2ed8e89defc63cb062e.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight84k {
+  background-image: url(badge_goal_weight84k.681d06311a198a718b198f52d00269b8.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight87k {
+  background-image: url(badge_goal_weight87k.dcbcc6f728883d41ea3270bc7debcc67.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_goal_weight90k {
+  background-image: url(badge_goal_weight90k.bd8e2f3f0c2b10a045515472db017c4e.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_weight_blue {
+  background-image: url(badge_lifetime_weight_blue.092c4ad7b71512c8a48e2ad618082dc8.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_weight_teal {
+  background-image: url(badge_lifetime_weight_blueteal.9a608e4f560e2838cf3e11e757ba2297.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_weight_green {
+  background-image: url(badge_lifetime_weight_green.0ecee2dc7670611da9c1e83967fbe0e8.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_weight_orange {
+  background-image: url(badge_lifetime_weight_orange.cea4724edd4df833537fc56ad8af4cf8.png);
+}
+.largeTile.badges .badgeRow .badge_exTile .badge_lifetime_weight_red {
+  background-image: url(badge_lifetime_weight_salmon.83859f09611ab56696ff9f803a00dbf4.png);
+}
+.largeTile.badges .promoRow {
+  padding-left: 128px;
+  margin-bottom: 55px;
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 100px;
+  background: url(badge_promo_blank.e7ca9c849786212d55620f9b52d2d4b1.png) 0 0 no-repeat;
+}
+.largeTile.badges .promoRow h4 {
+  font-size: 18px;
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #585858;
+  padding: 20px 0 15px 0;
+}
+.largeTile.badges .promoRow p {
+  font-size: 14px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  color: #585858;
+}
+.largeTile.badges .emptyRow {
+  padding-left: 130px;
+  height: 400px;
+  background: url(badge_empty_steps.4b80ae569879dd71f8a1158c9753d6ac.png) 10px 50% no-repeat;
+}
+.largeTile.badges .emptyRow p {
+  text-align: left;
+  padding: 180px 0 10px 0;
+  font-size: 16px;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  color: #585858;
+}
+.largeTile.badges .emptyRow p + p {
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  color: #585858;
+}
+.largeTile.badges .emptyRow.emptyWeight {
+  background: url(badge_empty_weight.a61ccfe6e6df1232a55f1381e82b06f6.png) 10px 50% no-repeat;
+}
+.badgeWrapper {
+  position: relative;
+  height: 190px;
+  margin: 0 -11px;
+}
+.badgeWrapper .badgeTileCont {
+  width: 230px;
+  height: 215px;
+  position: relative;
+  overflow: hidden;
+  left: 50%;
+  right: 50%;
+  margin: 0 -115px;
+}
+.badgeWrapper .badgeTileCont .emptyRow {
+  padding-top: 130px;
+  background: url(icon_empty_badge.a4e0d41af64591cdbc0426647dcaf75c.png) 50% 34% no-repeat;
+  color: #3c3c3c;
+}
+.badgeWrapper .badgeTileCont .emptyRow p {
+  font-size: 16px;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  color: #585858;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.badgeWrapper .badgeTileCont .emptyRow p + p {
+  font-size: 14px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  color: #585858;
+}
+.badgeCollection {
+  width: 20000em;
+  left: -230px;
+  position: absolute;
+}
+.badgeCollection .badgeTile {
+  position: relative;
+  padding-top: 140px;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  width: 230px;
+}
+.badgeCollection .badgeTile div.overlay {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  position: absolute;
+  top: 44px;
+  left: 64px;
+  width: 100px;
+}
+.badgeCollection .badgeTile span.label {
+  font-size: 14px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  color: #585858;
+  display: block;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 6px;
+}
+.badgeCollection .badgeTile.badge_daily_steps5k {
+  background-image: url(badge_daily_steps5k.1e72be2d41075862cc8aa4d6c5af3b29.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps10k {
+  background-image: url(badge_daily_steps10k.59ed277f7fcbe6a521b84d48ca6ba7e2.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps15k {
+  background-image: url(badge_daily_steps15k.f1b299d20dd138b557c2f5aa8101a7c3.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps20k {
+  background-image: url(badge_daily_steps20k.d5f4c0891e61485cb54092b5cc0c3daa.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps25k {
+  background-image: url(badge_daily_steps25k.e81436927437a43641b13fd8b3b51dc8.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps30k {
+  background-image: url(badge_daily_steps30k.de117d37ab2c7ea71bbbb6d085920944.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps35k {
+  background-image: url(badge_daily_steps35k.988903a3f134bdb999ace719e492b02c.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps40k {
+  background-image: url(badge_daily_steps40k.91f342897d233ec520b27065410f3cd2.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps45k {
+  background-image: url(badge_daily_steps45k.8f2617314874bd78a3ac63e98a799a73.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps50k {
+  background-image: url(badge_daily_steps50k.e84f1e3877d80262cb1fd88c9bbe6dc5.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps55k {
+  background-image: url(badge_daily_steps55k.20bcdc7450b227f33ca5f117a5ede602.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps60k {
+  background-image: url(badge_daily_steps60k.51c74881ffad5b10c8c34277e89e4a78.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps65k {
+  background-image: url(badge_daily_steps65k.735b73fe1d7052528d030c67e1b0c80a.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps70k {
+  background-image: url(badge_daily_steps70k.cb30238165474ba5b66b361ef240f30e.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps75k {
+  background-image: url(badge_daily_steps75k.66327d608faf58039d3d2b65ce0fb899.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps80k {
+  background-image: url(badge_daily_steps80k.83ef1de8eedbbd4bfe011051ea71a6b4.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps90k {
+  background-image: url(badge_daily_steps90k.b0d17126e545100c1642d55a8f3ffbae.png);
+}
+.badgeCollection .badgeTile.badge_daily_steps100k {
+  background-image: url(badge_daily_steps100k.a51e965446d74b9b75833daa869dc59f.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles26_2 {
+  background-image: url(badge_lifetime_miles26_2.3e4ad22c722f7f40a9bbed85db7af2d6.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles70 {
+  background-image: url(badge_lifetime_miles70.79227fb69a00651afec0809ffdf85c3e.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles250 {
+  background-image: url(badge_lifetime_miles250.680632341b6d9b48973da4c11f52d26f.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles350 {
+  background-image: url(badge_lifetime_miles350.112f0bb0757f0542a31a289bbcd954c3.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles500 {
+  background-image: url(badge_lifetime_miles500.62ab34eb3a408a557d96cdeb4742cd42.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles736 {
+  background-image: url(badge_lifetime_miles736.1b403ba5df51309b429f9fb4b9f7e7be.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles990 {
+  background-image: url(badge_lifetime_miles990.3c0fd6b2b160c2b901bc74461b138c57.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles1600 {
+  background-image: url(badge_lifetime_miles1600.041b551cefabe1f84eb85d2226b24023.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles1869 {
+  background-image: url(badge_lifetime_miles1869.f722d84ea3e67b2cd4cfa856ab5fbfd1.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles1997 {
+  background-image: url(badge_lifetime_miles1997.cd64bf6bbd40d7529ef7edc2db6bc1cc.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles2500 {
+  background-image: url(badge_lifetime_miles2500.94ae1185536ef5ee9c676c29e5baba3c.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles2983 {
+  background-image: url(badge_lifetime_miles2983.48ff1b649c2ca2dbf183064d2e417147.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles4132 {
+  background-image: url(badge_lifetime_miles4132.dd1bc07b4cfb95178cf2e8f57f822887.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles5000 {
+  background-image: url(badge_lifetime_miles5000.a2f023cdc99956f9c43bac2eba76931a.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles5500 {
+  background-image: url(badge_lifetime_miles5500.e03ba011afc304dbc5e9c0c64b4163f8.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles5772 {
+  background-image: url(badge_lifetime_miles5772.156936da795f63cbbbf25a517d8d4be2.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles7900 {
+  background-image: url(badge_lifetime_miles7900.8b1e7e2b2a3fac9fcae5d264f23f692a.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_miles12430 {
+  background-image: url(badge_lifetime_miles12430.44f1442f26bb25f18364178d324d3d9c.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors10 {
+  background-image: url(badge_daily_floors10.3235573e3099659dc2aeb8777c124d8b.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors25 {
+  background-image: url(badge_daily_floors25.1550fb87ce593ed2d67273624aa47176.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors50 {
+  background-image: url(badge_daily_floors50.52408a4f063a2a7d437ae78ae2c50aef.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors75 {
+  background-image: url(badge_daily_floors75.92fd881b2048d0182461ad474e9a7830.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors100 {
+  background-image: url(badge_daily_floors100.81ec4f74c290fb462dcf3f31b8b271b4.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors125 {
+  background-image: url(badge_daily_floors125.31cf4d03414577de1e8af1dfb489a465.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors150 {
+  background-image: url(badge_daily_floors150.7983d4ea4e7b45e8991f9b8f2c13fd08.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors175 {
+  background-image: url(badge_daily_floors175.749bd2a543c707d3a688724701137960.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors200 {
+  background-image: url(badge_daily_floors200.641eb0515d3d4510ff4092e7f945359a.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors300 {
+  background-image: url(badge_daily_floors300.b1154c8559a9d28204f086ba166b245f.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors400 {
+  background-image: url(badge_daily_floors400.39ea76e5f4c50734ca28a84c25a0c735.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors500 {
+  background-image: url(badge_daily_floors500.073881de7cf4613f973864ee807c6cb1.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors600 {
+  background-image: url(badge_daily_floors600.899a9ac0b7d454ec5da699fd9d6a35fe.png);
+}
+.badgeCollection .badgeTile.badge_daily_floors700 {
+  background-image: url(badge_daily_floors700.1e428bb7093e9b546bfd71d93b9a7509.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_floors500 {
+  background-image: url(badge_lifetime_floors500.75b7655dbb16cdb83ff1314a939deee1.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_floors1k {
+  background-image: url(badge_lifetime_floors1k.6c8bb274778ace7223b5a4c93b58c3d9.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_floors2k {
+  background-image: url(badge_lifetime_floors2k.ceaf83b61fa0d6413ca188d3715b89f5.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_floors4k {
+  background-image: url(badge_lifetime_floors4k.82b319c03b87b4bd85c52a84646a09d8.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_floors8k {
+  background-image: url(badge_lifetime_floors8k.e7998df9262b137a17aee8d57c5aede1.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_floors14k {
+  background-image: url(badge_lifetime_floors14k.0a5df2126fbc57127de7e9d1f21565dd.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_floors20k {
+  background-image: url(badge_lifetime_floors20k.ff61acb67a221c9a3bb625498b79e25f.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_floors35k {
+  background-image: url(badge_lifetime_floors35k.bd9da7101440611cf36a69808661e4ad.png);
+}
+.badgeCollection .badgeTile.badge_weight_finish {
+  background-image: url(badge_weight_finish.86e3c641ed6599b76e0bb8ebfdd4fd80.png);
+}
+.badgeCollection .badgeTile.badge_weight_start {
+  background-image: url(badge_weight_start.55110b307b93390b44e6d0abba60ed59.png);
+}
+.badgeCollection .badgeTile.badge_weight_start,
+.badgeCollection .badgeTile.badge_weight_finish {
+  padding-top: 130px;
+}
+.badgeCollection .badgeTile.badge_weight_start .metricLarge .number,
+.badgeCollection .badgeTile.badge_weight_finish .metricLarge .number {
+  font-size: 30px;
+}
+.badgeCollection .badgeTile.badge_weight_start .metricLarge .unit,
+.badgeCollection .badgeTile.badge_weight_finish .metricLarge .unit {
+  margin-left: 0;
+}
+.badgeCollection .badgeTile.badge_goal_weight5 {
+  background-image: url(badge_goal_weight5.6e1509501c1dd2de60bf992df5e0c95d.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight10 {
+  background-image: url(badge_goal_weight10.17b9672448d00f14f9f1df2e6ae19416.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight15 {
+  background-image: url(badge_goal_weight15.0b2b212da0878c7851efac938a00e2fd.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight20 {
+  background-image: url(badge_goal_weight20.1661b738cc7192381b06736659c136d6.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight25 {
+  background-image: url(badge_goal_weight25.984348290b69181eafb35d299d74b9c9.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight30 {
+  background-image: url(badge_goal_weight30.e7baf7668a941ef039e884532fc96317.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight35 {
+  background-image: url(badge_goal_weight35.68711cf473efa6439d9717ca5d14e036.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight40 {
+  background-image: url(badge_goal_weight40.b51b148237163ec6bc1f8483279e2bd4.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight45 {
+  background-image: url(badge_goal_weight45.4bcb377d6039908b918b51eb549df6bd.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight50 {
+  background-image: url(badge_goal_weight50.793bd8a160052123dc7f293ee1b857b8.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight55 {
+  background-image: url(badge_goal_weight55.1765418a8e554f6cc0197329b0f99a7b.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight60 {
+  background-image: url(badge_goal_weight60.ff683f8699f65ab1da3004b5af63ee2b.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight65 {
+  background-image: url(badge_goal_weight65.d93ffc77c4531dfe99ac2e98d885db66.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight70 {
+  background-image: url(badge_goal_weight70.763520733f43e7affabc996dcf476d54.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight75 {
+  background-image: url(badge_goal_weight75.2b3a6fb78692e85ef759264c7bdf73bd.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight80 {
+  background-image: url(badge_goal_weight80.6b6b201b17a681dd4285b58ccc3bfbdf.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight85 {
+  background-image: url(badge_goal_weight85.edd1c21ff2d949f734ae563cfe1522c7.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight90 {
+  background-image: url(badge_goal_weight90.3a0c532820c5369e19b1e1e05fb07208.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight95 {
+  background-image: url(badge_goal_weight95.e04cc47c4406a84cc4775c5c95dbced3.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight100 {
+  background-image: url(badge_goal_weight100.03b9a2b977eb06268f8872985ef7e190.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight105 {
+  background-image: url(badge_goal_weight105.c3cf1131c2a7e163ef79fc9cca1d30f6.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight110 {
+  background-image: url(badge_goal_weight110.b6fc6bb3fc90757c6845aac0c46172ae.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight115 {
+  background-image: url(badge_goal_weight115.76f0c1593883b8007680afdc762b456a.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight120 {
+  background-image: url(badge_goal_weight120.65d0ed8c54a5a3e35fe60023883d9673.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight125 {
+  background-image: url(badge_goal_weight125.5ddeb2264f17616cfcc990d78c942491.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight130 {
+  background-image: url(badge_goal_weight130.3a7563327d77b51716410f855a1c9759.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight135 {
+  background-image: url(badge_goal_weight135.1e4f2eabe3db554d1459fa38ec7ebe1a.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight140 {
+  background-image: url(badge_goal_weight140.0593f3653e788a04c577637567a5bddf.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight145 {
+  background-image: url(badge_goal_weight145.d6d4eb03f6eae560ffc07fdca20d6039.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight150 {
+  background-image: url(badge_goal_weight150.68f339a7d6d69a6537a754bead45a93f.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight155 {
+  background-image: url(badge_goal_weight155.6358302d2cc2a0e628de8e92fdbb7448.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight160 {
+  background-image: url(badge_goal_weight160.0444c28eac9098bb6e613902e1cb5ba3.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight165 {
+  background-image: url(badge_goal_weight165.1c394446439fb7605663e308f603da62.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight170 {
+  background-image: url(badge_goal_weight170.c1924bb5455fff8ed64caed8935da55b.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight175 {
+  background-image: url(badge_goal_weight175.33f0a54e3bc09fc140179a3d20c87393.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight180 {
+  background-image: url(badge_goal_weight180.9f50a3aea81e6fb128e604e69a1804c3.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight185 {
+  background-image: url(badge_goal_weight185.77f12f92818e7aa4b9a4527affa6e084.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight190 {
+  background-image: url(badge_goal_weight190.5dedfc0982f897e1a086467bdf3ffced.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight195 {
+  background-image: url(badge_goal_weight195.98a5ed5697b2fb53c69bffacae48578b.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight200 {
+  background-image: url(badge_goal_weight200.19c80fb4deab2ec11fcddcaa90c0f209.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight3k {
+  background-image: url(badge_goal_weight3k.ccd17cd4e75ebb4b521e55de56515319.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight6k {
+  background-image: url(badge_goal_weight6k.3d853bc0687b7b087837dd9521e5194b.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight9k {
+  background-image: url(badge_goal_weight9k.dcd6b316eec0ee13ba641f0b3bd72c27.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight12k {
+  background-image: url(badge_goal_weight12k.260b6d1fec11a7fb08ed20661a442086.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight15k {
+  background-image: url(badge_goal_weight15k.33a8624d6a60b0ac6f2084196f363e5a.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight18k {
+  background-image: url(badge_goal_weight18k.44beed94dc5486b7aa3aee135542bc05.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight21k {
+  background-image: url(badge_goal_weight21k.8b1dd652c5336151823a731d8cecfdd7.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight24k {
+  background-image: url(badge_goal_weight24k.bb0c2ad5099c8de548fb4569222b88df.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight27k {
+  background-image: url(badge_goal_weight27k.102457683d8308afa17bd10f4992325f.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight30k {
+  background-image: url(badge_goal_weight30k.29586393856cbd93582aa963142e5ffe.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight33k {
+  background-image: url(badge_goal_weight33k.f08b1866219cc0de1ab8f04d01bf04b1.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight36k {
+  background-image: url(badge_goal_weight36k.8b717a819b6606e44b9537a17854c8df.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight39k {
+  background-image: url(badge_goal_weight39k.2719c0cc76bad5d9bf9af0e6a95de897.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight42k {
+  background-image: url(badge_goal_weight42k.f32e865a64b472974293e1ae62cebe66.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight45k {
+  background-image: url(badge_goal_weight45k.7acc2961458ecda658b57fcd9b4af5ca.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight48k {
+  background-image: url(badge_goal_weight48k.9c96df98c8101f11865ef0b76b9b9101.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight51k {
+  background-image: url(badge_goal_weight51k.718743cc38820acf50cf6306ffb162d3.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight54k {
+  background-image: url(badge_goal_weight54k.af5fb5d9de46e52796dfe6a3e974b0e2.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight57k {
+  background-image: url(badge_goal_weight57k.81894f99dc9b568afeec406042bfcdca.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight60k {
+  background-image: url(badge_goal_weight60k.c4ee9d6a612f1a0a268ecf44f92bd269.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight63k {
+  background-image: url(badge_goal_weight63k.2251a4a15e92ac8626cb953233d39dd0.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight66k {
+  background-image: url(badge_goal_weight66k.4f7c415e30fa6ffb6caab3fed0153718.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight69k {
+  background-image: url(badge_goal_weight69k.81895d1fda41356777006ef59b0af6dc.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight72k {
+  background-image: url(badge_goal_weight72k.87e6204668b6fb1a550a884fd7eaa070.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight75k {
+  background-image: url(badge_goal_weight75k.c1fd42d95febae4128df91c8f376d55d.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight78k {
+  background-image: url(badge_goal_weight78k.3ad405e441bcf5a920e34737a3c9d36c.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight81k {
+  background-image: url(badge_goal_weight81k.c3ac24ec703f67e430d5d419bc06d8b1.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight84k {
+  background-image: url(badge_goal_weight84k.950898f91d2c02286bc316d461f02f67.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight87k {
+  background-image: url(badge_goal_weight87k.06dfe0e2cd8cba478df19e56a8bf1bd7.png);
+}
+.badgeCollection .badgeTile.badge_goal_weight90k {
+  background-image: url(badge_goal_weight90k.902eebca460ad9d12e8ed051930ffa06.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_weight_blue {
+  background-image: url(badge_lifetime_weight_blue.eefa68163d22d5e66c741f52606b849c.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_weight_teal {
+  background-image: url(badge_lifetime_weight_teal.fd687f2dc50e5a335b3f5fe2708c082c.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_weight_green {
+  background-image: url(badge_lifetime_weight_green.bcec88d1fdb6b67f4f5b91e3de67cefc.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_weight_orange {
+  background-image: url(badge_lifetime_weight_orange.effcac5c552d0698efb4374837933dd5.png);
+}
+.badgeCollection .badgeTile.badge_lifetime_weight_red {
+  background-image: url(badge_lifetime_weight_salmon.2f2a4e2fef32f123fa9b7ccb991f2188.png);
+}
+.badgeCollection .badgeTile.badge_floors_progress.over {
+  background-image: url(badge_daily_floors_empty_on.ab61df2d6196ff0bd16f92b9b4705a6a.png);
+}
+.badgeCollection .badgeTile.badge_steps_progress.over {
+  background-image: url(badge_daily_steps_empty_on.63dd4f929bdc976fcfd150aae04350f6.png);
+}
+.badgeCollection .badgeTile.badge_weight_progress_lbs.over {
+  background-image: url(badge_goal_weight_empty_lbs_on.79e7fcac9f6f6de6bb8cec41998efece.png);
+}
+.badgeCollection .badgeTile.badge_weight_progress_kgs.over {
+  background-image: url(badge_goal_weight_empty_kgs_on.633f9285b4b19206c2b29536ff60c4e0.png);
+}
+.badgeCollection .badgeTile.badge_floors_progress {
+  background-image: url(badge_daily_floors_empty.4ec50f263633bb3add155bb50f9ca3ad.png);
+}
+.badgeCollection .badgeTile.badge_steps_progress {
+  background-image: url(badge_daily_steps_empty.8159de903ae01f4dfba21d34ec7de0cc.png);
+}
+.badgeCollection .badgeTile.badge_weight_progress_lbs {
+  background-image: url(badge_goal_weight_empty_lbs.0a47d69144ff314dda3787535294ce41.png);
+}
+.badgeCollection .badgeTile.badge_weight_progress_kgs {
+  background-image: url(badge_goal_weight_empty_kgs.10185d148e922078135220d0f0614a48.png);
+}
+.ttContainer div.upper {
+  display: block;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 7px;
+  margin-bottom: 10px;
+}
+.ttContainer div.upper span {
+  font-size: 24px;
+  font-family: 'Proxima Nova SemiBold', sans-serif;
+  color: #3c3c3c;
+  display: block;
+}
+.ttContainer div.upper span + span {
+  font-size: 16px;
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #585858;
+  text-transform: uppercase;
+}
+.ttContainer div.upper.solo {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.ttContainer div.lower {
+  background: url(inactive.af9dcf5acd12b1f9b2c95638929eb551.gif) 0 0 no-repeat;
+  padding-left: 65px;
+  padding-bottom: 5px;
+}
+.ttContainer div.lower span {
+  font-size: 16px;
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #585858;
+  display: block;
+  text-transform: uppercase;
+}
+.ttContainer div.lower span + span {
+  font-size: 18px;
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #3c3c3c;
+  line-height: 1.25em;
+  text-transform: none;
+}
+.ttContainer div.lower span + span + span {
+  font-size: 16px;
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #585858;
+  line-height: 1em;
+}
+body[class*="locale-en"] .badgeCollection .badgeTile.badge_weight_start,
+body[class*="locale-en"] .badgeCollection .badgeTile.badge_weight_finish {
+  padding-top: 140px;
+}
+body[class*="locale-en"] .badgeCollection .badgeTile.badge_weight_start .metricLarge .number,
+body[class*="locale-en"] .badgeCollection .badgeTile.badge_weight_finish .metricLarge .number {
+  font-size: 48px;
+}
+body[class*="locale-en"] .badgeCollection .badgeTile.badge_weight_start .metricLarge .unit,
+body[class*="locale-en"] .badgeCollection .badgeTile.badge_weight_finish .metricLarge .unit {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=galileo.dashboard.badges_new.css.b573f3bf3fc662ce3c722e8b24f4e4b8.css.map*/

@@ -1,0 +1,24 @@
+.tick {
+    margin-top: 5px;
+}
+
+.tick text {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3C3C3C;
+    fill: #3C3C3C;
+    /* transform: translate(0, 5px); */
+}
+
+#vertical-axis path {
+    display: none;
+}
+
+#horizontal-axis path {
+    display: none;
+}
+
+.tick line {
+    display: none;
+}

@@ -1,0 +1,120 @@
+
+
+/*
+ *	Universal Messaging Modal (SITE-15900)
+ */
+
+.wrapper-peer-messaging {
+	background: #fff;
+	box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+	position: relative;
+	width: 475px;
+}
+
+.wrapper-peer-messaging .photo {
+	height: 40px;
+	width: 40px;
+}
+
+/* Header */
+
+.wrapper-peer-messaging > .modal-header {
+	border-bottom: 1px solid #e6e6e6;
+	padding: 10px 20px;
+}
+
+.wrapper-peer-messaging > .modal-header > .name {
+	font-weight: bold;
+}
+
+.wrapper-peer-messaging > .modal-header > .photo {
+	display: inline-block;
+	margin: 0 10px 0 15px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+/* Content */
+
+.wrapper-peer-messaging .attribution {
+	float: left;
+	margin: 2px 14px 0 0;
+}
+
+.wrapper-peer-messaging .attribution > .icon {
+	background: url(sprite_icons_various.2f3f8453910144a113a44c16458686df.png) no-repeat -70px -35px;
+	display: inline-block;
+	height: 25px;
+	margin-left: 10px;
+	overflow: hidden;
+	width: 25px;
+}
+
+.wrapper-peer-messaging .cancel {
+	margin-right: 20px;
+}
+
+.wrapper-peer-messaging .field {
+	height: 7em;
+	resize: none;
+	width: 340px;
+}
+
+.wrapper-peer-messaging > .modal-content {
+	padding: 30px 20px;
+}
+
+.wrapper-peer-messaging .module-chars-remaining {
+	display: inline-block;
+	font-size: 12px;
+	margin: 5px 0 0 5px;
+	overflow: hidden;
+	width: 330px;
+}
+
+.wrapper-peer-messaging .submit {
+	clear: both;
+	padding-top: 10px;
+	text-align: right;
+}
+
+.wrapper-peer-messaging .wrapper-form {
+	display: table;
+}
+
+/* Success Message */
+
+.wrapper-peer-messaging .message-success {
+	background: #f7f7f7;
+	display: none;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.wrapper-peer-messaging .message-success > .message {
+	background: #edfff7;
+	border: 1px solid #d6d6d6;
+	border-left: 0;
+	border-right: 0;
+	font-size: 16px;
+	height: 55px;
+	line-height: 55px;
+	margin-top: -28px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	vertical-align: middle;
+	width: 100%;
+	z-index: 3;
+}
+
+.wrapper-peer-messaging h2 {
+	color: black;
+	text-align: center;
+}
+/*# sourceMappingURL=weightsite.site.web.css.fitbitui.peerMessageModal.css.f736f5d7f88712c76e7531c19327e3ff.css.map*/

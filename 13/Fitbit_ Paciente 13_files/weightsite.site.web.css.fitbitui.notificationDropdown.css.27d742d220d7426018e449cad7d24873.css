@@ -1,0 +1,212 @@
+
+.notifyList {
+    background: white;
+    font: normal normal 12px "Proxima Nova Regular", Helvetica, Arial, sans-serif;
+    min-height: 250px;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 400px;
+}
+.notifyList .hide {
+    display: none;
+}
+.notifyList .show {
+    display: block;
+}
+.notifyList .listCont li {
+    min-height: 45px;
+    padding: 10px;
+    background: #F2FAFA;
+    border-bottom: 1px solid #DDEBEB;
+    cursor: default;
+}
+
+.notifyList .listCont li:hover {
+    background: #F2FAFA;
+}
+
+.notifyList .listCont .thumbLink {
+    cursor: pointer;
+}
+
+.notifyList .listCont li.read {
+    background: #FFFFFF;
+}
+.notifyList h6 {
+    font-size: 14px;
+    color: #333;
+}
+.notifyList .timeAction {
+    float: right;
+    height: 35px;
+    /*max-width: 85px;*/
+    padding-left: 10px;
+    text-align: right;
+}
+.locale-ja_JP .notifyList .timeAction {
+	max-width: 100px;
+}
+.notifyList .timeAction span {
+    display: block;
+    font: normal normal 11px Helvetica, Arial, sans-serif;
+    white-space: nowrap;
+}
+.notifyList .timeAction span.link {
+    padding-top: 20px;
+    color: #3D94F5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.notifyList .thumb {
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.notifyList .thumb {
+	height: 60px;
+    width: 60px;
+    text-align: center;
+}
+.notifyList .thumb .photo {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.notifyList .thumb .thumbLink img {
+    border: 5px solid #F2FAFA;
+}
+
+.notifyList .thumb .thumbLink img:hover {
+    border: 5px solid #0096af;
+}
+
+.notifyList .read .thumb .thumbLink img {
+    border: 5px solid white;
+}
+
+.notifyList .read .thumbLink img:hover {
+    border: 5px solid #0096AF;
+}
+
+.notifyList .thumb-badge {
+	color: #fff;
+	font-family: "Oswald", arial, sans-serif;
+	position: relative;
+}
+
+.notifyList .thumb-badge > .num {
+	font-size: 16px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	top: 3px;
+	width: 100%;
+	z-index: 3;
+}
+
+.notifyList .thumb-badge > .unit {
+	bottom: 2px;
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 11px;
+	height: 16px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	text-indent: 2px;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+	width: 100%;
+	z-index: 2;
+}
+
+.notifyList .paginate {
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    color: #0095B2;
+    cursor: pointer;
+}
+.notifyList .paginate:hover {
+    color: #FFF;
+    background: #48BCBC;
+}
+.notifyList .spinner:hover,
+.notifyList .spinner {
+    background: white url(spinner_snake.b6897f69af7a55c52aadeb4e0785484d.gif) 50% 50% no-repeat;
+}
+.notifyList .spinner span {
+    display: none;
+}
+.notifyList .initialLoading {
+    background: white url(spinner_snake.b6897f69af7a55c52aadeb4e0785484d.gif) 50% 100% no-repeat;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    font: normal normal 14px "Proxima Nova Regular", Helvetica, Arial, sans-serif;
+    color: #333;
+    display: block;
+}
+.notifyList .initialLoading.empty {
+    background: none;
+}
+.notifyList .divider {
+    height: 1px;
+    background: #CCC;
+}
+.notifyList .meat {
+    display: block;
+    float: left;
+    min-height: 40px;
+    width: 185px;
+    word-wrap: break-word;
+}
+
+.notifyList .meat h3 {
+    font-family: "Proxima Nova Bold", Arial, Helvetica, sans-serif;
+    margin-bottom: 9px;
+    margin-top: 2px;
+}
+
+.notifyList .icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    overflow: hidden;
+    background: url(sprite_icons_events.babbe39c6adfcc54df9b53555bf5406e.png) -30px -30px no-repeat;
+}
+.notifyList .icon.messageSingle.read,
+.notifyList .icon.messageCorporate.read
+{background-position: -30px 0;}
+.notifyList .icon.messageSingle,
+.notifyList .icon.messageCorporate
+{background-position: 0 0;}
+
+.notifyList .icon.cheer.read {background-position: -30px -30px;}
+.notifyList .icon.cheer {background-position: 0 -30px;}
+
+.notifyList .icon.taunt.read {background-position: -30px -60px;}
+.notifyList .icon.taunt {background-position: 0 -60px;}
+
+.notifyList .icon.friendReq.read {background-position: -30px -90px;}
+.notifyList .icon.friendReq {background-position: 0 -90px;}
+
+.notifyList .icon.badge.read {background-position: -30px -120px;}
+.notifyList .icon.badge {background-position: 0 -120px;}
+
+.notifyList .icon.passSingle.read,
+.notifyList .icon.passedBySingle.read,
+.notifyList .icon.passMultiple.read
+{background-position: -30px -150px;}
+.notifyList .icon.passSingle,
+.notifyList .icon.passedBySingle,
+.notifyList .icon.passMultiple
+{background-position: 0 -150px;}
+
+/*# sourceMappingURL=weightsite.site.web.css.fitbitui.notificationDropdown.css.27d742d220d7426018e449cad7d24873.css.map*/

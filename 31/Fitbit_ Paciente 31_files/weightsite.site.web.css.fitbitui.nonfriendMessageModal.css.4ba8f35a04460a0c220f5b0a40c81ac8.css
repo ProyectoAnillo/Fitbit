@@ -1,0 +1,41 @@
+#nonfriendMessageModal {
+    background: #ffffff;
+    width: 250px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#nonfriendMessageModal h2 {
+    padding: 10px 12px 10px 12px;
+    font-family: 'Proxima Nova Regular',sans-serif;
+    font-size: 16px;
+}
+
+#nonfriendMessageModal li {
+    padding: 10px 10px 10px 10px;
+}
+
+#nonfriendMessageModal a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 40px;
+    text-align: center;
+    min-width: 100px;
+    border: 1px solid #ff3f85;
+    background-color: #ff3f85;
+    font-size: 13px;
+    font-family: 'Proxima Nova Bold',sans-serif;
+    color: #fff;
+    padding: 10px 15px;
+    min-width: 50px;
+}
+
+#nonfriendMessageModal a:hover {
+    text-decoration: none;
+    border: 1px solid #fd78a8;
+    background-color: #fd78a8;
+}
+/*# sourceMappingURL=weightsite.site.web.css.fitbitui.nonfriendMessageModal.css.4ba8f35a04460a0c220f5b0a40c81ac8.css.map*/
